@@ -74,7 +74,7 @@ ORCID·Hugging Face·CrossRef는 공개 API라 키가 필요 없다.
 | 12 | `storage_poisson.py` | 시나리오별 저장량 $G_{chain}$·TPS $\lambda$·포화·민감도 | `storage_results.csv`, `storage_tps_results.csv` | **[표 4-16~4-19]** (4.3.3~4.3.5) |
 | 13 | `index_final_enhanced.js` | did:key(Ed25519)+ORCID VC+CrossRef+에스크로 통합 E2E 100회 | `evidence/run_001~100/*`, `xrpl_results_enhanced.csv` | 4.2.4 통합 실증 · 부록 A.7 |
 | 14 | `통계검정_재현.py` / `_pingouin.py` | CONDITION vs TIME EscrowFinish 지연 차이 검정 재현 | 표준 출력 | **[표 4-12]** (4.3.2) |
-| 15 | `visualize.py` | 결과 시각화 | `figures/Fig1~5*.png` | 4.3절 그림 |
+| 15 | `visualize.py` | 결과 시각화 (지연 분포·저장량 성장·TPS 이용률) | `figures/Fig1~5*.png` | **논문 미수록** — 데이터 탐색용 |
 | — | `storage_measurement_experiment.js` | 저장 크기 실측 **v1** (TIME 모드만) — #10으로 대체됨 | `storage_measurement_results.csv`, `…_summary.txt` | 이력 보존용 |
 
 ### 실행 예시
@@ -94,7 +94,7 @@ node condition_mismatch_test.js             # 11)
 python3 storage_poisson.py                  # 12) 추정 (네트워크 불필요, 항상 동일 결과)
 node index_final_enhanced.js                # 13) did:key E2E
 python3 통계검정_재현_pingouin.py            # 14) 통계 재현
-python3 visualize.py                        # 15) 그림 (CSV 선행 필요)
+python3 visualize.py                        # 15) 시각화 (CSV 선행 필요, 논문 미수록)
 ```
 
 > 스크립트는 모두 **현재 작업 디렉터리 기준**으로 파일을 읽고 쓴다(`evidence/`·`figures/`만 하위 폴더). 저장소 루트에서 실행할 것. 파일을 하위 폴더로 재배치하면 동작하지 않는다.
@@ -161,8 +161,8 @@ python3 통계검정_재현_pingouin.py   # xrpl_results_{condition,time}.csv �
 | 저장·앵커링 | `ipfs_results.json`, `storage_measurement_results_v2.csv`, `storage_results.csv`, `storage_tps_results.csv` |
 | 외부 API | `orcid_test_result.json`, `hf_oracle_test_result.json` |
 | DID/VC 산출물 | `did_document.json`, `vc_document.json`, `vc_hashes.json` |
-| did:key E2E 증거 | `evidence.zip` — 압축 해제 시 `evidence/run_001~100/` (실행별 DID·VC·CrossRef 응답·트랜잭션 해시, JSON 600개) |
-| 그림 | `figures/Fig1~5*.png` |
+| did:key E2E 증거 | `evidence/run_001~100/` — 실행별 DID·VC·CrossRef 응답·트랜잭션 해시 (JSON 600개) |
+| 그림 | `figures/Fig1~5*.png` — **논문에 수록되지 않은 데이터 탐색용 시각화**다. 논문 제4장은 표로만 구성되며, 그림은 제1·3장의 설계도([그림 1-1]·[그림 3-1]~[그림 3-12])뿐이다 |
 
 > `storage_measurement_summary.txt`(v1) 상단에는 비교 기준에 관한 정정 안내가 있다. 해당 파일의 하단 비교값은 $s_{event}$(1,024 B) 기준이며, 논문의 비교 기준은 $s_e + s_u$(640 B)다. 정정된 비교는 `storage_measurement_summary_v2.txt`를 따른다.
 
