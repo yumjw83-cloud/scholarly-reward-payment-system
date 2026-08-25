@@ -1,0 +1,20 @@
+{
+  "found": true,
+  "eventDetected": true,
+  "doi": "10.1145/3442188.3445922",
+  "title": "On the Dangers of Stochastic Parrots",
+  "type": "proceedings-article",
+  "hasPublishableType": true,
+  "hasPublishedDate": true,
+  "publishedDate": "2021-3-3",
+  "authors": [
+    "Emily M. Bender",
+    "Timnit Gebru",
+    "Angelina McMillan-Major",
+    "Shmargaret Shmitchell"
+  ],
+  "publisher": "ACM",
+  "registeredDate": "2021-3-3",
+  "referenceCount": 156,
+  "isReferencedByCount": 4195
+}

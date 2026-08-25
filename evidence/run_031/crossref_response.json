@@ -1,0 +1,24 @@
+{
+  "found": true,
+  "eventDetected": true,
+  "doi": "10.1038/nature12373",
+  "title": "Nanometre-scale thermometry in a living cell",
+  "type": "journal-article",
+  "hasPublishableType": true,
+  "hasPublishedDate": true,
+  "publishedDate": "2013-8",
+  "authors": [
+    "G. Kucsko",
+    "P. C. Maurer",
+    "N. Y. Yao",
+    "M. Kubo",
+    "H. J. Noh",
+    "P. K. Lo",
+    "H. Park",
+    "M. D. Lukin"
+  ],
+  "publisher": "Springer Science and Business Media LLC",
+  "registeredDate": "2013-7-30",
+  "referenceCount": 30,
+  "isReferencedByCount": 1749
+}
