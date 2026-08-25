@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6MkiGNh83uXjaQimKWogj1hHT7xeiaydGm7bcpvJ1LtRprq",
+    "researcherDid": "did:key:z6Mkgrghedpz194gWUnTpDqk5QyuViuDFE6mvME5S57Yy6fJ",
+    "orcid": "0000-0002-1825-9053",
+    "doi": "10.1371/journal.pone.0001636",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T10:11:06.167Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "Measuring the Meltdown: Drivers of Global Amphibian Extinction and Decline",
+      "type": "journal-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2008-2-20",
+      "publisher": "Public Library of Science (PLoS)",
+      "citationCount": 370
+    },
+    "fulfillmentHash": "5DEB58775C84330673624EFC1CA95D38264FBBEFF809902836199960630CFC67",
+    "xrplConditionHash": "5DEB58775C84330673624EFC1CA95D38264FBBEFF809902836199960630CFC67"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:11:06.167Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MkiGNh83uXjaQimKWogj1hHT7xeiaydGm7bcpvJ1LtRprq#key-1",
+    "jws": "dU57IlVZKQZ7gdPiiE4MQ0lr03ihiKy9lM/MperZ53dxBELAqwmR/Cg9ipXwuwu7SLNsh0JtWQZjZyVKaaBnDg=="
+  }
+}

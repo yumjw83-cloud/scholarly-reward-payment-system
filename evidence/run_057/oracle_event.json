@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6Mkemc9xu7hBatkd4CbH5xJ4A4MALUfGaYiMPCYeuA2mFau",
+    "researcherDid": "did:key:z6MknB1AtRF566aKeRLq73JHHRmx2eAzaDWXZyoqCvbwBTQR",
+    "orcid": "0000-0002-1825-9057",
+    "doi": "10.1007/s10961-019-09768-3",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T10:12:42.169Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "Identifying the effects of technology transfer policy using a quantile regression: the case of South Korea",
+      "type": "journal-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2020-12",
+      "publisher": "Springer Science and Business Media LLC",
+      "citationCount": 8
+    },
+    "fulfillmentHash": "6935183A0F4CF41B2CDB41ACCF07263949D7B8EF20DE8B324399D23B48BC04DC",
+    "xrplConditionHash": "6935183A0F4CF41B2CDB41ACCF07263949D7B8EF20DE8B324399D23B48BC04DC"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:12:42.169Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6Mkemc9xu7hBatkd4CbH5xJ4A4MALUfGaYiMPCYeuA2mFau#key-1",
+    "jws": "dDDHvfPqHSrEv61AUQTdqXmJ5OG0QueHwlBaKwDmYUV9WMuXLjNSTIlciUuTbLX76rXl0tGbTbngcrnNYY8SBg=="
+  }
+}
