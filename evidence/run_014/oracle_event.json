@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6MkqgrjZbEYfAB9Fvh4FwgNRR3wMJFPD5R5VHmg3gtBLoV6",
+    "researcherDid": "did:key:z6MkvzSDce99tUV7GVMYBojqdBv42raqPyGS3mSGaapvTFKE",
+    "orcid": "0000-0002-1825-9014",
+    "doi": "10.1016/j.cell.2015.04.044",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T09:55:36.300Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "Droplet Barcoding for Single-Cell Transcriptomics Applied to Embryonic Stem Cells",
+      "type": "journal-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2015-5",
+      "publisher": "Elsevier BV",
+      "citationCount": 3298
+    },
+    "fulfillmentHash": "F962C8FEEA037C86736567239E56C43FD337D839B05BC8BC28B3E9929E22F3F2",
+    "xrplConditionHash": "F962C8FEEA037C86736567239E56C43FD337D839B05BC8BC28B3E9929E22F3F2"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T09:55:36.300Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MkqgrjZbEYfAB9Fvh4FwgNRR3wMJFPD5R5VHmg3gtBLoV6#key-1",
+    "jws": "2BtUO0cJ7EaVE6DUqe0sMMhELjyqOjzoW9sBSQYE4vpRuzVj67siG9TacXTCsGiwv/gW1sIGWfx+wFNTbowrBw=="
+  }
+}

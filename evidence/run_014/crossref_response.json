@@ -1,0 +1,25 @@
+{
+  "found": true,
+  "eventDetected": true,
+  "doi": "10.1016/j.cell.2015.04.044",
+  "title": "Droplet Barcoding for Single-Cell Transcriptomics Applied to Embryonic Stem Cells",
+  "type": "journal-article",
+  "hasPublishableType": true,
+  "hasPublishedDate": true,
+  "publishedDate": "2015-5",
+  "authors": [
+    "Allon M. Klein",
+    "Linas Mazutis",
+    "Ilke Akartuna",
+    "Naren Tallapragada",
+    "Adrian Veres",
+    "Victor Li",
+    "Leonid Peshkin",
+    "David A. Weitz",
+    "Marc W. Kirschner"
+  ],
+  "publisher": "Elsevier BV",
+  "registeredDate": "2015-5-21",
+  "referenceCount": 64,
+  "isReferencedByCount": 3298
+}

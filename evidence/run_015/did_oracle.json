@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:key:z6Mko69vc7synnoqk8gFcVDonsHsVi4k4NdEnc8hAnkYkS7n",
+  "verificationMethod": [
+    {
+      "id": "did:key:z6Mko69vc7synnoqk8gFcVDonsHsVi4k4NdEnc8hAnkYkS7n#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:key:z6Mko69vc7synnoqk8gFcVDonsHsVi4k4NdEnc8hAnkYkS7n",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAgFEQoNXD8u61UbePO86Mx9VYA54bXR7mVHZ+aGCK/1U=\n-----END PUBLIC KEY-----\n"
+    }
+  ],
+  "authentication": [
+    "did:key:z6Mko69vc7synnoqk8gFcVDonsHsVi4k4NdEnc8hAnkYkS7n#key-1"
+  ],
+  "assertionMethod": [
+    "did:key:z6Mko69vc7synnoqk8gFcVDonsHsVi4k4NdEnc8hAnkYkS7n#key-1"
+  ]
+}
