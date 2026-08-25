@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6MknnZuzYUjFcADHwYKE59jnsVLAYX8aM14e82pZJq83Qg1",
+    "researcherDid": "did:key:z6Mkvo5AQaXwH7Cy9QVUH4S17sBbnYr96zvzHrmpdjaGahJp",
+    "orcid": "0000-0002-1825-9075",
+    "doi": "10.1038/s41586-020-2649-2",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T10:20:09.361Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "Array programming with NumPy",
+      "type": "journal-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2020-9-17",
+      "publisher": "Springer Science and Business Media LLC",
+      "citationCount": 21029
+    },
+    "fulfillmentHash": "8676A17C453312B905653D982FCD1FABB3B1ED4F637A6ECDCD59BAC28BA361A4",
+    "xrplConditionHash": "8676A17C453312B905653D982FCD1FABB3B1ED4F637A6ECDCD59BAC28BA361A4"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:20:09.361Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MknnZuzYUjFcADHwYKE59jnsVLAYX8aM14e82pZJq83Qg1#key-1",
+    "jws": "CXjEfN8liaa9Jt3qozEuewNo8O8MzHPNGK2WC1+Mm2/MupkxYWt39WBwqbFq/L+LkDVWKA+8/+OZ+hmZI27LBA=="
+  }
+}
