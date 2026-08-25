@@ -1,0 +1,2934 @@
+통합 실험 — End-to-End 기능 검증
+실행시각: 2026. 4. 14. PM 12:23:14
+반복횟수: 100
+================================================================
+XRPL Testnet 연결 완료: wss://s.altnet.rippletest.net:51233
+
+================================================================
+반복 1/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 1)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02B5509D
+  발급자 DID         : did:xrpl:rMockIssuer021C93FE
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 5C7838460E86BF08B04151E1E241888CDE4FE588E63AD0A7B3395CDE1093169A
+  VC  온체인 해시    : 93B518A8C8CBD9124657B0FBEB43251E89D4A590C16253ABF1BAF0E4271624DA
+  DID IPFS CID       : bafkreic4pa4emdugx4elaqkr4hredcem3zh6lchghlikpmzzltpbbeywti
+  VC  IPFS CID       : bafkreietwumkrsgl3ejemv5q7pvugji6rhkklegbmjj2x4n26dscofre3i
+  VC CID 앵커링 해시 : EE32D32B16D51E50C4F9CB883A5E6A3BE833708E6B790E8D4E09718F3E71FAFA
+  Phase 1 소요 시간  : 3509 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 1)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5750 ms  Fee=12 drops
+  EscrowCreate Hash  : FE5B8E47E5C8ECEEAC3A7A9BAA193A02BBFC737467EC1B67F974CF7D3AA53D4F
+  EscrowFinish       : 6905 ms  Fee=423 drops
+  EscrowFinish Hash  : A36C9AD947E98CF7D6B8443A386EF25438050CAC9208545E7CC8CBB61DC23A1F
+  Memo 온체인 기록값 : EE32D32B16D51E50C4F9CB883A5E6A3BE833708E6B790E8D4E09718F3E71FAFA
+  Memo 해시 일치     : PASS ✅
+
+  반복 1 완료
+
+================================================================
+반복 2/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 2)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor031BC637
+  발급자 DID         : did:xrpl:rMockIssuer02751E5C
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 09B882BA145610596B71EE122D36D27910AE0271B4321CD93BEE28D3745A6292
+  VC  온체인 해시    : 16EE54928FAEDAA9D7097757DB5C6248BEF975B6F355D8AF89CDCD0EFB726C42
+  DID IPFS CID       : bafkreiajxcblufcwcbmww4pociwtnutzccxae4nugionso7ofdjxiwtcsi
+  VC  IPFS CID       : bafkreiaw5zkjfd5o3ku5oclxk7nvyysix34xlnxtkxmk7conzuhpw4tmii
+  VC CID 앵커링 해시 : E5AE0F8B1F4BF8BE0C429938FC27876536F389A79D1B6093F3C32C706F3DE62D
+  Phase 1 소요 시간  : 2830 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 2)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5686 ms  Fee=12 drops
+  EscrowCreate Hash  : 455C6C13394E38E9C9A613F7FD5E6A736474DD419A623105DCE7613BEE5133F0
+  EscrowFinish       : 6929 ms  Fee=423 drops
+  EscrowFinish Hash  : 3390ABA013AAEEE35A209033D2A57D16D796661701DA95DD7C566223349B068B
+  Memo 온체인 기록값 : E5AE0F8B1F4BF8BE0C429938FC27876536F389A79D1B6093F3C32C706F3DE62D
+  Memo 해시 일치     : PASS ✅
+
+  반복 2 완료
+
+================================================================
+반복 3/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 3)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03CB27FF
+  발급자 DID         : did:xrpl:rMockIssuer02B8D58F
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 8B64085B3DD6F930A4CA4EB635E1AD46082F1F9AB03D1B3D214E1C82D08FA07D
+  VC  온체인 해시    : 667FA70C6D05D7405155E6C8B8B6CFCEC0E5445F359AB8EE8B750122AAA4B031
+  DID IPFS CID       : bafkreielmqefwpow7eykjssowy26dlkgbaxr7gvqhunt2ikodsbnbd5apu
+  VC  IPFS CID       : bafkreidgp6tqy3if25afcvpgzc4lnt6oydsuixzvtk4o5c3vaerkvjfqge
+  VC CID 앵커링 해시 : 30B01FECC71C3BE25D4F99DFD8C7504A90C3D6A124F71F64F2569D119F326380
+  Phase 1 소요 시간  : 3533 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 3)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6890 ms  Fee=12 drops
+  EscrowCreate Hash  : B33952A82BDCC73978A2EC35C7131ECDA603FB224A31B98C8347CF4A5AB7B04D
+  EscrowFinish       : 5618 ms  Fee=423 drops
+  EscrowFinish Hash  : CEA256018AEAC6BE08C30571E4115DAA7199E8B72183F14D3B2CD1B6164689B9
+  Memo 온체인 기록값 : 30B01FECC71C3BE25D4F99DFD8C7504A90C3D6A124F71F64F2569D119F326380
+  Memo 해시 일치     : PASS ✅
+
+  반복 3 완료
+
+================================================================
+반복 4/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 4)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0381B9BD
+  발급자 DID         : did:xrpl:rMockIssuer0203B9D0
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : FEDFA88E379D06BB4C4CA4583E75A083E63EC47AE1D023B3A08CE4DE6B85F125
+  VC  온체인 해시    : D3DF847FC28415A0C0A05426C16C9DED64C2447F4F49A87F45446EFED6AACB8A
+  DID IPFS CID       : bafkreih636ui4n45a25uytfela7hlied4y7mi6xb2ar3hiem4tpgxbpreu
+  VC  IPFS CID       : bafkreigt36ch7quecwqmbicue3awzhpnmtbei72pjguh6rken37nnkwlri
+  VC CID 앵커링 해시 : E48064734FEA00D4944662DA206E3C1E298F222FAB76D3BFA0B27FD19B196EAE
+  Phase 1 소요 시간  : 3371 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 4)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5624 ms  Fee=12 drops
+  EscrowCreate Hash  : E8E9E8435F29C2199F740CAC188A8FCD6B71D1ABA7F319A139E74D5F1D1AFD64
+  EscrowFinish       : 5616 ms  Fee=423 drops
+  EscrowFinish Hash  : 6D0803BE1B9133B0592B2F2159CCCC68DC0BF01ECA1FDC4C030DFA6467D16CE3
+  Memo 온체인 기록값 : E48064734FEA00D4944662DA206E3C1E298F222FAB76D3BFA0B27FD19B196EAE
+  Memo 해시 일치     : PASS ✅
+
+  반복 4 완료
+
+================================================================
+반복 5/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 5)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor038CB5B3
+  발급자 DID         : did:xrpl:rMockIssuer039C5F08
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : BAB461FEC131C5F245A2FA5AB4366C12FEF22CE9F402C3E78619412A878BC994
+  VC  온체인 해시    : 2160003643752CF01F41D0E4FEB29C4AFD8D6AC5BDEE39E2DBFF128BCE165F9D
+  DID IPFS CID       : bafkreif2wrq75qjryxzelix2lk2dm3as73zcz2pualb6pbqzievipc6jsq
+  VC  IPFS CID       : bafkreibbmaadmq3vftyb6qoq4t7lfhck7wgwvrn55y46fw77ckf44fs7tu
+  VC CID 앵커링 해시 : B16B33C15F641B131CA9E9195C4251CBE7A80572BB9CC63C9B2F5EB888FCE9FF
+  Phase 1 소요 시간  : 2995 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 5)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6894 ms  Fee=12 drops
+  EscrowCreate Hash  : 363A0924AE9A22863A4A481ADF3BE48CF75F6C03A3A3DB618C1B3B1F0F9E3EAB
+  EscrowFinish       : 5614 ms  Fee=423 drops
+  EscrowFinish Hash  : D6F9F354BE4BFC1F2ABDEB383800B1B4A810FE5F8B534D21A1A337941FDAC71D
+  Memo 온체인 기록값 : B16B33C15F641B131CA9E9195C4251CBE7A80572BB9CC63C9B2F5EB888FCE9FF
+  Memo 해시 일치     : PASS ✅
+
+  반복 5 완료
+
+================================================================
+반복 6/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 6)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0397F6E0
+  발급자 DID         : did:xrpl:rMockIssuer0318CDDC
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 241DAA981BCE5CCE9A3BCCD86FB0E71F381AED179768B06114ED81A02C3D6FE2
+  VC  온체인 해시    : E6D3C9BBE33423BEBC39EB31FA99026A99F1C6CE9AB2067E6245443866E78ECF
+  DID IPFS CID       : bafkreibedwvjqg6olthjuo6m3bx3bzy7hano2f4xncygcfhnqgqcyplp4i
+  VC  IPFS CID       : bafkreihg2pe3xyzueo7lyoplgh5jsatkthy4ntu2widh4ysfiq4gnz4oz4
+  VC CID 앵커링 해시 : 2ECC18D28D33418B68486E66BACA2878B4B750C717045BDB0BB8E893367A3747
+  Phase 1 소요 시간  : 3296 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 6)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5779 ms  Fee=12 drops
+  EscrowCreate Hash  : D50EE821804699BBE99A33B6FA6DC8A565D75D3887BD9FCE6D5630FC255CB7DD
+  EscrowFinish       : 5640 ms  Fee=423 drops
+  EscrowFinish Hash  : A53621A4810AEFD1C996DC3588424AD1F370CB9473F2BE07D7F82C935BF2EF47
+  Memo 온체인 기록값 : 2ECC18D28D33418B68486E66BACA2878B4B750C717045BDB0BB8E893367A3747
+  Memo 해시 일치     : PASS ✅
+
+  반복 6 완료
+
+================================================================
+반복 7/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 7)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0259CFE1
+  발급자 DID         : did:xrpl:rMockIssuer03A7D04F
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 9098FC8093578D64DE328EB598991E468889EAD8EBB2ABA79A832E0EA68D135C
+  VC  온체인 해시    : D95069A0B3D3059755A2F94E9DBD450414D5E4B3D775D61828760E854D6D40FF
+  DID IPFS CID       : bafkreieqtd6ibe2xrvsn4muowwmjshsgrce6vwhlwkv2pgudfyhknditlq
+  VC  IPFS CID       : bafkreigzkbu2bm6tawlvlixzj2o32riectk6jm6xoxlbqkdwb2cu23ka74
+  VC CID 앵커링 해시 : 1C61F176F10FC3084FF822F6E839A94AB08797FA3543A648E88B09CD234AA1D7
+  Phase 1 소요 시간  : 3405 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 7)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6913 ms  Fee=12 drops
+  EscrowCreate Hash  : B67CAACC3B0040755842B2E5AB7372F666844ADBF99708DC67043FD6644C7E08
+  EscrowFinish       : 5617 ms  Fee=423 drops
+  EscrowFinish Hash  : E66F08508BA76E7480DED6A426DA633CA787BBDA38C2A877AC453CEF69CDA362
+  Memo 온체인 기록값 : 1C61F176F10FC3084FF822F6E839A94AB08797FA3543A648E88B09CD234AA1D7
+  Memo 해시 일치     : PASS ✅
+
+  반복 7 완료
+
+================================================================
+반복 8/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 8)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02C0E440
+  발급자 DID         : did:xrpl:rMockIssuer03ECC2BD
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 1B2BDDFE5AF0371C4B76B82F4DE344976B5635A8CC6CD951A4F58EEDD6631B5F
+  VC  온체인 해시    : B5B666835C7BDCDD70241A11703A9095721851442874FB891E79D97ECA03CD07
+  DID IPFS CID       : bafkreia3fpo74wxqg4oew5vyf5g6grexnnldlkgmntmvdjhvr3w5myy3l4
+  VC  IPFS CID       : bafkreifvwztigxd33toxaja2cfydveevoimfcrbiot5yshtz3f7mua6na4
+  VC CID 앵커링 해시 : 9EACC6C811EC7276234FA992EF733B5FFBA5DC3D3B24402FDFA8B5EC3BB4130F
+  Phase 1 소요 시간  : 3122 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 8)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5607 ms  Fee=12 drops
+  EscrowCreate Hash  : 639FDE9E7C03956529541C985665CB5669F13EED0A0FF80D019596005CECCD02
+  EscrowFinish       : 6883 ms  Fee=423 drops
+  EscrowFinish Hash  : EBB8FAE2B55B8F45D00174EA23A2B678EE3B4A6E714E9C4034B8BEA402BB7599
+  Memo 온체인 기록값 : 9EACC6C811EC7276234FA992EF733B5FFBA5DC3D3B24402FDFA8B5EC3BB4130F
+  Memo 해시 일치     : PASS ✅
+
+  반복 8 완료
+
+================================================================
+반복 9/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 9)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0223F575
+  발급자 DID         : did:xrpl:rMockIssuer03F5D881
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : E14B72FA83803E6EEB107715A732C9339EC4DBCE69A60D4514DA4CF0A5B126C1
+  VC  온체인 해시    : CBF4DF6E3759E0B8ADCA8C0E8EBE13D4BA3FBE994FCDFD00916EA46863D6F8F0
+  DID IPFS CID       : bafkreihbjnzpva4ahzxowedxcwttfsjtt3cnxttjuygukfg2jtyklmjgye
+  VC  IPFS CID       : bafkreigl6tpw4n2z4c4k3sumb2hl4e6uxi735gkpzx6qbelourughvxy6a
+  VC CID 앵커링 해시 : 2C460B83F9EB95B6A24FB417293F08DA2657AE7693C09541163CA9D9C29C20BB
+  Phase 1 소요 시간  : 2850 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 9)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6877 ms  Fee=12 drops
+  EscrowCreate Hash  : 1106BA41D34E2EE0318D190A8B070A56E3B58F7966B71446D2E0E07DF9764CE0
+  EscrowFinish       : 6894 ms  Fee=423 drops
+  EscrowFinish Hash  : BE38C662A2FBBB995F82F2E1CE5692295E9D2526547ECFF5C882D1EC095FCE3F
+  Memo 온체인 기록값 : 2C460B83F9EB95B6A24FB417293F08DA2657AE7693C09541163CA9D9C29C20BB
+  Memo 해시 일치     : PASS ✅
+
+  반복 9 완료
+
+================================================================
+반복 10/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 10)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor031045BA
+  발급자 DID         : did:xrpl:rMockIssuer0302D3EB
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 9159467F6DE8AFBA4AAC1BDEC0539DF9BC1F23367324276A3B14C2A2DCDB3B97
+  VC  온체인 해시    : 93131CB0DFB98BEDF081FF20BE0040C6A3E02D558BF5710EEAF3DF7A3BDB9A13
+  DID IPFS CID       : bafkreierlfdh63piv65evla333afhhpzxqpsgntteqtwuoyuykrnzwz3s4
+  VC  IPFS CID       : bafkreietcmolbx5zrpw7bap7ec7aaqggupqc2vml6vyq52xt355dxw42cm
+  VC CID 앵커링 해시 : 34A71F2D665200FB8B9F6965E3BAE418DAEAE8DF5F05E85D2798E98F24A6FE77
+  Phase 1 소요 시간  : 3440 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 10)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5632 ms  Fee=12 drops
+  EscrowCreate Hash  : B33D7B07E5F9A909297D82503BB06A11DB6B9B59E96F4C401AB6122A92367086
+  EscrowFinish       : 6883 ms  Fee=423 drops
+  EscrowFinish Hash  : 0DF7894FFB0CC6FC9465A44F388C7F0B65F9DC12B76722C66F4C3C447435804C
+  Memo 온체인 기록값 : 34A71F2D665200FB8B9F6965E3BAE418DAEAE8DF5F05E85D2798E98F24A6FE77
+  Memo 해시 일치     : PASS ✅
+
+  반복 10 완료
+
+================================================================
+반복 11/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 11)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor028AB6A7
+  발급자 DID         : did:xrpl:rMockIssuer0237E387
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 3C21B44CAD9417657999AAF172355843025DC4A1D3597E0326D8AF0C3AED16BD
+  VC  온체인 해시    : 5575813958CBAE90F6B9DC9DE1C97969E59032E9361E8D1C7B3EF14CEBA8FFBE
+  DID IPFS CID       : bafkreib4eg2ezlmuc5sxtgnk6fzdkwcdajo4jiotlf7agjwyv4gdv3iwxu
+  VC  IPFS CID       : bafkreicvowatswglv2ipnoo4txq4s6lj4widf2jwd2gry6z66fgoxkh7xy
+  VC CID 앵커링 해시 : A0FE067228D4B79F3506807AC499E27F412E5DE0CD51BAF18A6D16AB01005FDE
+  Phase 1 소요 시간  : 2764 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 11)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6916 ms  Fee=12 drops
+  EscrowCreate Hash  : C893DDCBBA1FBB514E9EC756D3938F0CFB2FCB2CFB2FDBF4EE8B9F9819044C1B
+  EscrowFinish       : 5636 ms  Fee=423 drops
+  EscrowFinish Hash  : 51258DD29982C273D886E9965B2EE5CAC14F34731302B92E1DC8B57C429321AA
+  Memo 온체인 기록값 : A0FE067228D4B79F3506807AC499E27F412E5DE0CD51BAF18A6D16AB01005FDE
+  Memo 해시 일치     : PASS ✅
+
+  반복 11 완료
+
+================================================================
+반복 12/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 12)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02D86D44
+  발급자 DID         : did:xrpl:rMockIssuer02B6C81A
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : F968CCAE14020AE6C887DB3797126EB0ED3E0557287851712E769D9CA2108E0F
+  VC  온체인 해시    : C86043CF2DB8C1D2347F0D81BB34CBA50384B0C250D064732EE99CBCB0C334AA
+  DID IPFS CID       : bafkreihzndgk4facbltmrb63g6lre3vq5u7akvzipbixcltwtwokeeeob4
+  VC  IPFS CID       : bafkreigimbb46lnyyhjdi7ynqg5tjs5faoclbqsq2bshglxjts6lbqzuvi
+  VC CID 앵커링 해시 : 197F569ECBB9E287A14BBB8DFE39E33ABC2C69484D7756575C97B55AB5F6B579
+  Phase 1 소요 시간  : 3120 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 12)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 3044 ms  Fee=12 drops
+  EscrowCreate Hash  : BA1B8D1C3F5281EEBFF574CACB04FEABBEABE79739CCA2A98C9CDAE9271B418B
+  EscrowFinish       : 6890 ms  Fee=423 drops
+  EscrowFinish Hash  : 9906D0CF27D0584C0464635B8438A14C6608373AF124FE25A0824E1DB7C5BA01
+  Memo 온체인 기록값 : 197F569ECBB9E287A14BBB8DFE39E33ABC2C69484D7756575C97B55AB5F6B579
+  Memo 해시 일치     : PASS ✅
+
+  반복 12 완료
+
+================================================================
+반복 13/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 13)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02564F44
+  발급자 DID         : did:xrpl:rMockIssuer02286F21
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : F8D513DF35C496D65F0F06BC7D9BB6F78A0FBA160086FEB63ED5CA020407E3A4
+  VC  온체인 해시    : 64A44B5F77C5D74597F48604D51F23BBFE8FA977FC308C86D9E2876A309F0E3C
+  DID IPFS CID       : bafkreihy2uj56noes3lf6dygxr6zxnxxrih3ufqaq37lmpwvzibaib7duq
+  VC  IPFS CID       : bafkreideurfv656f25czp5egatkr6i5372h2s574gcginwpcq5vdbhyohq
+  VC CID 앵커링 해시 : DEC1F24BF95D987A2D14947B6FEA84B12F9B998198190CAA827DF23D91D4E87D
+  Phase 1 소요 시간  : 3683 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 13)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5639 ms  Fee=12 drops
+  EscrowCreate Hash  : C330431948C8A80F9D69343AE32889F082F6E86CEA371ECF070E8CA1D39FA8A1
+  EscrowFinish       : 6919 ms  Fee=423 drops
+  EscrowFinish Hash  : 33072B37AE6B0660492830CDD953CE0A2210D3B506E118029B7CBE5177F70A94
+  Memo 온체인 기록값 : DEC1F24BF95D987A2D14947B6FEA84B12F9B998198190CAA827DF23D91D4E87D
+  Memo 해시 일치     : PASS ✅
+
+  반복 13 완료
+
+================================================================
+반복 14/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 14)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02637E5E
+  발급자 DID         : did:xrpl:rMockIssuer023BF691
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 3867EC51929A8FAC56E5DA47C0F144D01E792EFEFDE4BE1510A75DA19C361970
+  VC  온체인 해시    : DCE7939C31743487D85723D6C782EEDD6D763BC070DC33F4545792F68E2EFAC3
+  DID IPFS CID       : bafkreibym7wfdeu2r6wfnzo2i7apcrgqdz4s57x54s7bkefhlwqzynqzoa
+  VC  IPFS CID       : bafkreig446jzymlugsd5qvzd23dyf3w5nv3dxqdq3qz7ivcxsl3i4lx2ym
+  VC CID 앵커링 해시 : ECD904EB1F9BC3778C9C7BA9823BDFFEB85AB7F4409D33AF229C27AA4469C1D1
+  Phase 1 소요 시간  : 3136 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 14)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6890 ms  Fee=12 drops
+  EscrowCreate Hash  : F9E436787A5AC1E9706576DF64F115BCEB3C0BBA008B3AC07E30D7A288CAE49D
+  EscrowFinish       : 5728 ms  Fee=423 drops
+  EscrowFinish Hash  : 1E27D07D635E3E5FF5EF098FA5825FF22E1BEDAB324A48D83E2226174D48804C
+  Memo 온체인 기록값 : ECD904EB1F9BC3778C9C7BA9823BDFFEB85AB7F4409D33AF229C27AA4469C1D1
+  Memo 해시 일치     : PASS ✅
+
+  반복 14 완료
+
+================================================================
+반복 15/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 15)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0307ECE9
+  발급자 DID         : did:xrpl:rMockIssuer02A7D7C0
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 34360D948E18D8C8A79C2681919E7B91CEA724AD247CEC6566A2976203854D75
+  VC  온체인 해시    : E5CCDE5AAB455B85F2153B77E22EDD8D9E39C458273E664CB61AF59D96F4A796
+  DID IPFS CID       : bafkreibugygzjdqy3dekphbgqgiz464rz2tsjljeptwgkzvcs5rahbknou
+  VC  IPFS CID       : bafkreihfztpfvk2floc7efj3o7rc5xmnty44iwbhhzteznq26wozn5fhsy
+  VC CID 앵커링 해시 : 39527D52C966D7D9BB6A5A1B5686A226FC472BC85FE07274D6A6231FF744C3C3
+  Phase 1 소요 시간  : 3000 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 15)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5623 ms  Fee=12 drops
+  EscrowCreate Hash  : CDC5A412F39B9F64F652DBC7FFC0E34B2394B7066A56DC8EAD656438D4B68C22
+  EscrowFinish       : 5616 ms  Fee=423 drops
+  EscrowFinish Hash  : 0A4ED8C37EF91B4E58F2D99378AF48DC7E6E478DD2724157EE9EF4484B74B8E6
+  Memo 온체인 기록값 : 39527D52C966D7D9BB6A5A1B5686A226FC472BC85FE07274D6A6231FF744C3C3
+  Memo 해시 일치     : PASS ✅
+
+  반복 15 완료
+
+================================================================
+반복 16/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 16)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02FF6600
+  발급자 DID         : did:xrpl:rMockIssuer02B47F12
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : F763C2719A9F9083F3E49C8ACD3022916A5867DE2C9EB2CDDB17E9401CD267FD
+  VC  온체인 해시    : 2B105508CFB77AEB722B4A67F61DA0FEB95C1B03FD285FFF32B283B5C49BBF05
+  DID IPFS CID       : bafkreihxmpbhdgu7scb7hze4rlgtaiurnjmgpxrmt2zm3wyx5fabzuth7u
+  VC  IPFS CID       : bafkreiblcbkqrt5xplvxek2km73b3ih6xfobwa75fbp76mvsqo24jg57au
+  VC CID 앵커링 해시 : 9A4DAD47AD58AC35A03C1FFB41A7C8DBD8A93F477DBC180F5C72EF5AF7F9476E
+  Phase 1 소요 시간  : 3372 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 16)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6891 ms  Fee=12 drops
+  EscrowCreate Hash  : 0D0C94F18C4E5E86E9F584699905A939344DB68AA0788351A639F98556ECF57D
+  EscrowFinish       : 6900 ms  Fee=423 drops
+  EscrowFinish Hash  : 044D70741D86EA4E8A259BAF1E3F65F84D454BA816EFCC8C8CE0E949C2B51F72
+  Memo 온체인 기록값 : 9A4DAD47AD58AC35A03C1FFB41A7C8DBD8A93F477DBC180F5C72EF5AF7F9476E
+  Memo 해시 일치     : PASS ✅
+
+  반복 16 완료
+
+================================================================
+반복 17/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 17)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03321EA6
+  발급자 DID         : did:xrpl:rMockIssuer03EB31AA
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 9B471E2670C5A05C73A29EDE1848CCC97C02D5C477740473E6996036AA25A4DC
+  VC  온체인 해시    : 56DA63D17F0CF704998D5FF9B37C449E6B1F479E2EE09D4550B4F850A1FC02F2
+  DID IPFS CID       : bafkreie3i4pcm4gfubohhiu63ymertgjpqbnlrdxoqchhzuzma3kujne3q
+  VC  IPFS CID       : bafkreicw3jr5c7ym64cjtdk77gzxyre6nmpuphro4coukufu7bikd7ac6i
+  VC CID 앵커링 해시 : 4C79A0CED526540F9269C1B741A7CFE5119037560907E0583D1324838208C9AA
+  Phase 1 소요 시간  : 7079 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 17)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6434 ms  Fee=12 drops
+  EscrowCreate Hash  : 14DF442ADE0DFC0C42AAF4D1326B36E9DBD1D48C882E259AC0A8AD67EE6A004B
+  EscrowFinish       : 6005 ms  Fee=423 drops
+  EscrowFinish Hash  : 11066A24DCA6541F7FC19D9658898734D2AF4C3596ABF9B091F8C446C6CDD3C9
+  Memo 온체인 기록값 : 4C79A0CED526540F9269C1B741A7CFE5119037560907E0583D1324838208C9AA
+  Memo 해시 일치     : PASS ✅
+
+  반복 17 완료
+
+================================================================
+반복 18/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 18)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03701350
+  발급자 DID         : did:xrpl:rMockIssuer02DCD3E0
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : E921BCC95DD632D0A1F5BC2103524B24E5A2D1402C6FACAADCCFD7C539E94D60
+  VC  온체인 해시    : 92CB5D74B755D0E61D4466B11875E93E2D68A70068E07E44762A9E56ADBD10B3
+  DID IPFS CID       : bafkreihjeg6msxowglikd5n4eebvesze4wrncqbmn6wkvxgp27ctt2knma
+  VC  IPFS CID       : bafkreiesznoxjn2v2dtb2rdgwemhl2j6fvukoadi4b7ei5rktzlk3piqwm
+  VC CID 앵커링 해시 : A10CD108AF000AC89302753481A2220F4B8BDFF3FCD6F275B13791540BCC0F6F
+  Phase 1 소요 시간  : 4486 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 18)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5635 ms  Fee=12 drops
+  EscrowCreate Hash  : 9E2A36105C1BE9B0B20D00EF0B1848707709AA0E768E5F3973327A93FE042824
+  EscrowFinish       : 5991 ms  Fee=423 drops
+  EscrowFinish Hash  : 23BC821C882D0C77C4320A5B7EDE9294E5F28A8750D66701B9B317EE123A3E8C
+  Memo 온체인 기록값 : A10CD108AF000AC89302753481A2220F4B8BDFF3FCD6F275B13791540BCC0F6F
+  Memo 해시 일치     : PASS ✅
+
+  반복 18 완료
+
+================================================================
+반복 19/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 19)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0353E2F5
+  발급자 DID         : did:xrpl:rMockIssuer021B4311
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : A7D73ED4C37D1DAD317730AE867BA5974685541C036FFCF3283A5269C63BE4F7
+  VC  온체인 해시    : 741CBD626BFB53EBC854FEBDB392452491D342EC006D520730418B2CB35ED91A
+  DID IPFS CID       : bafkreifh247njq35dwwtc5zqv2dhxjmxi2cvihadn76pgkb2kju4mo7e64
+  VC  IPFS CID       : bafkreiduds6we273kpv4qvh6xwzzerjeshjuf3aanvjaomcbrmwlgxwzdi
+  VC CID 앵커링 해시 : 569D07C4A096D0C23B2D62F2EA813A7A3DC3843D1944EC81B2A8F5D0D97D0720
+  Phase 1 소요 시간  : 2859 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 19)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5658 ms  Fee=12 drops
+  EscrowCreate Hash  : F94063DFFD64BDF9B1CA0CFB621125FE2BF13D85C3A3057B95301A4B04EC5742
+  EscrowFinish       : 6882 ms  Fee=423 drops
+  EscrowFinish Hash  : 90F4474AA895437F6FB8FC13A00F90639E4E2F3DC0268F171EEDB2E9BE007616
+  Memo 온체인 기록값 : 569D07C4A096D0C23B2D62F2EA813A7A3DC3843D1944EC81B2A8F5D0D97D0720
+  Memo 해시 일치     : PASS ✅
+
+  반복 19 완료
+
+================================================================
+반복 20/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 20)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor036FACED
+  발급자 DID         : did:xrpl:rMockIssuer030A7D50
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 04766DF8383E648E6B91064BC311840AF25577DEA17DA7A2A4A1B8B83A7E8188
+  VC  온체인 해시    : E18F5228E8585EAB4FB71DBF41239770EB556AE5C7EC0B28E6A75933E6CDB7F5
+  DID IPFS CID       : bafkreiaeozw7qob6mshgxeigjpbrdbak6jkxpxvbpwt2fjfbxc4du7ubra
+  VC  IPFS CID       : bafkreihbr5jcr2cyl2vu7ny5x5ashf3q5nkwvzoh5qfsrzvhlez6ntnx6u
+  VC CID 앵커링 해시 : B26D66A45B4FC90F40776B86057A0D4168E3E3CD3E3706F7C7E5EBD5445E58E5
+  Phase 1 소요 시간  : 4206 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 20)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 7004 ms  Fee=12 drops
+  EscrowCreate Hash  : C5A2286B352248C66E24F7443AA4B3D4E258BC85CAFB231CF9A9EEB4F742F11C
+  EscrowFinish       : 7260 ms  Fee=423 drops
+  EscrowFinish Hash  : 654CAC0E95D3C157DC3C0B82E6FDF0613815C3737481837D18666AD8F21D16EB
+  Memo 온체인 기록값 : B26D66A45B4FC90F40776B86057A0D4168E3E3CD3E3706F7C7E5EBD5445E58E5
+  Memo 해시 일치     : PASS ✅
+
+  반복 20 완료
+
+================================================================
+반복 21/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 21)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0315680F
+  발급자 DID         : did:xrpl:rMockIssuer03C08C2D
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : FEF83B298E9375E41E6E59DFC9EC49ED3394D9F7F40F483199837E21D6592DF1
+  VC  온체인 해시    : 6A85926656AF3296E078C9E62E8ADF0AB52BBB8A7D6021969D4B78F551645C2B
+  DID IPFS CID       : bafkreih67a5stdutoxsb43sz37e6yspngoknt57ub5eddgmdpyq5mwjn6e
+  VC  IPFS CID       : bafkreidkqwjgmvvpgkloa6gj4yxivxykwuv3xct5maqznhklpd2vczc4fm
+  VC CID 앵커링 해시 : D0646ECA1F45CCD1A7388E16CE3B378757CC418989BCE395B692D0ECB9E8202B
+  Phase 1 소요 시간  : 3170 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 21)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5976 ms  Fee=12 drops
+  EscrowCreate Hash  : B3208DBA1DEC0971F7524383D762CBE8275C4B8BAB86AA507F13170577D30D4C
+  EscrowFinish       : 6364 ms  Fee=423 drops
+  EscrowFinish Hash  : EFACCDF3B746E0AE0A19E2EC45B49C2CB21CCCABCCA4DCD6774ECFCE03A04FF2
+  Memo 온체인 기록값 : D0646ECA1F45CCD1A7388E16CE3B378757CC418989BCE395B692D0ECB9E8202B
+  Memo 해시 일치     : PASS ✅
+
+  반복 21 완료
+
+================================================================
+반복 22/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 22)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02DDB1CA
+  발급자 DID         : did:xrpl:rMockIssuer03067AD8
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 155D6648671D4270724992FD577619200D3310B08D8D4A5AEF032DCAF13F2A10
+  VC  온체인 해시    : 7A8015711B2DBEAA0C8F8860D45129250921EBF4836FFAD18BC1A7777A84A742
+  DID IPFS CID       : bafkreiavlvteqzy5ijyhesms7vlxmgjabuzrbmenrvffv3ydfxfpcpzkca
+  VC  IPFS CID       : bafkreid2qakxcgznx2vazd4imdkfckjfbeq6x5edn75ndc6bu53xvbfhii
+  VC CID 앵커링 해시 : 48CB0BDBF42C92AD9FB79678FD901CE4F419E076DF9495088317ACC83B01AD02
+  Phase 1 소요 시간  : 4837 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 22)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6017 ms  Fee=12 drops
+  EscrowCreate Hash  : FA6BDFB793011811E10E5829044E499B95572C75DC3D3A2C67263531F8BC2E2B
+  EscrowFinish       : 6694 ms  Fee=423 drops
+  EscrowFinish Hash  : 03ADEC15FE0D0E58084472A8EA2030375BBF87DE08C0243A7F70C3B0BA51741E
+  Memo 온체인 기록값 : 48CB0BDBF42C92AD9FB79678FD901CE4F419E076DF9495088317ACC83B01AD02
+  Memo 해시 일치     : PASS ✅
+
+  반복 22 완료
+
+================================================================
+반복 23/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 23)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0302A2F1
+  발급자 DID         : did:xrpl:rMockIssuer02A40E58
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 6E1B8D44E1D92D6AFA5A6629F092AF7AA9087F8E3739D43D5300DC56055AFEBD
+  VC  온체인 해시    : 390904D76528F1DF13E6795E6979C13921C52DE0CE55F357509A2A117FDB67DB
+  DID IPFS CID       : bafkreidodogujyozfvvpuwtgfhyjfl32veeh7drxhhkd2uya3rlakwx6xu
+  VC  IPFS CID       : bafkreibzbecnozji6hprhztzlzuxtqjzehcs3ygokxzvoue2fiix7w3h3m
+  VC CID 앵커링 해시 : B4157E39F1894EA43C9145DBCA78B62D17DD5E397A42B7A10EE186E826D82352
+  Phase 1 소요 시간  : 3729 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 23)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5833 ms  Fee=12 drops
+  EscrowCreate Hash  : C2009AACC4E2441585D235ECBBFA68D065648EFE2A0B16386CBFEE294D827C6A
+  EscrowFinish       : 5618 ms  Fee=423 drops
+  EscrowFinish Hash  : 95277F33C7E1D05CC90A0C6196A2832A2BFD3A6DC0F92872185D38E81364408A
+  Memo 온체인 기록값 : B4157E39F1894EA43C9145DBCA78B62D17DD5E397A42B7A10EE186E826D82352
+  Memo 해시 일치     : PASS ✅
+
+  반복 23 완료
+
+================================================================
+반복 24/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 24)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03473E21
+  발급자 DID         : did:xrpl:rMockIssuer03D7C1F2
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : C2B3443E3C89495D3FEB0B07B0C9BE807F4F6C12C51EEF90235C764104D28D77
+  VC  온체인 해시    : 28404747369F01B9B4FCFFB6F685283CEE3ADA4B3E5407016D7383B1A3506E3E
+  DID IPFS CID       : bafkreigcwncd4pejjfot72yla6ymtpuap5hwyewfd3xzai24ozaqjuuno4
+  VC  IPFS CID       : bafkreibiibduonu7ag43j7h7w33ikkb45y5nusz6kqdqc3ltqoy2gudohy
+  VC CID 앵커링 해시 : 4380231D3DDE7D8E41CEDC8694D396B49BF4FC14646CF9C8FD576713B9CD997F
+  Phase 1 소요 시간  : 3457 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 24)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6925 ms  Fee=12 drops
+  EscrowCreate Hash  : C9BF6CFA80BE47AD1F8A021CFB15E1C7F9F58E81ABE75FD6FA3CF5267AE86F07
+  EscrowFinish       : 6897 ms  Fee=423 drops
+  EscrowFinish Hash  : A39D8E2D56826C55BBDEA9BC7ED243CB31D49D6F5DAD2F1D0C4F774931520737
+  Memo 온체인 기록값 : 4380231D3DDE7D8E41CEDC8694D396B49BF4FC14646CF9C8FD576713B9CD997F
+  Memo 해시 일치     : PASS ✅
+
+  반복 24 완료
+
+================================================================
+반복 25/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 25)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03F6A8DA
+  발급자 DID         : did:xrpl:rMockIssuer036D28BC
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 0B6F33794787214C763F56E9DDAFC5D1AE5FEE9E85983B1C396DC7C5AF4EEC4C
+  VC  온체인 해시    : F5E92F896C88C93E5BF73D5D30F9B7725122F607713ACC833FC30B79F735A8DF
+  DID IPFS CID       : bafkreialn4zxsr4hefghmp2w5ho27rorvzp65hufta5ryolny7c26txmjq
+  VC  IPFS CID       : bafkreihv5exys3eize7fx5z5luyptn3skerpmb3rhlgigp6dbn47onni34
+  VC CID 앵커링 해시 : DC06FE777CF026AB627B14E26B528FB7E791F14E14ECA5389DD4BF976E01FE5D
+  Phase 1 소요 시간  : 3265 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 25)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5625 ms  Fee=12 drops
+  EscrowCreate Hash  : F201D90237CF176EEDAB272C6B49D6419065703E161547016233F18C7247A394
+  EscrowFinish       : 6906 ms  Fee=423 drops
+  EscrowFinish Hash  : B88DEB2760A3F2CB30796562251E486349A6E8E4CFD05E81D4E37A600AC205D4
+  Memo 온체인 기록값 : DC06FE777CF026AB627B14E26B528FB7E791F14E14ECA5389DD4BF976E01FE5D
+  Memo 해시 일치     : PASS ✅
+
+  반복 25 완료
+
+================================================================
+반복 26/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 26)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02FDF42B
+  발급자 DID         : did:xrpl:rMockIssuer03080D01
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 6B041234B2392D31066F9EB0532316727FC766C153B739B4B849981B14E49C5A
+  VC  온체인 해시    : 7BE4CD543A97057266EB36F4DCE8E8A523FE0A239BEEF3034D3FF30A12F4EFBC
+  DID IPFS CID       : bafkreidlaqjdjmrzfuyqm346wbjsgftsp7dwnqktw443jocjtanrjze4li
+  VC  IPFS CID       : bafkreid34tgviouxavzgn2zw6toor2ffep7aui4353zqgtj76mfbf5hpxq
+  VC CID 앵커링 해시 : 9F865AF78B0A47F45CA7F312F6C1A8FE495140B6BE0B120C847C73F71834820C
+  Phase 1 소요 시간  : 3172 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 26)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6929 ms  Fee=12 drops
+  EscrowCreate Hash  : D62FAE0F260049E99BFA9AAFDA7F5388626D3CE1240B827370CB2C1BA1461DFC
+  EscrowFinish       : 6944 ms  Fee=423 drops
+  EscrowFinish Hash  : C97122E7ACF0EFCFEC76B9532E9862C2FA903DCEC87CF4D94164578E97032F37
+  Memo 온체인 기록값 : 9F865AF78B0A47F45CA7F312F6C1A8FE495140B6BE0B120C847C73F71834820C
+  Memo 해시 일치     : PASS ✅
+
+  반복 26 완료
+
+================================================================
+반복 27/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 27)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02CECB2B
+  발급자 DID         : did:xrpl:rMockIssuer024A6D8E
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 9BC663210C000CA86CC9171C626E8F6742CA6BB5CFA99985E4059E105DDC2445
+  VC  온체인 해시    : D87247BCA289FE1E3B46B94671B8C6BE5D15D1098928241CFE15BDE3B29E52D5
+  DID IPFS CID       : bafkreie3yzrscdaabsugzsixdrrg5d3hilfgxnopvgmylzaftyif3xbeiu
+  VC  IPFS CID       : bafkreigyojd3ziuj7ypdwrvzizy3rrv6luk5ccmjfasbz7qvxxr3fhss2u
+  VC CID 앵커링 해시 : 97A38F6329AF15D2CB5B4D66B973EA04DD4C938B658782E24D91DDF6AA78A8B5
+  Phase 1 소요 시간  : 3332 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 27)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5602 ms  Fee=12 drops
+  EscrowCreate Hash  : 37748C805C4D46DE12723CB34FEE53F80C49E6FA2A739584788CC1E2A618B38B
+  EscrowFinish       : 6916 ms  Fee=423 drops
+  EscrowFinish Hash  : E40C121DC6D5CEBCE625D2D9F43DAC881E5F0F0E3C6DC9F95DD7679D29AEE0FA
+  Memo 온체인 기록값 : 97A38F6329AF15D2CB5B4D66B973EA04DD4C938B658782E24D91DDF6AA78A8B5
+  Memo 해시 일치     : PASS ✅
+
+  반복 27 완료
+
+================================================================
+반복 28/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 28)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0298A484
+  발급자 DID         : did:xrpl:rMockIssuer03FE14DF
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : B803CE0D2AC7AB86622D0D13235DBA0E250F4437AF29278D37C636D13CEB91DE
+  VC  온체인 해시    : 947F28A6CD3C89A691BD444E3979C151A88E44A8C933873F5ABC27B535F0F04E
+  DID IPFS CID       : bafkreifyapha2kwhvodgelincmrv3oqoeuhuin5pfety2n6gg3itz24r3y
+  VC  IPFS CID       : bafkreieup4ukntj4rgtjdpkejy4xtqkrvchejkgjgodt6wv4e62tl4hqjy
+  VC CID 앵커링 해시 : E6B58C5FF7799CB2B8997B69697ADDAF343B43F337CED12087DE08C78B984086
+  Phase 1 소요 시간  : 3140 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 28)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5617 ms  Fee=12 drops
+  EscrowCreate Hash  : 887AAC0FA053F182DF6AC50CCF6DA420C82290E893B13BD588EE7BB6C82194A8
+  EscrowFinish       : 6897 ms  Fee=423 drops
+  EscrowFinish Hash  : 6C4346D86D72A4BA72E331DCAAFB6828106564959A58F8578A54E5BB62EC88D4
+  Memo 온체인 기록값 : E6B58C5FF7799CB2B8997B69697ADDAF343B43F337CED12087DE08C78B984086
+  Memo 해시 일치     : PASS ✅
+
+  반복 28 완료
+
+================================================================
+반복 29/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 29)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor038F2B86
+  발급자 DID         : did:xrpl:rMockIssuer02D6ACA7
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : BD58FE448AFC511352B63182636AD02968EF32B21A9ADD10CCFCC2882F11BC87
+  VC  온체인 해시    : 309E534C390379CC91CCD6864EB2F0A1709031C0EAB7B1DD3C63B162D0A503D0
+  DID IPFS CID       : bafkreif5ld7ejcx4kejvfnrrqjrwvubjndxtfmq2tlorbth4ykec6en4q4
+  VC  IPFS CID       : bafkreibqtzjuyoidphgjdtgwqzhlf4fbociddqhkw6y52pddwfrnbjid2a
+  VC CID 앵커링 해시 : AB598343D939001BC80DB472D419B0672D0407191D03A2460FB2997BC114B8F7
+  Phase 1 소요 시간  : 3407 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 29)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6889 ms  Fee=12 drops
+  EscrowCreate Hash  : E039F431FF476215CD3C2FCCF0014B1CAAB81DA6F10D2C6B396F6152081BB6A1
+  EscrowFinish       : 5616 ms  Fee=423 drops
+  EscrowFinish Hash  : 490EF6ED2D6AC340A7953B1AF6D24E89943FDB5B330D63981987BFA010D0F86D
+  Memo 온체인 기록값 : AB598343D939001BC80DB472D419B0672D0407191D03A2460FB2997BC114B8F7
+  Memo 해시 일치     : PASS ✅
+
+  반복 29 완료
+
+================================================================
+반복 30/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 30)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02F2CB71
+  발급자 DID         : did:xrpl:rMockIssuer024C4383
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 583E13656F5AF8AE44C42EA43454A1F2EB88E8FC2FF99E95663CADC99326BCDC
+  VC  온체인 해시    : 81F747C81BBB8BEBEE4BC87A34EB261D6F3DAE6E1B9CF07B03CE04B5A1B76E25
+  DID IPFS CID       : bafkreicyhyjwk3227cxejrbouq2fjips5oeor7bp7gpjkzr4vxezgjv43q
+  VC  IPFS CID       : bafkreieb65d4qg53rpv64s6ipi2owjq5n46243q3ttyhwa6oas22dn3oeu
+  VC CID 앵커링 해시 : 69BCDE30EE761B322A1A6E2D93B495A14B45FC0D58B8637BE6BB40A531941A74
+  Phase 1 소요 시간  : 3532 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 30)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5612 ms  Fee=12 drops
+  EscrowCreate Hash  : ACEFF8F3A28012F395FE6E0034A01D82E900C69472D0DBCEE9DDBDB1DC95F43B
+  EscrowFinish       : 5616 ms  Fee=423 drops
+  EscrowFinish Hash  : 5E7A4AAD8E6E6D6830B435B9DC45CD243D67043C9A300B4160FC000EA1986721
+  Memo 온체인 기록값 : 69BCDE30EE761B322A1A6E2D93B495A14B45FC0D58B8637BE6BB40A531941A74
+  Memo 해시 일치     : PASS ✅
+
+  반복 30 완료
+
+================================================================
+반복 31/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 31)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor032E8AE5
+  발급자 DID         : did:xrpl:rMockIssuer0361FC10
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 9767C011A55CBDF426796F5035BBFC6B11673814E963CEE0ABAA1676B474D4AE
+  VC  온체인 해시    : 0058D0481D40B3D9D6D98470E6D672C5BCDCBA94BBDE3138D74FE677E4D74F4E
+  DID IPFS CID       : bafkreiexm7abdjk4xx2cm6lpka23x7dlcfttqfhjmphobk5kcz3li5guvy
+  VC  IPFS CID       : bafkreiaaldieqhkawpm5nwmeodtnm4wfxtolvff33yytrv2p4z36jv2pjy
+  VC CID 앵커링 해시 : 6B0D614EA9F287813972ECB8A430A24D59D2DC3E64EB15B795A2F5B4A5477B1B
+  Phase 1 소요 시간  : 2847 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 31)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 3041 ms  Fee=12 drops
+  EscrowCreate Hash  : D7FAC9779A23B07E869937E4308B045DE5F87947DEE078A63E3678F361BCA6CB
+  EscrowFinish       : 6884 ms  Fee=423 drops
+  EscrowFinish Hash  : 432F7AB7202D5B9BB6DA89C5B80A99CA21B49DA22886B2DAF1E7143C5CFEFE32
+  Memo 온체인 기록값 : 6B0D614EA9F287813972ECB8A430A24D59D2DC3E64EB15B795A2F5B4A5477B1B
+  Memo 해시 일치     : PASS ✅
+
+  반복 31 완료
+
+================================================================
+반복 32/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 32)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03522135
+  발급자 DID         : did:xrpl:rMockIssuer03F8E75C
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : C5F05434FFE8E4557B0621D805BFD2B18CB56FEE31AF65462ABE560923553369
+  VC  온체인 해시    : 112E29EEECC849160D156EAA35A96CEFBD679E756D66FE898131134ADC54EAFA
+  DID IPFS CID       : bafkreigf6bkdj77i4rkxwbrb3ac37uvrrs2w73rrv5sumkv6kyesgvjtne
+  VC  IPFS CID       : bafkreiarfyu653gijela2flovi22s3hpxvtz45lnm37itajrcnfnyvhk7i
+  VC CID 앵커링 해시 : 5730DD38050A98CFD822DE6488768DFB1230855A10D28DBF4B8B9C8EC8382454
+  Phase 1 소요 시간  : 2824 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 32)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5614 ms  Fee=12 drops
+  EscrowCreate Hash  : 3DFCC59B21C818B2BCFF432E87B5D2606B319F7731B1889D568507B411E0C1EB
+  EscrowFinish       : 6916 ms  Fee=423 drops
+  EscrowFinish Hash  : D4F412B407D2A68CD748913F6845CA890556BE21BD67250742E4F86DE515CC02
+  Memo 온체인 기록값 : 5730DD38050A98CFD822DE6488768DFB1230855A10D28DBF4B8B9C8EC8382454
+  Memo 해시 일치     : PASS ✅
+
+  반복 32 완료
+
+================================================================
+반복 33/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 33)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03109CD9
+  발급자 DID         : did:xrpl:rMockIssuer031F03E0
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 03BD544DC5720A696E9FF20A25113B2270DBC3A990C7DDDBCC5BD9C22D60406B
+  VC  온체인 해시    : 667B74F909A04E8EE9007E5C6F16DFEB9CDE36EA8C99CC25A2F591CC089A1305
+  DID IPFS CID       : bafkreiadxvke3rlsbjuw5h7sbisrcozcodn4hkmqy7o5xtc33hbc2ycanm
+  VC  IPFS CID       : bafkreidgpn2pscnaj2hosad6lrxrnx7lttpdn2umthgclixvshgargqtau
+  VC CID 앵커링 해시 : 5C31CD3CF6061C053523A4E8850BC5F03300EA4F69E2680145ACA28D5A7F2A67
+  Phase 1 소요 시간  : 3748 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 33)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5613 ms  Fee=12 drops
+  EscrowCreate Hash  : CDA86C26FC52EC63728A15DC950089391DCA8D5D70A7103BB3866DEB2C55420C
+  EscrowFinish       : 5625 ms  Fee=423 drops
+  EscrowFinish Hash  : D69DED090B6565D79C32A5C059313C04F061C938FF901F234A8935743A064DE2
+  Memo 온체인 기록값 : 5C31CD3CF6061C053523A4E8850BC5F03300EA4F69E2680145ACA28D5A7F2A67
+  Memo 해시 일치     : PASS ✅
+
+  반복 33 완료
+
+================================================================
+반복 34/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 34)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03E578B7
+  발급자 DID         : did:xrpl:rMockIssuer032FC27B
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 07BB361F92682380643FC0B8F104EC22836284E7F32035B969400BDF9B0D0BDA
+  VC  온체인 해시    : 71E71F38216B4F1C2E385844F1C0D24963135B4CB80C3428CA429514BE7DBEB1
+  DID IPFS CID       : bafkreiahxm3b7etieoagip6axdyqj3bcqnrijz7tea23s2kabppzwdil3i
+  VC  IPFS CID       : bafkreidr44ptqillj4oc4ocyity4busjmmjvwtfybq2crsscsukl47n6we
+  VC CID 앵커링 해시 : 2C389045CBE9D922008C5771B923578CA9579ADF8258BD0DA98AFDF5E7871FBA
+  Phase 1 소요 시간  : 2813 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 34)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5599 ms  Fee=12 drops
+  EscrowCreate Hash  : 6A30B0419F889BD6C7A74AED7806E7BBDF7794BBC4201F204A5FC933172EB09E
+  EscrowFinish       : 6888 ms  Fee=423 drops
+  EscrowFinish Hash  : 9EB6723FB76F5EF7489E195DD797AEEB128BF235BBC716E91446EC0BBCEC33F1
+  Memo 온체인 기록값 : 2C389045CBE9D922008C5771B923578CA9579ADF8258BD0DA98AFDF5E7871FBA
+  Memo 해시 일치     : PASS ✅
+
+  반복 34 완료
+
+================================================================
+반복 35/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 35)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02F3B141
+  발급자 DID         : did:xrpl:rMockIssuer034EA935
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 15A548D880128EEDA844182F528F405D675B9160AB476974EB76C82B8259CB77
+  VC  온체인 해시    : D4EB57D582E030DD80BBE43E7B69B37982586AEA4B688AB93C9DF9B96C179B05
+  DID IPFS CID       : bafkreiavuvenraasr3w2qrayf5ji6qc5m5nzcyfli5uxj23wzavyewolo4
+  VC  IPFS CID       : bafkreigu5nl5laxagdoybo7ehz5wtm3zqjmgv2slncflspe57g4wyf43au
+  VC CID 앵커링 해시 : 69DF6232EA5D06877B4B1C75B04C1766A5A6ACC12AB99AC303413C3701E14A9D
+  Phase 1 소요 시간  : 3040 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 35)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 8189 ms  Fee=12 drops
+  EscrowCreate Hash  : 17427DFE0B47DCFEA35A2DABC431CC41ED3208D7D7DD666C794C374E61F71597
+  EscrowFinish       : 5715 ms  Fee=423 drops
+  EscrowFinish Hash  : 59A7BB69AFC9E29230A8FA95138A5F6610FEDB1FF2676739F1056AA7ECE04CC9
+  Memo 온체인 기록값 : 69DF6232EA5D06877B4B1C75B04C1766A5A6ACC12AB99AC303413C3701E14A9D
+  Memo 해시 일치     : PASS ✅
+
+  반복 35 완료
+
+================================================================
+반복 36/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 36)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor031EE55A
+  발급자 DID         : did:xrpl:rMockIssuer030829E3
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 8FEBF9A9F85360C58CCD79CE4FBED4958160EC05F8DCE9F2A50E52B98277E1AC
+  VC  온체인 해시    : 3B9C7FF22E97AAF5DEC61472D20113FED13BAF50EA4B913193BAA3CEEC650EE0
+  DID IPFS CID       : bafkreiep5p42t6ctmdcyztlzzzh35vevqfqoybpy3tu7fjiokk4ye57bvq
+  VC  IPFS CID       : bafkreib3tr77eluxvl255rquoljace762e526uhkjoitde52uphoyzio4a
+  VC CID 앵커링 해시 : D9CDD23BF16EA09CBA57AD40C1D5259D918CCDCE92697CAA842BD16F8A4FFD2C
+  Phase 1 소요 시간  : 3304 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 36)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5621 ms  Fee=12 drops
+  EscrowCreate Hash  : 884716B93EB9A1567E7B7D3470060B86A3CAD476F4BDAA7DE2C6489DD38DF702
+  EscrowFinish       : 6906 ms  Fee=423 drops
+  EscrowFinish Hash  : 2DCD2DFD114C4C66A8B6913B2096BA73B7CB8553717E5FB661480BC65146F418
+  Memo 온체인 기록값 : D9CDD23BF16EA09CBA57AD40C1D5259D918CCDCE92697CAA842BD16F8A4FFD2C
+  Memo 해시 일치     : PASS ✅
+
+  반복 36 완료
+
+================================================================
+반복 37/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 37)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor034B51C3
+  발급자 DID         : did:xrpl:rMockIssuer0246EB53
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : A6C7E5F7839842C74DD02EF30851FA536775AE668DA4D9E7E60B8D851B41A993
+  VC  온체인 해시    : FDEEF0809024140F9BFE5666FC201E6E79195F600FF4B8E0FE2A2BEE867FB2E0
+  DID IPFS CID       : bafkreifgy7s7pa4yildu3ubo6mefd6stm5224zunutm6pzqlrwcrwqnjsm
+  VC  IPFS CID       : bafkreih553yibebecqhzx7swm36cahtopemv6yap6s4ob7rkfpxim75s4a
+  VC CID 앵커링 해시 : 9275C7B11E41BAC3D7FDAE7B16D3E83E7AF5487A1E6349C9E487FF910A55015F
+  Phase 1 소요 시간  : 2763 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 37)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6920 ms  Fee=12 drops
+  EscrowCreate Hash  : 2EF9B78A7F2F960E4AFB7452A84E0E4296F68BBB4922E64EA861A4A23675DACE
+  EscrowFinish       : 6898 ms  Fee=423 drops
+  EscrowFinish Hash  : C262C6300BB4DD44027A0A0BF9DC780FB09E73D634CF4355C3118E589EB7623D
+  Memo 온체인 기록값 : 9275C7B11E41BAC3D7FDAE7B16D3E83E7AF5487A1E6349C9E487FF910A55015F
+  Memo 해시 일치     : PASS ✅
+
+  반복 37 완료
+
+================================================================
+반복 38/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 38)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor020694A2
+  발급자 DID         : did:xrpl:rMockIssuer03870B83
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 413B18B1151CB57EDCF9065909ADFDB7D5641127871F844FB7551D5958CE86BC
+  VC  온체인 해시    : 4C9525C544C3E02FE89E0D76DF506A51D25D45F51C275F5B283980220BCE1C35
+  DID IPFS CID       : bafkreicbhmmlcfi4wv7nz6iglee237nx2vsbcj4hd6ce7n2vdvmvrtugxq
+  VC  IPFS CID       : bafkreicmsus4krgd4ax6rhqno3pva2sr2joul5i4e5pvwkbzqaraxtq4gu
+  VC CID 앵커링 해시 : 1913C838E203409D32015E0D5E42756AB8F76468AFE92ABA419FE8A6891CE8E2
+  Phase 1 소요 시간  : 3388 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 38)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5827 ms  Fee=12 drops
+  EscrowCreate Hash  : 57B2BC98191F81D55E02C3E579C3631581B235E39BF05C9DC2B1A7B30926DB34
+  EscrowFinish       : 6886 ms  Fee=423 drops
+  EscrowFinish Hash  : E261C906508F270DBF35381ECB481C87C00AB3176632B14F0BC6EB5D6A9472CB
+  Memo 온체인 기록값 : 1913C838E203409D32015E0D5E42756AB8F76468AFE92ABA419FE8A6891CE8E2
+  Memo 해시 일치     : PASS ✅
+
+  반복 38 완료
+
+================================================================
+반복 39/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 39)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03D184A1
+  발급자 DID         : did:xrpl:rMockIssuer03498174
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 5D3DFD2466E8A4BDD8D265ACBC1F45C5B676B2122543CAC4397A40A0DD009D47
+  VC  온체인 해시    : 7F38B02A3F64A83A4F3424CB24E7843FDAE3652CEA9AEA3CFB431DB0DE76F00A
+  DID IPFS CID       : bafkreic5hx6sizxius65rutfvs6b6rofwz3leerfipfmiol2icqn2ae5i4
+  VC  IPFS CID       : bafkreid7hcycup3eva5e6nbezmsopbb73lrwklhktlvdz62ddwyn45xqbi
+  VC CID 앵커링 해시 : 7CF35641C4D3034632AC82077CC5585C8D3A9EB1512743278B9365E3DD6392BC
+  Phase 1 소요 시간  : 3281 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 39)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 4338 ms  Fee=12 drops
+  EscrowCreate Hash  : 6A466F3BADA5A4985F3EEF3E83F17A08401B742D6C0D7EE6961BAB56B9ADC90C
+  EscrowFinish       : 5598 ms  Fee=423 drops
+  EscrowFinish Hash  : D0EB2B0B91FBBBEDC839EB5813B0B726D600F248E1827AFFAFEFBF545B2A35E1
+  Memo 온체인 기록값 : 7CF35641C4D3034632AC82077CC5585C8D3A9EB1512743278B9365E3DD6392BC
+  Memo 해시 일치     : PASS ✅
+
+  반복 39 완료
+
+================================================================
+반복 40/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 40)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor027B8E99
+  발급자 DID         : did:xrpl:rMockIssuer02FF083B
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : EC1B7175F6B921F1B51E6069703EDBA197A99898B23323D880673C946A1FC324
+  VC  온체인 해시    : 7C013F62F3A591E0FC88F44BF1055ECACF8010A6847BAEA7C7B1B32DF6E48449
+  DID IPFS CID       : bafkreihmdnyxl5vzehy3khtanfyd5w5bs6uzrgfsgmr5radhhskguh6deq
+  VC  IPFS CID       : bafkreid4ae7wf45fshqpzchujpyqkxwkz6abbjuepoxkpr5rwmw7nzeeje
+  VC CID 앵커링 해시 : 64FEC91D9BD072D7BE864CF085324D74CCD307B1720711F1B9DBF26F6114DB0C
+  Phase 1 소요 시간  : 3203 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 40)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5625 ms  Fee=12 drops
+  EscrowCreate Hash  : 013CE8AD009880C48FE23862A0A6A557888737D5C6F66B67D2C39317812CE6EF
+  EscrowFinish       : 6902 ms  Fee=423 drops
+  EscrowFinish Hash  : 23F4DCAFABBEDEC12DD34AC4E28015B841BDD0594488677CE6A70F0069012D15
+  Memo 온체인 기록값 : 64FEC91D9BD072D7BE864CF085324D74CCD307B1720711F1B9DBF26F6114DB0C
+  Memo 해시 일치     : PASS ✅
+
+  반복 40 완료
+
+================================================================
+반복 41/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 41)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02631C75
+  발급자 DID         : did:xrpl:rMockIssuer02956871
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : AE9D641171A2C7E1CDAC1489BB782F8C35DC3EA6EE7D193B2FE77D36E01284DA
+  VC  온체인 해시    : ECB89716E1A61BEDBA9AB61CD75010C79966A1FA882B7AFBF0076085099CD937
+  DID IPFS CID       : bafkreifotvsbc4ncy7q43laurg5xql4mgxod5jxopumtwl7hpu3oaeue3i
+  VC  IPFS CID       : bafkreihmxclrnyngdpw3vgvwdtlvaeghtftkd6uifn5px4ahmccqthgzg4
+  VC CID 앵커링 해시 : 03A678699492A8E45DFADA50CA88369604D59DFEF0D487099AF8F99D6AC4065D
+  Phase 1 소요 시간  : 3076 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 41)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 7110 ms  Fee=12 drops
+  EscrowCreate Hash  : 3782FE03ADEBE9C8D8E2271E1449BA8A93AB337324E67728477F6C8C939035E2
+  EscrowFinish       : 5603 ms  Fee=423 drops
+  EscrowFinish Hash  : FCE014BF51CA9A8BACD8DFBA7884F7CAAFBE1DF12E1D0C10D5E283CB720EB247
+  Memo 온체인 기록값 : 03A678699492A8E45DFADA50CA88369604D59DFEF0D487099AF8F99D6AC4065D
+  Memo 해시 일치     : PASS ✅
+
+  반복 41 완료
+
+================================================================
+반복 42/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 42)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02207BDE
+  발급자 DID         : did:xrpl:rMockIssuer03567844
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 5C3760CBE99789C55B9338C662FD489E09311F0D4160C8CDFC2B0B8352FA9291
+  VC  온체인 해시    : 7B9FD544AE70EB27BA355026A2207A13AEABCDDAB65CA2EB0DA621A4F94AABE0
+  DID IPFS CID       : bafkreic4g5qmx2mxrhcvxezyyzrp2se6beyr6dkbmdem37blbobvf6usse
+  VC  IPFS CID       : bafkreid3t7kujltq5mt3unkqe2rca6qtv2v43wvwlsrowdngegspssvl4a
+  VC CID 앵커링 해시 : D01F7701A9594C1BED84DD1042EEBF58359758AE55F2A5DC6A4A33263D2B12DB
+  Phase 1 소요 시간  : 3759 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 42)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6904 ms  Fee=12 drops
+  EscrowCreate Hash  : 430AEB009A7B9355D6C376F255750D5BF7122F5948AA4AC04F6F4C6F510FA721
+  EscrowFinish       : 6885 ms  Fee=423 drops
+  EscrowFinish Hash  : 52256254C5C0B74B176A421F32F26E90587AE284B11315AA4818AF0BA36EA9F7
+  Memo 온체인 기록값 : D01F7701A9594C1BED84DD1042EEBF58359758AE55F2A5DC6A4A33263D2B12DB
+  Memo 해시 일치     : PASS ✅
+
+  반복 42 완료
+
+================================================================
+반복 43/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 43)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0354C8A1
+  발급자 DID         : did:xrpl:rMockIssuer026A8D07
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : D50E01ED50436BAA1C55C1FBCB9EEC02F5731175C08D3CB9B0CE4B3DE982478F
+  VC  온체인 해시    : 26C05D922ACF1E86993BB6BEAFF2A8950058F26DA37BA68DB3437ECAB4920767
+  DID IPFS CID       : bafkreigvbya62ucdnovbyvob7pfz53ac6vzrc5oaru6ltmgojm66tashr4
+  VC  IPFS CID       : bafkreibgybozekwpd2djso5wx2x7fkevabmpe3ndpoti3m2dp3fljeqhm4
+  VC CID 앵커링 해시 : D09858CE06157807306FDAE966EA9CE5B286F4412625535CDF4607F2C0996CD7
+  Phase 1 소요 시간  : 3138 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 43)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6900 ms  Fee=12 drops
+  EscrowCreate Hash  : A31D0FDD1F41AEC176687E69F36BC1C43063999056A58A222D9C518E6EE488E4
+  EscrowFinish       : 6897 ms  Fee=423 drops
+  EscrowFinish Hash  : A7FF17E3B106FA9A0DBA81CDD9B890E3E93B5F8594D3CCC1F82F206D4B2E8C61
+  Memo 온체인 기록값 : D09858CE06157807306FDAE966EA9CE5B286F4412625535CDF4607F2C0996CD7
+  Memo 해시 일치     : PASS ✅
+
+  반복 43 완료
+
+================================================================
+반복 44/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 44)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor036FC2BC
+  발급자 DID         : did:xrpl:rMockIssuer02BE7ADE
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 627D643AE3F5B887508B8C08FD41BC94A7ADB3A3E7C9E6D55C887FD56761968D
+  VC  온체인 해시    : F4D82314CE829274E6FA3A67719A76A803DA93BDD55A1D2246E7F1A720BFD77D
+  DID IPFS CID       : bafkreidcpvsdvy7vxcdvbc4mbd6udpeuu6w3hi7hzhtnkxeip7kwoymwru
+  VC  IPFS CID       : bafkreihu3arrjtucsj2on6r2m5yzu5viapnjhpovlioserxh6gtsbp6xpu
+  VC CID 앵커링 해시 : 4FE840BA2C9B6AEEA60C65D4124BBA06978B68998BD14D9824AE473C8F6545D1
+  Phase 1 소요 시간  : 2756 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 44)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6909 ms  Fee=12 drops
+  EscrowCreate Hash  : 3C1799537E52B3B106962577B537212F6EBF1426AC9F5FF9B1FE5923B9977FAA
+  EscrowFinish       : 5635 ms  Fee=423 drops
+  EscrowFinish Hash  : 65D579357933C135E222517A4AB54EB491C800F1282772402B24739B9C9870AC
+  Memo 온체인 기록값 : 4FE840BA2C9B6AEEA60C65D4124BBA06978B68998BD14D9824AE473C8F6545D1
+  Memo 해시 일치     : PASS ✅
+
+  반복 44 완료
+
+================================================================
+반복 45/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 45)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03028506
+  발급자 DID         : did:xrpl:rMockIssuer03729F0E
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : F1C75C0A53616D1170EB1D350FA49BB247D6D7BE5BB1E6F84F5F0FAD8A415410
+  VC  온체인 해시    : 79BB383B2AAEF9711996C412051D09A77B0C20622B87BA6B47EEF9F6E4A3AAAA
+  DID IPFS CID       : bafkreihry5oauu3bnuixb2y5guh2jg5si7lnpps3whtpqt27b6wyuqkuca
+  VC  IPFS CID       : bafkreidzxm4dwkvo7fyrtfwecicr2cnhpmgcayrlq65gwr7o7h3oji5kvi
+  VC CID 앵커링 해시 : 83271E62447B92DA9BFE1EE311FEDC96126CA09AA5A5AFC6CC91E57F3F1E050C
+  Phase 1 소요 시간  : 3550 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 45)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6082 ms  Fee=12 drops
+  EscrowCreate Hash  : 9A03757CDB8177355BE5B606ECB227884A1D7A9BC06026A84F1E25CDBC0640D0
+  EscrowFinish       : 6507 ms  Fee=423 drops
+  EscrowFinish Hash  : 6A5C2C095B75AA74E3FADB12DE0A23DBE478DD675EDE9636E8BB34F3BC78363D
+  Memo 온체인 기록값 : 83271E62447B92DA9BFE1EE311FEDC96126CA09AA5A5AFC6CC91E57F3F1E050C
+  Memo 해시 일치     : PASS ✅
+
+  반복 45 완료
+
+================================================================
+반복 46/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 46)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03A1D31B
+  발급자 DID         : did:xrpl:rMockIssuer02B1EA5A
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 5F92104438DC28EBB817FD7AEEC3F88A9790D2E387DC7446D07CB3F6D9B1C645
+  VC  온체인 해시    : F1B403200C68CA311D51920C3CBABF4F7478992EC66B7CD280B6E2DE0234636D
+  DID IPFS CID       : bafkreic7siieiog4fdv3qf75plxmh6eks6infy4h3r2enud4wp3ntmogiu
+  VC  IPFS CID       : bafkreihrwqbsaddiziyr2umsbq6lvp2por4jslwgnn6nfafw4lpaenddnu
+  VC CID 앵커링 해시 : F46704D68BFD820503526D19F18536685C3F11B9B2FDB0926D5371EAB4542DB8
+  Phase 1 소요 시간  : 3178 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 46)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5601 ms  Fee=12 drops
+  EscrowCreate Hash  : 28F31C36D0C036FDC821595D6BAF6B711B8EFE6C4D12585632491142E9E50EC5
+  EscrowFinish       : 3040 ms  Fee=423 drops
+  EscrowFinish Hash  : 5D59134D220FBB041796F276E75EF69E7B0DB374953B15713A728DF9338531CF
+  Memo 온체인 기록값 : F46704D68BFD820503526D19F18536685C3F11B9B2FDB0926D5371EAB4542DB8
+  Memo 해시 일치     : PASS ✅
+
+  반복 46 완료
+
+================================================================
+반복 47/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 47)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0248DE6F
+  발급자 DID         : did:xrpl:rMockIssuer03AB1E0E
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : E633DDDD3EF2B9A3A6C9336F1F1BBA656A5E0CB14D063FD399A700E72AECEBFE
+  VC  온체인 해시    : F2E4C4D4ACC8A9A5A2449B7FC92A34AE4DC6878DC1C0F57E1CEBD2844E7A1EFD
+  DID IPFS CID       : bafkreihggpo52pxsxgr2nsjtn4prxotfnjpazmknay75hgnhadtsv3hl7y
+  VC  IPFS CID       : bafkreihs4tcnjlgivgs2ere3p7esunfojxdipdobyd2x4hhl2kce46q67u
+  VC CID 앵커링 해시 : 79718A0517F2EEF4CD96573DCC41FFAA999E4BED9A87D6730727CEFC7CEC4261
+  Phase 1 소요 시간  : 3134 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 47)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6889 ms  Fee=12 drops
+  EscrowCreate Hash  : 8F84E78C3EF4BC8F7AA3551C49BF7B0D88A57B32B7B8CC90976646F389FF2081
+  EscrowFinish       : 6901 ms  Fee=423 drops
+  EscrowFinish Hash  : 1918CB5D2236E8E0A4CBE63AA22AE15648C47DF81383C48370C61B4436A7DDAB
+  Memo 온체인 기록값 : 79718A0517F2EEF4CD96573DCC41FFAA999E4BED9A87D6730727CEFC7CEC4261
+  Memo 해시 일치     : PASS ✅
+
+  반복 47 완료
+
+================================================================
+반복 48/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 48)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0385C98E
+  발급자 DID         : did:xrpl:rMockIssuer02F51A05
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 3AF11A7EED8D15686E1B2A904D2229DF9B045225F1E8711A8646EE59ACD6B1DF
+  VC  온체인 해시    : CB30BB42B1A6D315A71DD6C87A1B0DEDCA31B0D22C50DEF7E3EF21252510CE61
+  DID IPFS CID       : bafkreib26enh53mncvug4gzksbgseko7tmcfejpr5byrvbsg5zm2zvvr34
+  VC  IPFS CID       : bafkreiglgc5ufmng2mk2ohowzb5bwdpnziy3burmkdpppy7peesskegome
+  VC CID 앵커링 해시 : 2C2BBE61C18545331B25C84DF04A8744146F9B78B820D5B99F0257C295736542
+  Phase 1 소요 시간  : 3277 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 48)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6885 ms  Fee=12 drops
+  EscrowCreate Hash  : 3687D4AD3D1EDF1705A354493329FF848A6BC3DEF587A408D017A91D797C38F3
+  EscrowFinish       : 5612 ms  Fee=423 drops
+  EscrowFinish Hash  : 0F05E7368FF68CC362F4567B7F9372F5FA4DE6F11AEAEC40E6F327793F866AFB
+  Memo 온체인 기록값 : 2C2BBE61C18545331B25C84DF04A8744146F9B78B820D5B99F0257C295736542
+  Memo 해시 일치     : PASS ✅
+
+  반복 48 완료
+
+================================================================
+반복 49/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 49)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0236DA38
+  발급자 DID         : did:xrpl:rMockIssuer03D8A672
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 841EE046C8F66FC500B267D1211CDD301DEFC15209857483B7F1394BFFBDC760
+  VC  온체인 해시    : 0E77D580D63A82B859A215B93F111E561FF2643EC2688AB1E2D27DA60719666D
+  DID IPFS CID       : bafkreieed3qenshwn7cqbmth2eqrzxjqdxx4cuqjqv2ihn7rhff77pohma
+  VC  IPFS CID       : bafkreiaoo7kybvr2qk4ftiqvxe7rchswd7zgipwcncfldywspwtaoglgnu
+  VC CID 앵커링 해시 : 75C4C55DACF24ECAD63A10F1AE151C8F8BB9FED60E11A71D27536E73CF4964BE
+  Phase 1 소요 시간  : 3434 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 49)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5621 ms  Fee=12 drops
+  EscrowCreate Hash  : EEF0EF09FAFE7701756E123902481301A879DC9F099033F52077FC88B53922F7
+  EscrowFinish       : 6896 ms  Fee=423 drops
+  EscrowFinish Hash  : 9D44B9B14BAE233FD9D92D6DE11ED4EAF8D15BE34DD2B59DBB41731D67ADD581
+  Memo 온체인 기록값 : 75C4C55DACF24ECAD63A10F1AE151C8F8BB9FED60E11A71D27536E73CF4964BE
+  Memo 해시 일치     : PASS ✅
+
+  반복 49 완료
+
+================================================================
+반복 50/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 50)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0373E8C7
+  발급자 DID         : did:xrpl:rMockIssuer02AD4415
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 65D1F245B084280EDA863ED00E0E627A3C2698ECD13BC04B92CA38DF3B27A010
+  VC  온체인 해시    : 8D275609902E5C1EA2940162635B60BAA4C7FF1F14D1DA9D8DAFC9A16D8DC2DE
+  DID IPFS CID       : bafkreidf2hzelmeefahnvbr62aha4yt2hqtjr3grhpaexewkhdptwj5aca
+  VC  IPFS CID       : bafkreiene5latebolqpkffabmjrvwyf2utd76hyu2hnj3dnpzgqw3doc3y
+  VC CID 앵커링 해시 : 34B7E40BC50319F14235C8B1AC74B6EA0B565F2970DB3281EEC1000505420B9E
+  Phase 1 소요 시간  : 3486 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 50)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 4319 ms  Fee=12 drops
+  EscrowCreate Hash  : 2F41773E75F304EEC3E20AB2DB8D20FA20C3BF5045A038E831AB9B7C43951088
+  EscrowFinish       : 5118 ms  Fee=423 drops
+  EscrowFinish Hash  : 39B7D3240DBFC33690BA0C9D89B372AA5F1A93654346CB87BAA681C7B084E92F
+  Memo 온체인 기록값 : 34B7E40BC50319F14235C8B1AC74B6EA0B565F2970DB3281EEC1000505420B9E
+  Memo 해시 일치     : PASS ✅
+
+  반복 50 완료
+
+================================================================
+반복 51/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 51)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03EDD5ED
+  발급자 DID         : did:xrpl:rMockIssuer02F412F9
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 110669741BFCC66BD53770A374D5BAF71C20C7095F2623410DD494234283EA0F
+  VC  온체인 해시    : AD3022CAB5CA20D4D39CB51D39E70A318B320EE3D2C70D01AF33A0928FADAFDA
+  DID IPFS CID       : bafkreiarazuxig74yzv5kn3qun2nloxxdqqmock7eyrucdousqrufa7kb4
+  VC  IPFS CID       : bafkreifngarmvnokedknhhfvdu46ocrrrmza5y6sy4gqdlztucji7lnp3i
+  VC CID 앵커링 해시 : B6BE31EAF3E7FEE06ADC65E0B65BAA7594C03573E3FE4041E6A50A490B8EF12D
+  Phase 1 소요 시간  : 4586 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 51)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6997 ms  Fee=12 drops
+  EscrowCreate Hash  : CE84BF213B8DFBCA2F809ECD2D59EECD2B81AD54D09CFB6AB3E8862A6DF28CF8
+  EscrowFinish       : 6408 ms  Fee=423 drops
+  EscrowFinish Hash  : 99041CE2DDD9790D9F6F4486D79FB2E05D291D4E43E5E707CB10CED5183C0679
+  Memo 온체인 기록값 : B6BE31EAF3E7FEE06ADC65E0B65BAA7594C03573E3FE4041E6A50A490B8EF12D
+  Memo 해시 일치     : PASS ✅
+
+  반복 51 완료
+
+================================================================
+반복 52/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 52)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0376A8C7
+  발급자 DID         : did:xrpl:rMockIssuer02914C31
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 47BD6AD374FEB6831635DBAAB430C25AA6E6BCB9A49BDBC910F3C9BF9695245C
+  VC  온체인 해시    : 2F0DEBFD1311F60C4BBD5D5A98637C35FC2C06E72A99C73FE6D9FFBB71E0C6AF
+  DID IPFS CID       : bafkreichxvvng5h6w2brmno3vk2dbqs2u3tlzonetpn4sehtzg7znfjelq
+  VC  IPFS CID       : bafkreibpbxv72eyr6ygexpk5lkmgg7bv7qwanzzkthdt7zwz765xdyggv4
+  VC CID 앵커링 해시 : 768487531DE29FB15FD9C9502EF21064518265CC93DC2FE573CFD18169CC6639
+  Phase 1 소요 시간  : 3229 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 52)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6996 ms  Fee=12 drops
+  EscrowCreate Hash  : 7A88B3665B92BD29564ED7C99B1DA28E9D50076782096145D414E91AF13D8E2F
+  EscrowFinish       : 6465 ms  Fee=423 drops
+  EscrowFinish Hash  : 349C3B9D7D6468F104AB93C81C22CCF22F8C4F83EE050603D15C2FA7F5324BE0
+  Memo 온체인 기록값 : 768487531DE29FB15FD9C9502EF21064518265CC93DC2FE573CFD18169CC6639
+  Memo 해시 일치     : PASS ✅
+
+  반복 52 완료
+
+================================================================
+반복 53/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 53)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02796835
+  발급자 DID         : did:xrpl:rMockIssuer02A191FB
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 2070EFCBA30294B4B8FA5D855A745AF1A96F2A9D39E333D7574EA92C1E7139DB
+  VC  온체인 해시    : 98ACEF801A08709CBCF78E52756F97D2558B21C31CC322D84AAF526BCED2966E
+  DID IPFS CID       : bafkreibaodx4xiycss2lr6s5qvnhiwxrvfxsvhjz4mz5ov2ovewb44jz3m
+  VC  IPFS CID       : bafkreieyvtxyagqiocolz54okj2w7f6skwfsdqy4ymrnqsvpkjv45uuwny
+  VC CID 앵커링 해시 : E739BC43C3DB0B3E02D7AA096E38FA9B86A50870AAF0CC639AA058C9FCA12C9B
+  Phase 1 소요 시간  : 3309 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 53)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6479 ms  Fee=12 drops
+  EscrowCreate Hash  : D0C45FF0C2A069BD86711CC19A03AC0D38CEA6830F32091B8BA9510D9ABF4741
+  EscrowFinish       : 6762 ms  Fee=423 drops
+  EscrowFinish Hash  : 04BE16FAF003411A90AF1B68567B306A49374B6AD298DCBE2449AA51AEA039BC
+  Memo 온체인 기록값 : E739BC43C3DB0B3E02D7AA096E38FA9B86A50870AAF0CC639AA058C9FCA12C9B
+  Memo 해시 일치     : PASS ✅
+
+  반복 53 완료
+
+================================================================
+반복 54/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 54)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor036B7D82
+  발급자 DID         : did:xrpl:rMockIssuer03F71196
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 5BEE92E04178B08ED000B6E0F31B796989BF3C27F826CEF348C466F86E61609A
+  VC  온체인 해시    : 50AB27C369A7516A2C2D072104C404529D0D741DAAD4D529612840E2B7CBF111
+  DID IPFS CID       : bafkreic352joaqlywchnaafw4dzrw6ljrg7tyj7ye3hpgsgem34g4ylati
+  VC  IPFS CID       : bafkreicqvmt4g2nhkfvcyliheecmibcstugxihnk2tkssyjiidrlps7rce
+  VC CID 앵커링 해시 : 3D85E647D033DA43FFC2CDA00CEBFBCFD7712C10F26D44303626A742DFCED02E
+  Phase 1 소요 시간  : 3448 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 54)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5923 ms  Fee=12 drops
+  EscrowCreate Hash  : C386F4A19F48C9CCC14B2DD5897B3ED822E67BE1EF8495F155675E9E78F222E2
+  EscrowFinish       : 4902 ms  Fee=423 drops
+  EscrowFinish Hash  : 0DAE41AB2A53532AFA8125201D37C0DD5DDF0992EB25399F0B00B4B0261332AF
+  Memo 온체인 기록값 : 3D85E647D033DA43FFC2CDA00CEBFBCFD7712C10F26D44303626A742DFCED02E
+  Memo 해시 일치     : PASS ✅
+
+  반복 54 완료
+
+================================================================
+반복 55/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 55)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02FD68AA
+  발급자 DID         : did:xrpl:rMockIssuer02EA6088
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : BDFB7B4AB364FD4C76741259B030D51A1A18F9F2197E2FA7C3668148E1EC45FF
+  VC  온체인 해시    : 2AECFB48E4ABBAD388DF925D920527F06E733059733FA3764F9B0C60A223565F
+  DID IPFS CID       : bafkreif57n5uvm3e7vghm5aslgydbvi2dimpt4qzpyx2pq3gqfeod3cf74
+  VC  IPFS CID       : bafkreibk5t5urzflxljyrx4slwjakj7qnzztawlth6rxmt43brqkei2wl4
+  VC CID 앵커링 해시 : 1CF294067F453816BA121939D975874DE93725CF7F92DE3C941C16B90085DAB2
+  Phase 1 소요 시간  : 2804 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 55)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6075 ms  Fee=12 drops
+  EscrowCreate Hash  : B480771A543E5CD37DCD643AA0AA50B5580AAD7AE78835084F2E8EC3F93C675C
+  EscrowFinish       : 6440 ms  Fee=423 drops
+  EscrowFinish Hash  : C0C004DFCE443E6565B2E6D4DF708B3681FAA44196EF0E1FDB72C36CBC103468
+  Memo 온체인 기록값 : 1CF294067F453816BA121939D975874DE93725CF7F92DE3C941C16B90085DAB2
+  Memo 해시 일치     : PASS ✅
+
+  반복 55 완료
+
+================================================================
+반복 56/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 56)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor029D4F59
+  발급자 DID         : did:xrpl:rMockIssuer03D93155
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 57B20983679464DD0596D1645D325ACC04D9CD6410C621165E838F8BEB7CA467
+  VC  온체인 해시    : B78A921ED6AA11ABD3DC5BFBA7DC4E2B1D00A3063152029572600C9185D0849B
+  DID IPFS CID       : bafkreicxwieygz4umtoqlfwrmrotewwmatm42zaqyyqrmxudr6f6w7fem4
+  VC  IPFS CID       : bafkreifxrkjb5vvkcgv5hxc37ot5ytrlduakgbrrkibjk4tabsiylueetm
+  VC CID 앵커링 해시 : 2704B201B359E39911C124C466BA8252E5E53570ED540422DA7B1019AA71180A
+  Phase 1 소요 시간  : 3781 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 56)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 4802 ms  Fee=12 drops
+  EscrowCreate Hash  : A5283349EE078788BBE4C81805EF1496F0C1693AF6FAFCF898E68A2F4DDA1F69
+  EscrowFinish       : 6069 ms  Fee=423 drops
+  EscrowFinish Hash  : ABE17B3810DD570AC042C40B88088CC950CBCB69C1BBB9527B1371F1DF387EF5
+  Memo 온체인 기록값 : 2704B201B359E39911C124C466BA8252E5E53570ED540422DA7B1019AA71180A
+  Memo 해시 일치     : PASS ✅
+
+  반복 56 완료
+
+================================================================
+반복 57/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 57)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03647E77
+  발급자 DID         : did:xrpl:rMockIssuer027D0DC1
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 255977E29BCE34C170AF579758B1B76296A33701785D6E21CF3FBED1C87B1FC7
+  VC  온체인 해시    : 851E21C6BCC65539DD5E683D260D961B30BE916C92BA8E4CFD1E324504C6B599
+  DID IPFS CID       : bafkreibflf36fg6ogtaxbl2xs5mldn3cs2rtoalylvxcdtz7x3i4q6y7y4
+  VC  IPFS CID       : bafkreiefdyq4npggku452xtihuta3fq3gc7jc3esxkhez7i6gjcqjrvvte
+  VC CID 앵커링 해시 : DDC5BD78047DFD48B9667825E77D6273867F62294DB1A4D75A02BE910EEE7667
+  Phase 1 소요 시간  : 3430 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 57)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6059 ms  Fee=12 drops
+  EscrowCreate Hash  : 6CA9E544432D400089A5A2822C4DFEFC1BEDCA578B7F9D275EE459FA642C357B
+  EscrowFinish       : 6071 ms  Fee=423 drops
+  EscrowFinish Hash  : 03B23746EACC05BB010F65C40213A9B628041C0A78364F55E64061A8B975E97B
+  Memo 온체인 기록값 : DDC5BD78047DFD48B9667825E77D6273867F62294DB1A4D75A02BE910EEE7667
+  Memo 해시 일치     : PASS ✅
+
+  반복 57 완료
+
+================================================================
+반복 58/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 58)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor023786B5
+  발급자 DID         : did:xrpl:rMockIssuer03BC12D9
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : EC55C6C41C2729320F8457F88F37D18A369690884DC1CC59B8EE19014F990231
+  VC  온체인 해시    : 9B3003C66975F7361CDF968A18A2DD7F9F38295ED76F981F56D6F7C8EA5E91CE
+  DID IPFS CID       : bafkreihmkxdmihbhfeza7bcx7chtpumkg2ljbccnyhgftohodeau7gicge
+  VC  IPFS CID       : bafkreie3gab4m2lv643bzx4wrimkfxl7t44csxwxn6mb6vww67eouxurzy
+  VC CID 앵커링 해시 : 877B6CD5FE82B8A184C7A669A2E43A5480C13668C774153D08A7F48338C847F3
+  Phase 1 소요 시간  : 2851 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 58)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6076 ms  Fee=12 drops
+  EscrowCreate Hash  : A2409E70442ABFD717586FAA7D5439B23C90752A73EEA4C98DF66CC0C76DF4A5
+  EscrowFinish       : 6449 ms  Fee=423 drops
+  EscrowFinish Hash  : 2E74589CF17D054CD5FF63CDD8209C58316A8CF59764A966F6EA6E8289C38603
+  Memo 온체인 기록값 : 877B6CD5FE82B8A184C7A669A2E43A5480C13668C774153D08A7F48338C847F3
+  Memo 해시 일치     : PASS ✅
+
+  반복 58 완료
+
+================================================================
+반복 59/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 59)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03428C94
+  발급자 DID         : did:xrpl:rMockIssuer033B7C98
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 23B023F203C7441D126ED1617B331C89D551FF0B05D7F220C5281517201A4558
+  VC  온체인 해시    : 1A38541086C3A2CF39DB4C6A2ACFD877BDB1E977BBA822B9BD88852226246079
+  DID IPFS CID       : bafkreibdwar7ea6hiqore3wrmf5tghej2vi76cyf27zcbrjiculsagsfla
+  VC  IPFS CID       : bafkreia2hbkbbbwdulhttw2mnivm7wdxxwy6s553varltpmiqurcmjdape
+  VC CID 앵커링 해시 : 4531814E3EA9CDE87411AFF578E6CDB5D77AD3C7BC9D803DF312DF2C6846C27A
+  Phase 1 소요 시간  : 3352 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 59)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5480 ms  Fee=12 drops
+  EscrowCreate Hash  : 68D28819AED0746450A5110BDC073CF263AE05EB4693360212A57552C834894A
+  EscrowFinish       : 3469 ms  Fee=423 drops
+  EscrowFinish Hash  : 08AE006A804AE29210BB3067E40D672E31451CAEA2809DC29E705DB9830BF386
+  Memo 온체인 기록값 : 4531814E3EA9CDE87411AFF578E6CDB5D77AD3C7BC9D803DF312DF2C6846C27A
+  Memo 해시 일치     : PASS ✅
+
+  반복 59 완료
+
+================================================================
+반복 60/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 60)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03BED9C4
+  발급자 DID         : did:xrpl:rMockIssuer02DA6177
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 6228BC75BA33367B200825B9C46BD715E9DCB906983E8D4EA102EAA5FBCC328F
+  VC  온체인 해시    : 80686E1D42DC632CD8974BB42EF9B930E7FF09AD626A77111AB003DAFF82047A
+  DID IPFS CID       : bafkreidcfc6hlortgz5sacbfxhcgxvyv5holsbuyh2gu5iic5ks7xtbsr4
+  VC  IPFS CID       : bafkreieanbxb2qw4mmwnrf2lwqxptojq477qtllcnj3rcgvqapnp7aqepi
+  VC CID 앵커링 해시 : 5EF592C403185EA779BA640BC4075643835431A327E245CF050C8488A079F171
+  Phase 1 소요 시간  : 3453 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 60)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6098 ms  Fee=12 drops
+  EscrowCreate Hash  : D2B4B8FE2E24B7130C293FB3C621B26D1A2CF71B359D9C0031AC12226AA53CAA
+  EscrowFinish       : 8513 ms  Fee=423 drops
+  EscrowFinish Hash  : 1C7526867EF57B254889AADBF558529E3C86C8413B05C7443774F0998A6C5230
+  Memo 온체인 기록값 : 5EF592C403185EA779BA640BC4075643835431A327E245CF050C8488A079F171
+  Memo 해시 일치     : PASS ✅
+
+  반복 60 완료
+
+================================================================
+반복 61/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 61)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor029FEF99
+  발급자 DID         : did:xrpl:rMockIssuer0363909D
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 392E6AC956D4BA805744C421DB22947389A0C69FCA746EF9E3442E8D5F42B4E7
+  VC  온체인 해시    : 6F3DBD2D167AE2E9CB77A03B21A909139C83CB060758278D0389728C89D4817F
+  DID IPFS CID       : bafkreibzfzvmsvwuxkaforgeehnsffdtrgqmnh6korxpty2ef2gv6qvu44
+  VC  IPFS CID       : bafkreidphw6s2ft24lu4w55ahmq2scittsb4wbqhlaty2a4jokgitvebp4
+  VC CID 앵커링 해시 : CD24ED1EF1BF508234622C25524951A517CC4F615537E81FE31DA197E2116CE0
+  Phase 1 소요 시간  : 3170 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 61)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6441 ms  Fee=12 drops
+  EscrowCreate Hash  : D09088142621172DE3C4DD8BBADF101801E4FA05C73389227F2C878C1C2251FD
+  EscrowFinish       : 4777 ms  Fee=423 drops
+  EscrowFinish Hash  : 05ED61A5AC3B6E269EA0075C0D1F874C2E7BC2065BA4CF3AF6FF2C53E712723C
+  Memo 온체인 기록값 : CD24ED1EF1BF508234622C25524951A517CC4F615537E81FE31DA197E2116CE0
+  Memo 해시 일치     : PASS ✅
+
+  반복 61 완료
+
+================================================================
+반복 62/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 62)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02D0564A
+  발급자 DID         : did:xrpl:rMockIssuer03A50D3D
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : A6F587021B4F5E94E02F96BCEFE2D9ACEE60AA7030AABCB4632E70527AB03635
+  VC  온체인 해시    : C7975AA815F43B31DE22A8CD572DD5B4513CE57581893D50B6CEABDC497F2546
+  DID IPFS CID       : bafkreifg6wdqeg2pl2koal4wxtx6fwnm5zqku4bqvk6liyzoobjhvmbwgu
+  VC  IPFS CID       : bafkreighs5nkqfpuhmy54ivizvls3vnuke6ok5mbre6vbnwovpoes7zfiy
+  VC CID 앵커링 해시 : 8EF55D9C5B8E00DB819756B489C67355709A43644E966B359C708056C9CC2C43
+  Phase 1 소요 시간  : 3786 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 62)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6440 ms  Fee=12 drops
+  EscrowCreate Hash  : 8CFA7EEAEE84994FB75BB80F78F7E3F332468B8789495AB81FF004C363587AC8
+  EscrowFinish       : 5146 ms  Fee=423 drops
+  EscrowFinish Hash  : 95C1F1028164D9C61CEF476BFB811BBB39B66F9D6B13F9DD9F40F351B8A94CBF
+  Memo 온체인 기록값 : 8EF55D9C5B8E00DB819756B489C67355709A43644E966B359C708056C9CC2C43
+  Memo 해시 일치     : PASS ✅
+
+  반복 62 완료
+
+================================================================
+반복 63/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 63)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02B7BF8C
+  발급자 DID         : did:xrpl:rMockIssuer0290AFA8
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 02BD6AE526EA9DF1EA709198A39F4568B7176D46168F15FCBBB59998DD24F56C
+  VC  온체인 해시    : 349879B80BD667BD0C2A6A994A3CA7AC15B6EDD94975EE0858F318795F1BD9EC
+  DID IPFS CID       : bafkreiacxvvokjxktxy6u4ertcrz6rliw4lw2rqwr4k7zo5vtgmn2jhvnq
+  VC  IPFS CID       : bafkreibutb43qc6wm66qyktktffdzj5mcw3o3wkjoxxaqwhtdb4v6g6z5q
+  VC CID 앵커링 해시 : DD143EE8C09B59F536729A0DD3756ED457C06D56C6C998E768E160C32C4A7F02
+  Phase 1 소요 시간  : 3519 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 63)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6476 ms  Fee=12 drops
+  EscrowCreate Hash  : 17F5AA57C10F33CFD7C28A40FD76A7108D9B694A694350916D29BD0CAA84AE25
+  EscrowFinish       : 6177 ms  Fee=423 drops
+  EscrowFinish Hash  : 44A2A32F5EE5136845F315CA7D433CF38CAC189BD72B9C40EB6445B6AF62F71F
+  Memo 온체인 기록값 : DD143EE8C09B59F536729A0DD3756ED457C06D56C6C998E768E160C32C4A7F02
+  Memo 해시 일치     : PASS ✅
+
+  반복 63 완료
+
+================================================================
+반복 64/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 64)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0399BCEC
+  발급자 DID         : did:xrpl:rMockIssuer02D25F7D
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : AA5124356DE44E8F8B4B05B58745CEE7A708B6D0DB8E3622835C0BC7A65447A7
+  VC  온체인 해시    : CA53C764CD17743EEDAB0480477086899FD0AF9C71DA679455B8BBA6505DC9AA
+  DID IPFS CID       : bafkreifkkesdk3pej2hywsyfwwdultxhu4elnug3ry3cfa24bpd2mvchu4
+  VC  IPFS CID       : bafkreigkkpdwjtixoq7o3kyeqbdxbbujt7ik7hdr3jtzivnyxotfaxojvi
+  VC CID 앵커링 해시 : CE061C014351D530F057C82C134794DB8334046EFEC66CE2E4A6316E819FC8DD
+  Phase 1 소요 시간  : 4328 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 64)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6266 ms  Fee=12 drops
+  EscrowCreate Hash  : 7642610E520A0B8D17101DD9C9FCCE3CE0252BBD10A8DB720312B02DDD77C371
+  EscrowFinish       : 6829 ms  Fee=423 drops
+  EscrowFinish Hash  : C0A1C4B4C19B5C81FD62E196D4AE71B38031E325FDD07E8EF0E73A54F08D4218
+  Memo 온체인 기록값 : CE061C014351D530F057C82C134794DB8334046EFEC66CE2E4A6316E819FC8DD
+  Memo 해시 일치     : PASS ✅
+
+  반복 64 완료
+
+================================================================
+반복 65/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 65)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0372CC24
+  발급자 DID         : did:xrpl:rMockIssuer025B21AB
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : F1B3C02FE09D20164A65B0EEC6C8BCFE2048E1DA09263DE4AEB1323A389D6569
+  VC  온체인 해시    : 0564669A7C2FA7A754D77982B5C3DF0B83CAE22C50EA61CE4AE457D03DD3EC75
+  DID IPFS CID       : bafkreihrwpac7ye5ealeuznq53dmrph6ebeodwqjey66jlvrgi5drhlfne
+  VC  IPFS CID       : bafkreiafmrtju7bpu6tvjv3zqk24hxylqpfoelcq5jq44sxek7id3u7mou
+  VC CID 앵커링 해시 : 6F40C13A27CF79CA8CCB6C803423E4832747EBD97BA64B1460B6399AD1031489
+  Phase 1 소요 시간  : 3172 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 65)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5654 ms  Fee=12 drops
+  EscrowCreate Hash  : 3DF8A12521149BC944BFCB81DA06C2BAC619E0E5E530E0A3257758490FC120AE
+  EscrowFinish       : 6405 ms  Fee=423 drops
+  EscrowFinish Hash  : 64BD05CFC6CE05A0013CDB4868B95770E3455BD9648ECBD8C6C38D7F15841C2E
+  Memo 온체인 기록값 : 6F40C13A27CF79CA8CCB6C803423E4832747EBD97BA64B1460B6399AD1031489
+  Memo 해시 일치     : PASS ✅
+
+  반복 65 완료
+
+================================================================
+반복 66/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 66)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02687B6F
+  발급자 DID         : did:xrpl:rMockIssuer03ED2B36
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 5F782F3A662F9224C9B9C30B8E577E2009CB180709D7B2AEC6AD76BB31985F2E
+  VC  온체인 해시    : 73903302DAF47B3FE78AB79B9CBCF1AAD72C946219C980F6C02A5EF96E56697F
+  DID IPFS CID       : bafkreic7paxtuzrpsismtoodbohfo7rabhfrqbyj26zk5rvno25tdgc7fy
+  VC  IPFS CID       : bafkreidtsazqfwxupm76pcvxtoolz4nk24wjiyqzzgapnqbkl34w4vtjp4
+  VC CID 앵커링 해시 : 1C6151EFE556ABABA0FA582CE81D7CB57B1BC40E8C807367D5220AA46902CA23
+  Phase 1 소요 시간  : 4440 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 66)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5193 ms  Fee=12 drops
+  EscrowCreate Hash  : 0BB499A38A267118525D27083C45AA2E01DFA922E3C69471B0CCCE3D8298BE0C
+  EscrowFinish       : 3285 ms  Fee=423 drops
+  EscrowFinish Hash  : 8C14AD1C7AE9C5B5518C667124DABD499F7D06661484781EC1ED47C591838424
+  Memo 온체인 기록값 : 1C6151EFE556ABABA0FA582CE81D7CB57B1BC40E8C807367D5220AA46902CA23
+  Memo 해시 일치     : PASS ✅
+
+  반복 66 완료
+
+================================================================
+반복 67/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 67)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02340011
+  발급자 DID         : did:xrpl:rMockIssuer021EE27F
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 884928FD6165E6AE9F81ACC06FE7FF271DC0B8830A93E5F1599DE36242A2A000
+  VC  온체인 해시    : 43A61A763E222B5AB38F2F80BBB13ABE8D3B1D7930C2242309E0F63EF9BAD1DC
+  DID IPFS CID       : bafkreieijeup2ylf42xj7anmybx6p7zhdxalrayksps7cwm54nrefivaaa
+  VC  IPFS CID       : bafkreicduynhmprcfnnlhdzpqc53cov6ru5r26jqyiscgcpa6y7ptowr3q
+  VC CID 앵커링 해시 : DC0AB528F4FA88269DE95F62D02E3F44BDAE10E5D8B8C89E519964937D7416F9
+  Phase 1 소요 시간  : 3123 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 67)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5634 ms  Fee=12 drops
+  EscrowCreate Hash  : D615C5A341A5210FE8E1CAC6C825BAB309A1033CC5E9FB1C8D9B898E90FE809D
+  EscrowFinish       : 7737 ms  Fee=423 drops
+  EscrowFinish Hash  : 221AC26B3DC9B91EFE9093E14E5F70BFBA69468D14804E0FC3CDA51B5FCF29B3
+  Memo 온체인 기록값 : DC0AB528F4FA88269DE95F62D02E3F44BDAE10E5D8B8C89E519964937D7416F9
+  Memo 해시 일치     : PASS ✅
+
+  반복 67 완료
+
+================================================================
+반복 68/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 68)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03FBBAF2
+  발급자 DID         : did:xrpl:rMockIssuer030F2C12
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 40D370D99519E37714B874523CBA2BAC3FF9FD5975910A08594E02DF97C40662
+  VC  온체인 해시    : 015BBD9BA6C1086A42353721FC3B56211C3ED75CE5CE23BB73CCCBD052675707
+  DID IPFS CID       : bafkreica2nyntfiz4n3rjoduki6luk5mh7472wlvsefaqwkoalpzpragmi
+  VC  IPFS CID       : bafkreiablo6zxjwbbbveenjxeh6dwvrbdq7noxhfzyr3w46mzpifez2xa4
+  VC CID 앵커링 해시 : 765BBD4839877CB3AAA1BBD89173A863B55A1A93D8B41D18377931E826FFC9A7
+  Phase 1 소요 시간  : 2923 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 68)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6072 ms  Fee=12 drops
+  EscrowCreate Hash  : 03590F9CCAA19F2510036E148AB8F84207E38904B32E1EC04667729FFBF3A119
+  EscrowFinish       : 5592 ms  Fee=423 drops
+  EscrowFinish Hash  : 473CB484E1F4C870C984C75CBDD3644AEDB51FEF23D3974D39FDEC266377BCC2
+  Memo 온체인 기록값 : 765BBD4839877CB3AAA1BBD89173A863B55A1A93D8B41D18377931E826FFC9A7
+  Memo 해시 일치     : PASS ✅
+
+  반복 68 완료
+
+================================================================
+반복 69/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 69)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02F2FD2F
+  발급자 DID         : did:xrpl:rMockIssuer0287A258
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 4A029B8813934BF40BFFBD575F7C74DE0768852F008AC2AA82DCD56B76756A4A
+  VC  온체인 해시    : 449E1CF4054E0750FE794628415EDF652D990F2F723C8298BAFA50515AA9B261
+  DID IPFS CID       : bafkreickaknyqe4tjp2ax755k5pxy5g6a5uiklyarlbkvaw42vvxm5lkji
+  VC  IPFS CID       : bafkreicetyopibkoa5ip46kgfbav5x3ffwmq6l3shsbjrox2kbivvknsme
+  VC CID 앵커링 해시 : 6C4F3E2926D25B0748A893F432F9090F484853C450F77F4678F1492D2AF5DA6D
+  Phase 1 소요 시간  : 3606 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 69)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5618 ms  Fee=12 drops
+  EscrowCreate Hash  : E2B675B7557AD42111513531D1BF619E0357C8429F65338DC924233CA78B3870
+  EscrowFinish       : 3048 ms  Fee=423 drops
+  EscrowFinish Hash  : 5D60E2D12999A390E56561160E17F44243758AED2A5BBB4AB0DEB67061305398
+  Memo 온체인 기록값 : 6C4F3E2926D25B0748A893F432F9090F484853C450F77F4678F1492D2AF5DA6D
+  Memo 해시 일치     : PASS ✅
+
+  반복 69 완료
+
+================================================================
+반복 70/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 70)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0359D410
+  발급자 DID         : did:xrpl:rMockIssuer0363C257
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : CC7D84910F6A6401C5FE2479437F2BC15E494DD869E6D2B8CF6CDDF34AD1B500
+  VC  온체인 해시    : F8020915468C2EC4B38994DF460F1BEA941314B069E92EF23FA282ABF15CF538
+  DID IPFS CID       : bafkreigmpwcjcd3kmqa4l7repfbx6k6blzeu3wdj43jlrt3m3xzuvunvaa
+  VC  IPFS CID       : bafkreihyaierkrumf3clhcmu35da6g7ksqjrjmdj5expep5cqkv7cxhvha
+  VC CID 앵커링 해시 : B4C18F39366D9FB8493EA26EDBF614759521FC8BC86B25DE6E602F390F6A9DDD
+  Phase 1 소요 시간  : 3027 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 70)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 7066 ms  Fee=12 drops
+  EscrowCreate Hash  : 02D91099C39AABA94AAF6C1AE21BFCF972586730D5D00131CDFBCFF7B93B3399
+  EscrowFinish       : 4285 ms  Fee=423 drops
+  EscrowFinish Hash  : BEA5EF20E96BFCF52B045CD6026522ED9738EB6F1E82093A2C90CAA052234B59
+  Memo 온체인 기록값 : B4C18F39366D9FB8493EA26EDBF614759521FC8BC86B25DE6E602F390F6A9DDD
+  Memo 해시 일치     : PASS ✅
+
+  반복 70 완료
+
+================================================================
+반복 71/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 71)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03965740
+  발급자 DID         : did:xrpl:rMockIssuer030749F1
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 09B4A53033614BAA2ABFE9F187F89979410A51A0045C4579CC0D38B396573789
+  VC  온체인 해시    : FF583779EFC84458695AC54E8B597C8D4A4884DBF4D639F298A2986FA082D29C
+  DID IPFS CID       : bafkreiajwsstam3bjovcvp7j6gd7rglzieffdiaelrcxttanhczzmvzxre
+  VC  IPFS CID       : bafkreih7la3xt36iirmgswwfj2fvs7enjjeijw7u2y47fgfctbx2bawstq
+  VC CID 앵커링 해시 : C205BD7837531E47C3C471313046F1DB76FB2F0E27EC0C7986A246BFCBB63097
+  Phase 1 소요 시간  : 2905 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 71)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5608 ms  Fee=12 drops
+  EscrowCreate Hash  : 8FF61FA8EFB13FEC18A01C8ABB0C32EAD6DA3D4120F180320EF56A8BE77134ED
+  EscrowFinish       : 6893 ms  Fee=423 drops
+  EscrowFinish Hash  : 07BC87F23869FD1DE10FAC5AA2282F063F0528158C34083F834017F706CD9610
+  Memo 온체인 기록값 : C205BD7837531E47C3C471313046F1DB76FB2F0E27EC0C7986A246BFCBB63097
+  Memo 해시 일치     : PASS ✅
+
+  반복 71 완료
+
+================================================================
+반복 72/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 72)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor030A67A1
+  발급자 DID         : did:xrpl:rMockIssuer03563E9D
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 4EE1EC222DBE5C9D4C2E284B58AC11A253FC8E8B2883F762B3800CBFB01E57AF
+  VC  온체인 해시    : C168EDCA9B622C6EE72E5111F0D5456716DC729FD1B17F47C4B67EA422426CC4
+  DID IPFS CID       : bafkreico4hwceln6lsouylrijnmkyenckp6i5cziqp3wfm4abs73ahsxv4
+  VC  IPFS CID       : bafkreigbndw4vg3cfrxoolsrchynkrlhc3ohfh6rwf7uprfwp2sceqtmyq
+  VC CID 앵커링 해시 : B96304BAE67E90849BDC223B9462979A5ACCADE42252E14EA97997A1C5A14A12
+  Phase 1 소요 시간  : 3692 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 72)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6891 ms  Fee=12 drops
+  EscrowCreate Hash  : 20DF819BFC9EDFFFDD93033C8629FE9C5139BF145A0884B4C6BFD23F39C31DC7
+  EscrowFinish       : 5614 ms  Fee=423 drops
+  EscrowFinish Hash  : 469D947BC894E9E817645A07281A39023A8070C75091A685CD71AC2BCDB39BE0
+  Memo 온체인 기록값 : B96304BAE67E90849BDC223B9462979A5ACCADE42252E14EA97997A1C5A14A12
+  Memo 해시 일치     : PASS ✅
+
+  반복 72 완료
+
+================================================================
+반복 73/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 73)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor028A7D3D
+  발급자 DID         : did:xrpl:rMockIssuer03C3CA28
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 899D5BB917D236A21EED2E072D3632B06C1E21A6DD1800328E0D22C1CB8BF4E7
+  VC  온체인 해시    : 87EA2189E8F70D1D75F4996C8D98C15A028CADBCF17C3495B4FB9EAC4EC5AB08
+  DID IPFS CID       : bafkreiejtvn3sf6sg2rb53joa4wtmmvqnqpcdjw5daadfdqnela4xc7u44
+  VC  IPFS CID       : bafkreieh5iqyt2hxbuoxl5eznsgzrqk2akgk3phrpq2jlnh3t2we5rnlba
+  VC CID 앵커링 해시 : 12A615C07DE1E6D088D937E3E4CED07568777FF5C8B2057B4307B6D635B0CAD3
+  Phase 1 소요 시간  : 3130 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 73)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5778 ms  Fee=12 drops
+  EscrowCreate Hash  : 476440372393497336A3F82F0326BA0B14026BCD9A38AE9306EF5270A814F835
+  EscrowFinish       : 5590 ms  Fee=423 drops
+  EscrowFinish Hash  : 5B94B86D1F05394FA5FF9E4473E0DE06B3BD05F753296BAF0721AA5BB159C948
+  Memo 온체인 기록값 : 12A615C07DE1E6D088D937E3E4CED07568777FF5C8B2057B4307B6D635B0CAD3
+  Memo 해시 일치     : PASS ✅
+
+  반복 73 완료
+
+================================================================
+반복 74/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 74)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor022FC46C
+  발급자 DID         : did:xrpl:rMockIssuer0204A2CD
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 26C15C334E594A99CAB8817B3B054AB4295EBAE6B025B0666E1CD205F9698724
+  VC  온체인 해시    : E001D1BF6C358BF1527D09F80A79DE8FB5FB519BE981534E125300443568EF59
+  DID IPFS CID       : bafkreibgyfodgtszjkm4voebpm5qksvuffplvzvqewygm3q42ic7s2mheq
+  VC  IPFS CID       : bafkreihaahi363bvrpyve7ij7afhtxupwx5vdg7jqfju4estabcdk2hple
+  VC CID 앵커링 해시 : 5441B1A426B53E349EB6A882A78FDC212CF6AEF461A7352F49259AA070F8F0D6
+  Phase 1 소요 시간  : 3088 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 74)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5620 ms  Fee=12 drops
+  EscrowCreate Hash  : 1472FB240EF88AB665EF529237638422BBF1C644406222DE430989CEB437726F
+  EscrowFinish       : 5619 ms  Fee=423 drops
+  EscrowFinish Hash  : DE65C2E32B40FBEAA2589377758CDDDD7D74B3ADC8952785A74A2B7D49048AEE
+  Memo 온체인 기록값 : 5441B1A426B53E349EB6A882A78FDC212CF6AEF461A7352F49259AA070F8F0D6
+  Memo 해시 일치     : PASS ✅
+
+  반복 74 완료
+
+================================================================
+반복 75/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 75)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor029CF7A2
+  발급자 DID         : did:xrpl:rMockIssuer03979425
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 5F922F945D6C3EA1DEA663F0D73FAB2DD3FFC5EAAD6C30FC7AED44B784A09DA2
+  VC  온체인 해시    : AD39F02CA1CD3051EA3E29312D8C1130D08FE345FE52EB170D5FB553621657E7
+  DID IPFS CID       : bafkreic7sixzixlmh2q55jtd6dlt7kzn2p74l2vnnqypy6xnis3yjie5ui
+  VC  IPFS CID       : bafkreifnhhycziongbi6uprjgewyyejq2ch6grp6klvrodk7wvjwefsx44
+  VC CID 앵커링 해시 : 8F15E1BF7F8874DB0C4EDB2F6B282A29A7CBF6203CC634A304A44EE2336E52D4
+  Phase 1 소요 시간  : 3189 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 75)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 3054 ms  Fee=12 drops
+  EscrowCreate Hash  : D1FA283EA0AEF17029945178FBD648CF2DBDCD6A97764B18AC0B7AC1F3CF64B3
+  EscrowFinish       : 6886 ms  Fee=423 drops
+  EscrowFinish Hash  : F232A5D352699465C2A59ED2D63AD355C494F5BB122631810170E08FCACEB55C
+  Memo 온체인 기록값 : 8F15E1BF7F8874DB0C4EDB2F6B282A29A7CBF6203CC634A304A44EE2336E52D4
+  Memo 해시 일치     : PASS ✅
+
+  반복 75 완료
+
+================================================================
+반복 76/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 76)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03E09C87
+  발급자 DID         : did:xrpl:rMockIssuer0373362F
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 7313495BFD2CA297AC25553A0864CC5FF2A5462C8A446BBA30B65E8CBBEDBC76
+  VC  온체인 해시    : 768407ED8138DF8FC2EDB6A2066408F0FB7A17B50A66965C23FFFA6B8B5750BC
+  DID IPFS CID       : bafkreidtcnevx7jmukl2yjkvhiegjtc76ksumlekirv3umfwl2glx3n4oy
+  VC  IPFS CID       : bafkreidwqqd63ajy36h4f3nwuidgichq7n5bpnikm2lfyi777jvywv2qxq
+  VC CID 앵커링 해시 : FE6D280A2422E6AB2B3DED03DA11CAA6F7F994FAC7C3CB198A80BBFDC7AFCD2B
+  Phase 1 소요 시간  : 2903 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 76)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6950 ms  Fee=12 drops
+  EscrowCreate Hash  : C5BA6B32244A6BD89C3FFE2E2282BDDE90AB086D687264BCA3E0FA54BFC48618
+  EscrowFinish       : 6925 ms  Fee=423 drops
+  EscrowFinish Hash  : 024F9B20A007CACE80E19C17C2E977837B557CBD021AB1CD8D7A6ED31EAE7C72
+  Memo 온체인 기록값 : FE6D280A2422E6AB2B3DED03DA11CAA6F7F994FAC7C3CB198A80BBFDC7AFCD2B
+  Memo 해시 일치     : PASS ✅
+
+  반복 76 완료
+
+================================================================
+반복 77/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 77)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02220474
+  발급자 DID         : did:xrpl:rMockIssuer02D6550F
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 8D54D33885701C5D54AD068932F12AF7A85C5FDF6359D91C14317DF8F182AFB3
+  VC  온체인 해시    : E1DA11F546B4D5EB0DCDBF7B5D9601B629BFD5537CA67BF553C4FEC1DEB49B11
+  DID IPFS CID       : bafkreienktjtrblqdrovjligrezpckxxvbof7x3dlhmryfbrpx4pdavpwm
+  VC  IPFS CID       : bafkreihb3ii7krvu2xvq3tn7pnozmanwfg75ku34uz57ku6e73a55ne3ce
+  VC CID 앵커링 해시 : 3B0B91E6039180E5A99C33B66AF1A265B5199832D09DFCDE16FCF889BA4D7833
+  Phase 1 소요 시간  : 3052 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 77)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6895 ms  Fee=12 drops
+  EscrowCreate Hash  : CB55BBB34A764974EF69427DA5E9617DF1D0233613D6C09068E6B5894B4CCD69
+  EscrowFinish       : 6873 ms  Fee=423 drops
+  EscrowFinish Hash  : C37135BED6D1EF845AE55AE829ABFF0B82C072FA4D6B9E050068076604978860
+  Memo 온체인 기록값 : 3B0B91E6039180E5A99C33B66AF1A265B5199832D09DFCDE16FCF889BA4D7833
+  Memo 해시 일치     : PASS ✅
+
+  반복 77 완료
+
+================================================================
+반복 78/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 78)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor038C4D68
+  발급자 DID         : did:xrpl:rMockIssuer032AA0C2
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 7CF2A1F2F117310ED068525EC5F8B5949430E195307FEEB6E0CC146EDFDF492D
+  VC  온체인 해시    : 1BE708D22879F074784EC3BB363AFA0FBC2F218433AA3321E63965EA133819E2
+  DID IPFS CID       : bafkreid46kq7f4ixgehna2csl3c7rnmusqyodfjqp7xlnygmcrxn7x2jfu
+  VC  IPFS CID       : bafkreia344enekdz6b2hqtwdxm3dv6qpxqxsdbbtvizsdzrzmxvbgoaz4i
+  VC CID 앵커링 해시 : 6F237820FA06A220E71695CCDD228B5DF65FD81E613AA5949D0009047A5F3734
+  Phase 1 소요 시간  : 3648 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 78)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 4338 ms  Fee=12 drops
+  EscrowCreate Hash  : 4FE8149885D6811273F6808AFF48EC04EBF52D262B19F159798D4856A36AFC44
+  EscrowFinish       : 5615 ms  Fee=423 drops
+  EscrowFinish Hash  : 624E1E7E0090DB237C76425CC17E9331C56B994519F6784FB45BF4BEFCDDE077
+  Memo 온체인 기록값 : 6F237820FA06A220E71695CCDD228B5DF65FD81E613AA5949D0009047A5F3734
+  Memo 해시 일치     : PASS ✅
+
+  반복 78 완료
+
+================================================================
+반복 79/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 79)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor024F8EEF
+  발급자 DID         : did:xrpl:rMockIssuer033F895D
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 0C17CCD96C0641ECDAA80768193D8CAF8B6640CE0145FFD9A15B778C0404D952
+  VC  온체인 해시    : 2F0D060862067F9F260F5FCF74D02ED35E6E5ED3AF08F49C4A426F617F8E5962
+  DID IPFS CID       : bafkreiamc7gns3agihwnvkahnamt3dfprntebtqbix75tik3o6gaibgzki
+  VC  IPFS CID       : bafkreibpbudaqyqgp6psmd27z52nalwtlzxf5u5pbd2jysscn5qx7dszmi
+  VC CID 앵커링 해시 : CE87A8590D17CAD5D75D4DAF281B96819DAEC8BB29CC5336C8D37427D972AC8A
+  Phase 1 소요 시간  : 3050 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 79)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6888 ms  Fee=12 drops
+  EscrowCreate Hash  : 60AC4ED9B083F33193D32E1E6DDDDB32F997704A369929863592380F7D71B97A
+  EscrowFinish       : 5621 ms  Fee=423 drops
+  EscrowFinish Hash  : 94EAF64343597FCF6E0F8D39CAA4DD97A4634628824DFB7BBCDAA54DE690F278
+  Memo 온체인 기록값 : CE87A8590D17CAD5D75D4DAF281B96819DAEC8BB29CC5336C8D37427D972AC8A
+  Memo 해시 일치     : PASS ✅
+
+  반복 79 완료
+
+================================================================
+반복 80/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 80)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0270E358
+  발급자 DID         : did:xrpl:rMockIssuer02989168
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 33C7C3764D9E0EF66BD915F7CC56467DE1BFEF5E8CE6DDA1AA1A3250BAE0BA3D
+  VC  온체인 해시    : 5AA534C79C1899469D23C6DA20FD427DDA9F4F30A51EA240B3DE12442D14EA6E
+  DID IPFS CID       : bafkreibty7bxmtm6b33gxwiv67gfmrt54g766xum43o2dkq2gjilvyf2hu
+  VC  IPFS CID       : bafkreic2uu2mphaytfdj2i6g3iqp2qt53kpu6mffd2rebm66cjcc2fhkny
+  VC CID 앵커링 해시 : 6F91E196099CFB2601FD0AC8247806AC7342E2C781D6B60DA31F45E585825704
+  Phase 1 소요 시간  : 2940 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 80)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 7099 ms  Fee=12 drops
+  EscrowCreate Hash  : EBBDD681B79A73DEC556385880DD6E82DD4D843812DF643590578ABBE5A48DA2
+  EscrowFinish       : 7253 ms  Fee=423 drops
+  EscrowFinish Hash  : 07EB43CC655311FF280711BF9E6EDAABF6984B5907603C0AB988F487AE9842BA
+  Memo 온체인 기록값 : 6F91E196099CFB2601FD0AC8247806AC7342E2C781D6B60DA31F45E585825704
+  Memo 해시 일치     : PASS ✅
+
+  반복 80 완료
+
+================================================================
+반복 81/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 81)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03E05351
+  발급자 DID         : did:xrpl:rMockIssuer030948DB
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 41F4645FEF54D2117EA20F47EE2DF34A4715038BE35EEEF7DA8AA9D5D87C332D
+  VC  온체인 해시    : EDC878C3165E5B1A8D5CA36DB9F75CCD08496767F720D5C0AC9C86391795A407
+  DID IPFS CID       : bafkreicb6rsf732u2iix5iqpi7xc342ki4kqhc7dl3xppwukvhk5q7btfu
+  VC  IPFS CID       : bafkreihnzb4mgfs6lmni2xfdnw47oxgnbbewoz7xedk4ble4qy4rpfnea4
+  VC CID 앵커링 해시 : 50529364EB3E79FFD2AB0897CEB5AE585A1947CBE05BE49ECE64FBDDE0139FCB
+  Phase 1 소요 시간  : 3615 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 81)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6937 ms  Fee=12 drops
+  EscrowCreate Hash  : B0F7F6CF7D92BE2230A9A7B192863978E4FDE32FEEF5A7F6FCCA03598DCC4019
+  EscrowFinish       : 7105 ms  Fee=423 drops
+  EscrowFinish Hash  : 7F6A8ED82A039EB9636C516DCAEC7B45035DB85CCD989D262AFE650C97A3C0F1
+  Memo 온체인 기록값 : 50529364EB3E79FFD2AB0897CEB5AE585A1947CBE05BE49ECE64FBDDE0139FCB
+  Memo 해시 일치     : PASS ✅
+
+  반복 81 완료
+
+================================================================
+반복 82/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 82)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor022E7A4A
+  발급자 DID         : did:xrpl:rMockIssuer02FB7BB3
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 0C9824E35CC59A0B25E368DFC39F8E81E041E41FBEF4B6D0557ED8890D2B3B75
+  VC  온체인 해시    : A2C36D78EFCDF0393463832BBE3A7CE12BDE66394A6AF5CEBBB310F2434677AC
+  DID IPFS CID       : bafkreiamtasogxgftifsly3i37bz7dub4ba6ih566s3navl63ceq2kz3ou
+  VC  IPFS CID       : bafkreifcynwxr36n6a4tiy4dfo7du7hbfppgmokknl245o5tcdzegrtxvq
+  VC CID 앵커링 해시 : F806F049A8AA29DE4BD1BB8EDB9CCA54691F7FA5398DA1688F08B7FD74324FF5
+  Phase 1 소요 시간  : 3277 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 82)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6903 ms  Fee=12 drops
+  EscrowCreate Hash  : E46C7A5D77EB5A3E4AC7A460EEBB38A443F9972A220FA883A51E8CFD122D23FD
+  EscrowFinish       : 6904 ms  Fee=423 drops
+  EscrowFinish Hash  : A330E6920FF3ED87B8ABB9C3F89E1EB60CBFACF2B91E5E6D73BA40842960D1C4
+  Memo 온체인 기록값 : F806F049A8AA29DE4BD1BB8EDB9CCA54691F7FA5398DA1688F08B7FD74324FF5
+  Memo 해시 일치     : PASS ✅
+
+  반복 82 완료
+
+================================================================
+반복 83/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 83)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02E451E8
+  발급자 DID         : did:xrpl:rMockIssuer02D36FC6
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : CA3C0C7F96534A3E19CE3E33A91AA96EE73E97DE56AD0DFF4BB8D515937B9FD3
+  VC  온체인 해시    : 5E025E6CE6801E3D5C0D7D4CF3A495418930D0E42B845B6B7CF152241C0482AE
+  DID IPFS CID       : bafkreigkhqgh7fstji7bttr6gourvklo447jpxswvug76s5y2ukzg6472m
+  VC  IPFS CID       : bafkreic6ajpgzzuady6vydl5jtz2jfkbreynbzblqrnww7hrkisbybecvy
+  VC CID 앵커링 해시 : 52B130D5E102216E6B9255A0AE6BCC37D709C4E06AC0B7E040A4D83F39BD877E
+  Phase 1 소요 시간  : 3794 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 83)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 7206 ms  Fee=12 drops
+  EscrowCreate Hash  : 32CAC89955A6DB9BA7A73995DB9E24FF094FE5E25E57AC60330A9F296E549D7E
+  EscrowFinish       : 5623 ms  Fee=423 drops
+  EscrowFinish Hash  : 1802207998224A000E3B5524F4A31EBB61C59D198B5E64DD6CB7F5348420D5DA
+  Memo 온체인 기록값 : 52B130D5E102216E6B9255A0AE6BCC37D709C4E06AC0B7E040A4D83F39BD877E
+  Memo 해시 일치     : PASS ✅
+
+  반복 83 완료
+
+================================================================
+반복 84/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 84)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03790D0E
+  발급자 DID         : did:xrpl:rMockIssuer02A0E00B
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : C0F8FBC570CD467BEA0BE0AA8A2A4724FEADD7158E0311128CA80079015F7128
+  VC  온체인 해시    : 81D14203BBDBF5C2296F3B53095827D1F2D45E3C3AF255311E6301534BF482A0
+  DID IPFS CID       : bafkreiga7d54k4gniz56uc7avkfcurze72w5ofmoamirfdfiab4qcx3rfa
+  VC  IPFS CID       : bafkreieb2fbaho636xbcs3z3kmevqj6r6lkf4pb26jktchtdafjux5ecua
+  VC CID 앵커링 해시 : C0A8B6FDDCFA689AFB24FAF799E088A40AD0985E16655982E9B38996B3D36B21
+  Phase 1 소요 시간  : 3924 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 84)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6917 ms  Fee=12 drops
+  EscrowCreate Hash  : A723F59ADAC699FCE77EA49DF4A3EA0DF1CB20A6E25F7622C0A3864EADE84CA1
+  EscrowFinish       : 5641 ms  Fee=423 drops
+  EscrowFinish Hash  : 8B09C1D778E749B144EB74C0955396BD719B38F151FBFE3C69A200107B78C9BE
+  Memo 온체인 기록값 : C0A8B6FDDCFA689AFB24FAF799E088A40AD0985E16655982E9B38996B3D36B21
+  Memo 해시 일치     : PASS ✅
+
+  반복 84 완료
+
+================================================================
+반복 85/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 85)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03EACC75
+  발급자 DID         : did:xrpl:rMockIssuer02E48152
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : EEA75CD1A035B422C2E64D30CF8BF4E758DCEF65E93C1F4F3DDB0B53FDD9CC96
+  VC  온체인 해시    : 0D877CB454E2086BAA3D5A0D6201162A79FE81519D507651177340E2ECC31BC8
+  DID IPFS CID       : bafkreihou5ondibvwqrmfzsngdhyx5hhldoo6zpjhqpu6po3bnj73womsy
+  VC  IPFS CID       : bafkreianq56livhcbbv2upk2bvracfrkph7icum5kb3fcf3tidrozqy3za
+  VC CID 앵커링 해시 : 93F1E61B8D65504434971F7E848621176732CF072FE515527E85D0452ED68A28
+  Phase 1 소요 시간  : 3409 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 85)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5597 ms  Fee=12 drops
+  EscrowCreate Hash  : C64035950C10BF7407F316A2C14948BBB666CFA8F192E8D11AEDEEAEF1A11B24
+  EscrowFinish       : 8220 ms  Fee=423 drops
+  EscrowFinish Hash  : 59D855EF73F5F7B446D15D136FE5C1A735D61B98D87A87C57F464822B964D754
+  Memo 온체인 기록값 : 93F1E61B8D65504434971F7E848621176732CF072FE515527E85D0452ED68A28
+  Memo 해시 일치     : PASS ✅
+
+  반복 85 완료
+
+================================================================
+반복 86/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 86)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02F332B6
+  발급자 DID         : did:xrpl:rMockIssuer02840DA7
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 8E91D9269184868EC29DC94A4BFEA3C0F8E23DB56B97B73D5441E415C6AECE0A
+  VC  온체인 해시    : 918F8541A07CED48605B834510DC22B5CF11FE6349FBDC1287FCD119E74D797E
+  DID IPFS CID       : bafkreieoshmsnemeq2hmfhojjjf75i6a7drd3nlls63t2vcb4qk4nlwobi
+  VC  IPFS CID       : bafkreierr6cudid45vegaw4diuinyivvz4i74y2j7pobfb742em6otlzpy
+  VC CID 앵커링 해시 : 86FE2E31F43D1437A4685E712C33DDA453E825361F23A71AF4F2215FAACAC7D4
+  Phase 1 소요 시간  : 3953 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 86)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6895 ms  Fee=12 drops
+  EscrowCreate Hash  : F82B02A245FD9D8DCA8D11C6886AD040D0A0ED40CC86707D4E5E16981FF35ADB
+  EscrowFinish       : 8206 ms  Fee=423 drops
+  EscrowFinish Hash  : E36A9D76E49C8C4C8D2175AB7060F5D4FEFE9ACD396006CD615EFF3F28C72546
+  Memo 온체인 기록값 : 86FE2E31F43D1437A4685E712C33DDA453E825361F23A71AF4F2215FAACAC7D4
+  Memo 해시 일치     : PASS ✅
+
+  반복 86 완료
+
+================================================================
+반복 87/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 87)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02E299A2
+  발급자 DID         : did:xrpl:rMockIssuer03B12E80
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 39951E4BFAC5B732411A3DC14DBD78AA3BE3F205C3ECA8D7AF2BD62D448DA925
+  VC  온체인 해시    : B76D90DA72C788E4CB78CE5F0CB5661A1C1F53A676015CA75004EC2286801733
+  DID IPFS CID       : bafkreibzsupex6wfw4zecgr5yfg326fkhpr7ebod5sunplzl2ywujdnjeu
+  VC  IPFS CID       : bafkreifxnwinu4whrdsmw6gol4glkzq2dqpvhjtwafokouae5qrinaaxgm
+  VC CID 앵커링 해시 : C9362DC49400249AA3F7BA419FE1E4857E8A106AB1549C47EB3D01F974430690
+  Phase 1 소요 시간  : 3171 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 87)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6888 ms  Fee=12 drops
+  EscrowCreate Hash  : 74AC3F9F9A128301DFA4FC8E178F81E931702DBE43279A0C6007C8765CA51803
+  EscrowFinish       : 5636 ms  Fee=423 drops
+  EscrowFinish Hash  : F85148310E662CD285D83B8C1781E561CD88B9D814F8DC16FEF3516B4C7DB015
+  Memo 온체인 기록값 : C9362DC49400249AA3F7BA419FE1E4857E8A106AB1549C47EB3D01F974430690
+  Memo 해시 일치     : PASS ✅
+
+  반복 87 완료
+
+================================================================
+반복 88/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 88)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor036710DE
+  발급자 DID         : did:xrpl:rMockIssuer032B7516
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 6B8C6E2707BE3B602929A89D14FF57C1347B7F4CD20C78188BFE4F24378429B8
+  VC  온체인 해시    : 5D1BA2504D9354EFD5828CE968189D5FB385CFCB9A7EA6093FE5E15B71739B72
+  DID IPFS CID       : bafkreidlrrxcob56hnqcsknitukp6v6bgr5x6tgsbr4brc76j4sdpbbjxa
+  VC  IPFS CID       : bafkreic5dorfatmtktx5laum5fubrhk7woc47s42p2tasp7f4fnxc443oi
+  VC CID 앵커링 해시 : 7039CA4BC4E434041733F6BEA93EA74E3F7CFF805DE467007D5B39395E33357C
+  Phase 1 소요 시간  : 3158 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 88)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6906 ms  Fee=12 drops
+  EscrowCreate Hash  : 4DF7AC881A28FD780A4A251583C5FAEFA4237C6C79A8A6E80AA77FB5EBC17F8B
+  EscrowFinish       : 7078 ms  Fee=423 drops
+  EscrowFinish Hash  : 173ED2757F0AC5DADB6C61501D071400D8AF00D81F85B9B2915C931D16180747
+  Memo 온체인 기록값 : 7039CA4BC4E434041733F6BEA93EA74E3F7CFF805DE467007D5B39395E33357C
+  Memo 해시 일치     : PASS ✅
+
+  반복 88 완료
+
+================================================================
+반복 89/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 89)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03F24C09
+  발급자 DID         : did:xrpl:rMockIssuer03BDD69B
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 146BBABE50A6760968627A38823B9229588E7D0899F5BB062131B0E413F555A8
+  VC  온체인 해시    : C67596D60A9954B00CCF67547612E8F11C02D7A6A2B65A6DCFB669104D17C975
+  DID IPFS CID       : bafkreiauno5l4ufgoyewqyt2hcbdxerjlchh2cez6w5qmijrwdsbh5kvva
+  VC  IPFS CID       : bafkreiggowlnmcuzksyazt3hkr3bf2hrdqbnpjvcwzng3t5wneie2f6jou
+  VC CID 앵커링 해시 : CC7E7C106A42DDA9A9E4ACE19DB83C6B062202C1DA3807CC2D502B4DB66AAAC8
+  Phase 1 소요 시간  : 3365 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 89)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 8202 ms  Fee=12 drops
+  EscrowCreate Hash  : 5FDFC06A9272E4571BB30F169486C75A19CBCB8DC793BCA0F6D84EDB5D508364
+  EscrowFinish       : 6908 ms  Fee=423 drops
+  EscrowFinish Hash  : 10C61CBF856DACC0D7E3494BC9EE06EE57BF31B103788939045D8BA2D56EB4F3
+  Memo 온체인 기록값 : CC7E7C106A42DDA9A9E4ACE19DB83C6B062202C1DA3807CC2D502B4DB66AAAC8
+  Memo 해시 일치     : PASS ✅
+
+  반복 89 완료
+
+================================================================
+반복 90/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 90)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03BD83AA
+  발급자 DID         : did:xrpl:rMockIssuer03EFE468
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 813D6DF722BCF9C349D6C7C42A148130A3FDBE53149C25EEE5C5023D2E99225D
+  VC  온체인 해시    : 4C50BF866545C3CDA4FEAC5E9150844CC99C22A3931F35BF1A05BF0E479FFE6D
+  DID IPFS CID       : bafkreiebhvw7oiv47hbutvwhyqvbjajqup634uyutqs65zofai6s5gjclu
+  VC  IPFS CID       : bafkreicmkc7ymzkfypg2j7vml2ivbbcmzgocfi4td4236gqfx4heph76nu
+  VC CID 앵커링 해시 : 7B18A8BB2B3DFC7CBA5E60DBC9DF7B1804E95CE63A94B658BB55322ADE5119BC
+  Phase 1 소요 시간  : 2861 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 90)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6913 ms  Fee=12 drops
+  EscrowCreate Hash  : 6E1033E410ABD3B103BFF5B79703B9A85BEB2630A4F9B5C986246809775B0EEC
+  EscrowFinish       : 5628 ms  Fee=423 drops
+  EscrowFinish Hash  : 8041A469740E7E5E1D8501DF5827A5E81A0CC700DBB5C2DA6BC0522155D431B7
+  Memo 온체인 기록값 : 7B18A8BB2B3DFC7CBA5E60DBC9DF7B1804E95CE63A94B658BB55322ADE5119BC
+  Memo 해시 일치     : PASS ✅
+
+  반복 90 완료
+
+================================================================
+반복 91/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 91)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03498C98
+  발급자 DID         : did:xrpl:rMockIssuer03EB2806
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : F1022AB929FC48F9E8DE5B15ADF1566B520A194AC55183E6BE85F80AF6E17766
+  VC  온체인 해시    : 9401971B59CA1076DC22424D528CEB828C18160C56A6463E76B23F46A6ACBB6C
+  DID IPFS CID       : bafkreihraivlskp4jd46rxs3cww7cvtlkifbsswfkgb6npuf7afpnylxmy
+  VC  IPFS CID       : bafkreieuaglrwwokcb3nyiscjvjiz24crqmbmdcwuzdd45vsh5dknlf3nq
+  VC CID 앵커링 해시 : 803612D7E00459608A1561D799E8DC200AF21E0CCED91D94492BFC958D4D3B7F
+  Phase 1 소요 시간  : 3678 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 91)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6572 ms  Fee=12 drops
+  EscrowCreate Hash  : 3A2E1E31D3516070E8317C48045D344A9ECED638064B54A38C38DA6B02461ACC
+  EscrowFinish       : 5909 ms  Fee=423 drops
+  EscrowFinish Hash  : 3A014C6BD9BE59E6A7BAF0DEA229B9B92677CC512AA124BC515A0B01DB545507
+  Memo 온체인 기록값 : 803612D7E00459608A1561D799E8DC200AF21E0CCED91D94492BFC958D4D3B7F
+  Memo 해시 일치     : PASS ✅
+
+  반복 91 완료
+
+================================================================
+반복 92/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 92)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor039FAE35
+  발급자 DID         : did:xrpl:rMockIssuer0228D166
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 1C37D4B807C3193AC3FAE8E6A015FFB5CACA1E0358C7E265FDF76E6B502B3489
+  VC  온체인 해시    : C24D2D6D288995FDF700A49E01FAA2A7C4B1CB5533E6C25B0253413B159E4B48
+  DID IPFS CID       : bafkreia4g7klqb6dde5mh6xi42qbl75vzlfb4a2yy7rgl7pxnzvvakzure
+  VC  IPFS CID       : bafkreigcjuww2kejsx67oafetya7vivhysy4wvjt43bfwastie5rlhslja
+  VC CID 앵커링 해시 : 187CFBC7EE7E45003F26D0C6FDC35B3EF12CCA9E72370DB3B1D23D0A9DF4C383
+  Phase 1 소요 시간  : 2850 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 92)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 4371 ms  Fee=12 drops
+  EscrowCreate Hash  : B662427AD20F1119FEBCA6207755CB7103CF00F7C0CB5A257F66702676DCF0B8
+  EscrowFinish       : 6881 ms  Fee=423 drops
+  EscrowFinish Hash  : 671C9DBB8CF449E4026BC2FB18531C6206350EA05DD7BA61D2E6FA95B186F0C5
+  Memo 온체인 기록값 : 187CFBC7EE7E45003F26D0C6FDC35B3EF12CCA9E72370DB3B1D23D0A9DF4C383
+  Memo 해시 일치     : PASS ✅
+
+  반복 92 완료
+
+================================================================
+반복 93/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 93)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor02F684D9
+  발급자 DID         : did:xrpl:rMockIssuer0202C853
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : EB60D41C0423CD4E45FE67A433BBEF9AE13290D54B47621524478B4D154ED512
+  VC  온체인 해시    : 6388FC461700D49765CFB1714695D520532EBA1013932C61EF234F5AFBD07AB9
+  DID IPFS CID       : bafkreihlmdkbybbdzvhel7thuqz3x3424ezjbvkli5rbkjchrngrktwvci
+  VC  IPFS CID       : bafkreiddrd6emfya2slwlt5rofdjlvjakmxlueatsmwgd3zdj5npxud2xe
+  VC CID 앵커링 해시 : 047294DAD0D25597D5337F681B457568BDE210D5A1E100F706CB9C9F6A2315DA
+  Phase 1 소요 시간  : 3263 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 93)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 8173 ms  Fee=12 drops
+  EscrowCreate Hash  : 73972C3652615B25E733D09757220040C2307809CFE2C7974614DF165C5A7FE6
+  EscrowFinish       : 5621 ms  Fee=423 drops
+  EscrowFinish Hash  : 1614EEF5221001E8B4E8F261B9A192C9EC63BB7A54B242EEA77078CBDDEDE1E5
+  Memo 온체인 기록값 : 047294DAD0D25597D5337F681B457568BDE210D5A1E100F706CB9C9F6A2315DA
+  Memo 해시 일치     : PASS ✅
+
+  반복 93 완료
+
+================================================================
+반복 94/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 94)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor0341C764
+  발급자 DID         : did:xrpl:rMockIssuer0305CD2D
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : C75506A319ECD3F94EA422A9C658BAB8D9ED3380C80D1953FDAF4776098225C4
+  VC  온체인 해시    : 9452AFD156122EA870297EB2B6F3FC6D90169CA55CB81DC30AAB6D56DF139E6A
+  DID IPFS CID       : bafkreighkudkggpm2p4u5jbcvhdfrovy3hwthagibumvh7npi53atarfyq
+  VC  IPFS CID       : bafkreieukkx5cvqsf2uhakl6wk3ph7dnsaljzjk4xao4gcvlnvln6e46ni
+  VC CID 앵커링 해시 : E7A55F2328D923A1B38ED299406766242DE3D340A5A45711F225FAA451937A01
+  Phase 1 소요 시간  : 3702 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 94)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6904 ms  Fee=12 drops
+  EscrowCreate Hash  : 1D3EA0BD195C454B51A924645A0BC55D5275CD7CE385B13D08818A178BB555BA
+  EscrowFinish       : 8211 ms  Fee=423 drops
+  EscrowFinish Hash  : F99B646830052DCE33AA9027005CCDAA7D1C2D9002BE3282A60D96C1A7AF0C7D
+  Memo 온체인 기록값 : E7A55F2328D923A1B38ED299406766242DE3D340A5A45711F225FAA451937A01
+  Memo 해시 일치     : PASS ✅
+
+  반복 94 완료
+
+================================================================
+반복 95/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 95)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03F60B46
+  발급자 DID         : did:xrpl:rMockIssuer039B78B5
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : C05019B5E1CB90D1099D4F3DBF44564A5D9015F91094C28368C26100F0CE4E85
+  VC  온체인 해시    : B8B6F9DC32614EF9A2C6A975EE8BC8B033AE70303501CCC27BCB9502D46B549F
+  DID IPFS CID       : bafkreigakam3lyolsdiqthkphw7uivsklwibl6iqstbig2gcmeapbtsoqu
+  VC  IPFS CID       : bafkreifyw345ymtbj342frvjoxxixsfqgoxhambvahgme66lsubni22ut4
+  VC CID 앵커링 해시 : E974BD8640737ECAF85DA2EF8DA04ECE9F398E250EDFF131E81C30EBD15046FB
+  Phase 1 소요 시간  : 3136 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 95)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6932 ms  Fee=12 drops
+  EscrowCreate Hash  : D140BF84DF7189D61F2DD56E44970FCB2970FA268F4473C6292FEE597496F619
+  EscrowFinish       : 6902 ms  Fee=423 drops
+  EscrowFinish Hash  : DCD68E0435560ACB1E3EC7FDAFBA5D0E60D1C72036DC3E275E18B31DFC274202
+  Memo 온체인 기록값 : E974BD8640737ECAF85DA2EF8DA04ECE9F398E250EDFF131E81C30EBD15046FB
+  Memo 해시 일치     : PASS ✅
+
+  반복 95 완료
+
+================================================================
+반복 96/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 96)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03FE3534
+  발급자 DID         : did:xrpl:rMockIssuer02A86582
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : C9479668CF37D0A16183A3B7C1603CBB6846CED0A94BC2F7DD48946A8AD951E5
+  VC  온체인 해시    : 83CA0A9519731303A3456F79A5E3F6A41BC73F2EA9BE056A4DE3FFADF4E444F6
+  DID IPFS CID       : bafkreigji6lgrtzx2cqwda5dw7awapf3nbdm5ufjjpbppxkisrvivwkr4u
+  VC  IPFS CID       : bafkreiedzifjkgltcmb2grlppgs6h5vedpdt6lvjxycwutpd76w7jzce6y
+  VC CID 앵커링 해시 : 6D90B2789B9E5F52B614217D8B6D2CFD311AEF118A6FB59F6FB8CEDF191B4CA1
+  Phase 1 소요 시간  : 3348 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 96)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 8259 ms  Fee=12 drops
+  EscrowCreate Hash  : 2711AD684E39D8F03FF4B9F40CACC2ECC6B0A2254272835A65A15EA9714531B2
+  EscrowFinish       : 6957 ms  Fee=423 drops
+  EscrowFinish Hash  : 438094E79A30B83A396CC777791C841E4BE1D26F43D170F2F3A663B5CA3F4BF1
+  Memo 온체인 기록값 : 6D90B2789B9E5F52B614217D8B6D2CFD311AEF118A6FB59F6FB8CEDF191B4CA1
+  Memo 해시 일치     : PASS ✅
+
+  반복 96 완료
+
+================================================================
+반복 97/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 97)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor023ACDF5
+  발급자 DID         : did:xrpl:rMockIssuer03E8DDB3
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : B134752A327CD0473840EB89EF508EE7973486C7BFD9593013AC6CCB7BCC3AE3
+  VC  온체인 해시    : FF297D68DDCDC3154A70BA98BE8F1E63614548AB1DAC18C16DE1D9F1C676D3C3
+  DID IPFS CID       : bafkreifrgr2sumt42bdtqqhlrhxvbdxhs42inr573fmtae5mntfxxtb24m
+  VC  IPFS CID       : bafkreih7ff6wrxonymkuu4f2tc7i6htdmfcurky5vqmmc3pb3hy4m5wtym
+  VC CID 앵커링 해시 : 9CE93E1071E2992D5BE1D41BD8D69908F6FD3F610DD48D8BC42581BCE6E215D6
+  Phase 1 소요 시간  : 3412 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 97)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5649 ms  Fee=12 drops
+  EscrowCreate Hash  : 9FF9BEB0A60B0FF79B4CC961E095225110265D1F228B5A0621903EB7BEA565D9
+  EscrowFinish       : 3147 ms  Fee=423 drops
+  EscrowFinish Hash  : AAAC57376F02E94F5403FB30BA8294DDB22C1AA7B950CF726E77FD4065101210
+  Memo 온체인 기록값 : 9CE93E1071E2992D5BE1D41BD8D69908F6FD3F610DD48D8BC42581BCE6E215D6
+  Memo 해시 일치     : PASS ✅
+
+  반복 97 완료
+
+================================================================
+반복 98/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 98)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03E335C7
+  발급자 DID         : did:xrpl:rMockIssuer033DEB2E
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : B52A5527ACF6C13FEB3D1A21DC442761DE0FD514FA49D2802DA2659AE4336B1B
+  VC  온체인 해시    : 1186FF5ECC9F1B7E98374FE50FA907460CC7D4C06FF8B947E3FD2417AB59B8A8
+  DID IPFS CID       : bafkreifvfjksplhwye76wpi2ehoeij3b3yh5kfh2jhjialncmwnoim3ldm
+  VC  IPFS CID       : bafkreiarq37v5te7dn7jqn2p4uh2sb2gbtd5jqdp7c4upy75eql2wwnyva
+  VC CID 앵커링 해시 : CE52704607B9081A13955B8E1BACE7CB66E846861DC5294BDC8200BBEE4ACCBC
+  Phase 1 소요 시간  : 3065 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 98)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 6905 ms  Fee=12 drops
+  EscrowCreate Hash  : C4CD87A7B9B60786DE53F3B6DA5A8B1D31CF87B3CCA57023B4BB9908D973D7C4
+  EscrowFinish       : 5615 ms  Fee=423 drops
+  EscrowFinish Hash  : 5A7A3622628BA399EC07213F391C77C429335AABE4BE311DDBC0CC21BA802988
+  Memo 온체인 기록값 : CE52704607B9081A13955B8E1BACE7CB66E846861DC5294BDC8200BBEE4ACCBC
+  Memo 해시 일치     : PASS ✅
+
+  반복 98 완료
+
+================================================================
+반복 99/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 99)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03FB530F
+  발급자 DID         : did:xrpl:rMockIssuer03616FCA
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : C46D6500D9FEE7B6524F84EA2CA34B6CE41FC3E0520EB5828F578D4F23611263
+  VC  온체인 해시    : F5390A1BCCC06D8220C2F08F055D087CDB42F2E0F872151C99BC83C812944A3D
+  DID IPFS CID       : bafkreigenvsqbwp6463fet4e5iwkgs3m4qp4hycsb22yfd2xrvhsgyismm
+  VC  IPFS CID       : bafkreihvhefbxtganwbcbqxqr4cv2cd43nbpfyhyoikrzgn4qpebffckhu
+  VC CID 앵커링 해시 : 4D159BC051C96107C8BFD6E844773A1B331C50F2BDCF3131023BBB643D378339
+  Phase 1 소요 시간  : 3574 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 99)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 5628 ms  Fee=12 drops
+  EscrowCreate Hash  : F3F9DFB93C95D27D96EB6B09A8997419F6A222DEE159002BA9FC444C1B4DECD1
+  EscrowFinish       : 4364 ms  Fee=423 drops
+  EscrowFinish Hash  : 4EC7CD66F3DC43340DF394C3224784B2AA11191B73F9ECDA83566D7524E7E4DB
+  Memo 온체인 기록값 : 4D159BC051C96107C8BFD6E844773A1B331C50F2BDCF3131023BBB643D378339
+  Memo 해시 일치     : PASS ✅
+
+  반복 99 완료
+
+================================================================
+반복 100/100
+================================================================
+
+────────────────────────────────────────────────────────────────
+[Phase 1 — DID/VC 생성 + IPFS 업로드 (반복 100)]
+────────────────────────────────────────────────────────────────
+  저자 DID           : did:xrpl:rMockAuthor03ADDF60
+  발급자 DID         : did:xrpl:rMockIssuer03C62549
+  대상 DOI           : 10.1234/mock.dissertation.2026
+  DID 온체인 해시    : 73C52831C501088F22EAD51385B9890EC4A9A0C8471B9A01104697A11CD172F9
+  VC  온체인 해시    : 559AB37EDF17542EE222DC286EB61F5680E4680071215DB89CF3BBA411E057EC
+  DID IPFS CID       : bafkreidtyuuddribbchsf2wvcoc3tcioysu2bschdonacecgs6qrzuls7e
+  VC  IPFS CID       : bafkreicvtkzx5xyxkqxoeiw4fbxlmh2wqdsgqadrefo3rhhtxosbdycx5q
+  VC CID 앵커링 해시 : 256E9AEDBB53FEAB192645E6D4849882B2734D0FFFC81DBFDC69C85F78336A88
+  Phase 1 소요 시간  : 3094 ms
+
+────────────────────────────────────────────────────────────────
+[Phase 2 — XRPL Escrow 실행 (반복 100)]
+────────────────────────────────────────────────────────────────
+  EscrowCreate       : 7091 ms  Fee=12 drops
+  EscrowCreate Hash  : 43E1A0A231178D193DE778A6F712FD5FBF31871E9031CA607AB6F8B91116AC76
+  EscrowFinish       : 6923 ms  Fee=423 drops
+  EscrowFinish Hash  : F20546E9D456A5DFFBB378C9CB80EB2EEF80AF5D26CA2A27E35CA0E53EE794B7
+  Memo 온체인 기록값 : 256E9AEDBB53FEAB192645E6D4849882B2734D0FFFC81DBFDC69C85F78336A88
+  Memo 해시 일치     : PASS ✅
+
+  반복 100 완료
+
+────────────────────────────────────────────────────────────────
+[요약 통계 (성공 100회 기준)]
+────────────────────────────────────────────────────────────────
+  Phase 1 평균 소요 시간 : 3376.8 ms
+  Memo 해시 일치율       : 100/100 (100.0%)
+
+  --- EscrowCreate ---
+  평균    (ms)    : 6188.320
+  표준편차(ms)    : 973.381
+  최솟값  (ms)    : 3041
+  최댓값  (ms)    : 8259
+  p95     (ms)    : 7114.800
+  평균수수료(drops): 12.000
+
+  --- EscrowFinish ---
+  평균    (ms)    : 6204.030
+  표준편차(ms)    : 1050.228
+  최솟값  (ms)    : 3040
+  최댓값  (ms)    : 8513
+  p95     (ms)    : 7283.850
+  평균수수료(drops): 423.000
+
+저장 파일:
+  integration_results.txt  — 실험 상세 로그
+  integration_results.csv  — 수치 데이터 (논문 표 입력용)
+
+=== 통합 실험 완료 — 온체인 앵커링 연결 검증 성공 ✅ ===
+XRPL 연결 종료

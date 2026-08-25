@@ -1,0 +1,40 @@
+================================================================
+Condition 불일치 거부 검증 (4.2.1절 보완 실험)
+실행시각: 2026. 7. 31. PM 2:07:08
+엔드포인트: wss://s.altnet.rippletest.net:51233
+반복횟수: 5 (케이스당)
+================================================================
+XRPL Testnet 연결 완료: wss://s.altnet.rippletest.net:51233
+
+[1] EscrowCreate 성공  Seq=19509166  Hash=C7B7EC361D12E553E9DF455095CB19BE6461CD995BB884D09DC9A15BCC89D407
+[1] (A) 불일치 Fulfillment | 기대=tecCRYPTOCONDITION_ERROR 실제=tecCRYPTOCONDITION_ERROR ✅ (5783ms, Fee=423 drops)
+[1] (B) 정상 Fulfillment   | 기대=tesSUCCESS 실제=tesSUCCESS ✅ (5789ms, Fee=423 drops)
+
+[2] EscrowCreate 성공  Seq=19509176  Hash=9B83320CD85AEF87D6386024C258BB3310B9BF29C8DFDC4AFE2B07D71011D6C2
+[2] (A) 불일치 Fulfillment | 기대=tecCRYPTOCONDITION_ERROR 실제=tecCRYPTOCONDITION_ERROR ✅ (8428ms, Fee=423 drops)
+[2] (B) 정상 Fulfillment   | 기대=tesSUCCESS 실제=tesSUCCESS ✅ (5794ms, Fee=423 drops)
+
+[3] EscrowCreate 성공  Seq=19509186  Hash=5115FD79ABBBC0EAC87CE613177B38E2E13AD0357D1F86F87E36DC517D752ACC
+[3] (A) 불일치 Fulfillment | 기대=tecCRYPTOCONDITION_ERROR 실제=tecCRYPTOCONDITION_ERROR ✅ (7109ms, Fee=423 drops)
+[3] (B) 정상 Fulfillment   | 기대=tesSUCCESS 실제=tesSUCCESS ✅ (5788ms, Fee=423 drops)
+
+[4] EscrowCreate 성공  Seq=19509196  Hash=250F2697B0F1562213109E187300343512D863BBE46F3F9DB468988EA2BFAC5B
+[4] (A) 불일치 Fulfillment | 기대=tecCRYPTOCONDITION_ERROR 실제=tecCRYPTOCONDITION_ERROR ✅ (5804ms, Fee=423 drops)
+[4] (B) 정상 Fulfillment   | 기대=tesSUCCESS 실제=tesSUCCESS ✅ (7085ms, Fee=423 drops)
+
+[5] EscrowCreate 성공  Seq=19509206  Hash=EE1CE07BDCBA403C6535544CD0F3CE7E011C02B887278630E91ACFE5B645412D
+[5] (A) 불일치 Fulfillment | 기대=tecCRYPTOCONDITION_ERROR 실제=tecCRYPTOCONDITION_ERROR ✅ (7134ms, Fee=423 drops)
+[5] (B) 정상 Fulfillment   | 기대=tesSUCCESS 실제=tesSUCCESS ✅ (5798ms, Fee=423 drops)
+
+================================================================
+[실험 결과 요약]
+================================================================
+  (A) 불일치 Fulfillment 거부 : 5/5 tecCRYPTOCONDITION_ERROR
+  (B) 정상 Fulfillment 승인   : 5/5 tesSUCCESS
+  오류                        : 0건
+
+  종합 판정: 전 케이스 통과 ✅
+
+  4.2.1절 'Condition 불일치 시 거부' 실측 근거 확보
+
+  출력: condition_mismatch_results.txt, condition_mismatch_results.csv

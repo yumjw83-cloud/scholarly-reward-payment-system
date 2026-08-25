@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+title: "XRPL 기반 학술저작물 저자 보상 자동 지급 시스템 — 재현성 패키지"
+message: "본 소프트웨어를 사용하는 경우 아래 학위논문을 인용해 주십시오."
+type: software
+authors:
+  - family-names: "염"
+    given-names: "정완"
+    alias: "YEOM, Jung-Wan"
+    affiliation: "숭실대학교 IT정책경영학과"
+license: MIT
+repository-code: "https://github.com/yumjw83-cloud/scholarly-reward-payment-system"
+abstract: >
+  AI 학습데이터로 활용되는 학술저작물의 저자 보상 자동 지급 구조에 대한
+  박사학위논문 제4장 실험의 재현성 패키지. XRPL Testnet 기반 조건부 에스크로
+  집행, DID/VC 저자 식별, IPFS 오프체인 앵커링, 오라클 이벤트 트리거의
+  구현 코드와 실험 원시 데이터를 포함한다.
+keywords:
+  - XRPL
+  - conditional escrow
+  - crypto-condition
+  - decentralized identifier
+  - verifiable credential
+  - AI training data
+  - author compensation
+  - design science research
+
+preferred-citation:
+  type: thesis
+  title: "AI 학습데이터로 활용되는 학술저작물의 저자 보상 자동 지급 구조 설계 및 성능 평가"
+  authors:
+    - family-names: "염"
+      given-names: "정완"
+  thesis-type: "박사학위논문"
+  institution:
+    name: "숭실대학교"
+  year: 2026
+  url: "［기관 리포지토리 URL 기입］"
+
+references:
+  - type: article
+    title: "XRPL 기반 학술 생태계 온체인 보상 지급 시스템 아키텍처 설계 연구"
+    authors:
+      - family-names: "염"
+        given-names: "정완"
+      - family-names: "전"
+        given-names: "삼현"
+    journal: "지급결제학회지"
+    volume: 17
+    issue: 2
+    start: 419
+    end: 437
+    year: 2025
+    doi: "10.22898/kpsakr.2025.12.17.2.419"
+    notes: "본 논문의 시스템 아키텍처가 기초한 선행 연구"

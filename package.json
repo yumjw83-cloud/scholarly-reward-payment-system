@@ -1,0 +1,27 @@
+{
+  "name": "xrpl-scholarly-reward-prototype",
+  "version": "1.0.0",
+  "description": "Reproducibility package for the doctoral dissertation on XRPL escrow-based automatic author reward payment for scholarly works used as AI training data",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "xrpl": "^4.6.0",
+    "@noble/secp256k1": "^2.0.0",
+    "node-fetch": "^2.7.0",
+    "form-data": "^4.0.0"
+  },
+  "scripts": {
+    "escrow": "node xrpl_escrow_experiment.js",
+    "trigger": "node oracle_trigger_experiment.js",
+    "pbt": "node property_based_test.js",
+    "didvc": "node did_vc_mock.js",
+    "orcid": "node supplementary_test_orcid.mjs",
+    "hf": "node supplementary_test_hf_oracle.mjs",
+    "storage": "node storage_measurement_experiment_v2.js",
+    "condmismatch": "node condition_mismatch_test.js",
+    "e2e-didkey": "node index_final_enhanced.js"
+  }
+}

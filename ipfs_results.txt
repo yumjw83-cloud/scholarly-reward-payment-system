@@ -1,0 +1,58 @@
+IPFS Pinata 오프체인 저장 연동 실험
+실행시각: 2026. 4. 13. PM 10:42:14
+============================================================
+Step 2 해시 로드 완료
+  VC SHA-256  : ABAB1F10DFAE81F757D7E8E18D36A5FCE25839B64701FD94346362C3547589F3
+  DID SHA-256 : 5D5D65AD300BCBDFC391D13E4E3E456FE149E1B9C4514D154DB8F18028B9CB6E
+
+────────────────────────────────────────────────────────────
+[1. DID 문서 IPFS 업로드]
+────────────────────────────────────────────────────────────
+  업로드 전 SHA-256 : 5D5D65AD300BCBDFC391D13E4E3E456FE149E1B9C4514D154DB8F18028B9CB6E
+  Step 2 기준 해시  : 5D5D65AD300BCBDFC391D13E4E3E456FE149E1B9C4514D154DB8F18028B9CB6E
+  해시 일치         : ✅
+  CID               : bafkreic5lvs22malzpp4heorhzhd4rlp4fe6dooekfgrktny6gacroolny
+  CID 바이트 길이   : 59 bytes
+  업로드 소요 시간  : 2771 ms
+  게이트웨이 URL    : https://gateway.pinata.cloud/ipfs/bafkreic5lvs22malzpp4heorhzhd4rlp4fe6dooekfgrktny6gacroolny
+
+────────────────────────────────────────────────────────────
+[2. VC 문서 IPFS 업로드]
+────────────────────────────────────────────────────────────
+  업로드 전 SHA-256 : ABAB1F10DFAE81F757D7E8E18D36A5FCE25839B64701FD94346362C3547589F3
+  Step 2 기준 해시  : ABAB1F10DFAE81F757D7E8E18D36A5FCE25839B64701FD94346362C3547589F3
+  해시 일치         : ✅
+  CID               : bafkreiflvmprbx5oqh3vpv7i4ggtnjp44jmdtnshah6zinddmlbvi5mj6m
+  CID 바이트 길이   : 59 bytes
+  업로드 소요 시간  : 1206 ms
+  게이트웨이 URL    : https://gateway.pinata.cloud/ipfs/bafkreiflvmprbx5oqh3vpv7i4ggtnjp44jmdtnshah6zinddmlbvi5mj6m
+
+────────────────────────────────────────────────────────────
+[3. IPFS CID 형식 검증]
+────────────────────────────────────────────────────────────
+  DID CID 형식 (CIDv1 base32): PASS ✅
+  VC  CID 형식 (CIDv1 base32): PASS ✅
+  ※ 3.4.1절 IPFS CID v1 = 46 bytes 가정과 실측 비교:
+    DID CID 실측: 59 bytes (설계값 46 bytes)
+    VC  CID 실측: 59  bytes (설계값 46 bytes)
+
+────────────────────────────────────────────────────────────
+[4. 온체인 앵커링값 산출]
+────────────────────────────────────────────────────────────
+  DID CID → SHA-256 (온체인 앵커링값): D55905380CB2B8CCC1036C17C3281C1D1BDBCB2676F7063C4D3FEB7AD35C0F01
+  VC  CID → SHA-256 (온체인 앵커링값): 4011069EE9A51C66108B0BFE552001EF86AC6DB125FDB62005460962657E6274
+  ※ 실제 구현에서는 이 해시값을 XRPL Memo 필드에 기록
+
+────────────────────────────────────────────────────────────
+[5. 실험 결과 요약]
+────────────────────────────────────────────────────────────
+  DID 해시 일치    : PASS ✅
+  VC  해시 일치    : PASS ✅
+  DID CID 형식     : PASS ✅
+  VC  CID 형식     : PASS ✅
+
+저장 파일:
+  ipfs_results.json — CID·해시·소요시간 상세 결과
+  ipfs_results.txt  — 본 실험 로그
+
+=== 모든 검증 통과 — 4.2.3절 IPFS 오프체인 저장 연동 검증 완료 ✅ ===

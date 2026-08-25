@@ -1,0 +1,18 @@
+test_id,property,description,expected,total,pass,fail,pass_rate
+Completeness,"완전성 (Completeness)","정당 입력 → CONDITION_MET",CONDITION_MET,10000,10000,0,100.00
+Soundness-P1a,"건전성-P1a","Payload 변조 → REJECTED",REJECTED,10000,10000,0,100.00
+Soundness-P1b,"건전성-P1b","오라클 서명 위조 → REJECTED",REJECTED,10000,10000,0,100.00
+Soundness-P2,"건전성-P2","미등록 DOI → REJECTED",REJECTED,10000,10000,0,100.00
+Soundness-P3a,"건전성-P3a","VC 해시 변조 → REJECTED",REJECTED,10000,10000,0,100.00
+Soundness-P3b,"건전성-P3b","VC DOI 불일치 → REJECTED",REJECTED,10000,10000,0,100.00
+Soundness-P4,"건전성-P4","에스크로 만료 → REJECTED",REJECTED,10000,10000,0,100.00
+Soundness-P3c,"건전성-P3c","미등록 DID → REJECTED",REJECTED,10000,10000,0,100.00
+Soundness-P3d,"건전성-P3d","발급자 서명 위조 → REJECTED",REJECTED,10000,10000,0,100.00
+Boundary-Time,"경계값-시각","만료 정확 일치 → CONDITION_MET",CONDITION_MET,1000,1000,0,100.00
+Boundary-Hash,"경계값-해시","1비트 변조 → REJECTED",REJECTED,1000,1000,0,100.00
+TOTAL,총계,,,,92000,92000,0,100.00
+
+# 실행시각,2026-05-03T00:43:53.085Z
+# 실행시간_초,19.73
+# Node.js,v24.14.0
+# 암호프리미티브,ECDSA_P-256_SHA-256

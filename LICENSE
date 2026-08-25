@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 염정완 (YEOM, Jung-Wan)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 실험 데이터 라이선스
+
+본 저장소의 실험 원시 데이터(`*.csv`, `*.txt`, `*.json`, `evidence/`)와
+그림(`figures/`)은 Creative Commons Attribution 4.0 International
+(CC BY 4.0)으로 배포된다. https://creativecommons.org/licenses/by/4.0/
+
+---
+
+## 특허 고지
+
+본 저장소가 구현하는 조건부 자동 지급 구조는 특허 출원되었다.
+
+- 출원번호: 10-2026-0132901 (2026년 7월 20일)
+- 출원인: 숭실대학교 산학협력단
+
+MIT 라이선스는 저작권에 관한 허락이며 특허권 실시를 허락하지 않는다.
+상업적 실시를 검토하는 경우 출원인에게 문의할 것.

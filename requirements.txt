@@ -1,0 +1,8 @@
+# storage_poisson.py · visualize.py · 통계검정_재현.py
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+
+# 통계검정_재현_pingouin.py (SPSS 형식 출력)
+pingouin>=0.5.3
+pandas>=2.0

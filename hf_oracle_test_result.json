@@ -1,0 +1,459 @@
+{
+  "testName": "Hugging Face Datasets API 기반 오라클 이벤트 소스 검증",
+  "testDate": "2026-04-16T13:10:19.290Z",
+  "phase1_searchResults": [
+    {
+      "query": "scientific papers",
+      "count": 30,
+      "latencyMs": 324,
+      "status": "SUCCESS"
+    },
+    {
+      "query": "arxiv academic",
+      "count": 0,
+      "latencyMs": 210,
+      "status": "SUCCESS"
+    },
+    {
+      "query": "pubmed research",
+      "count": 2,
+      "latencyMs": 212,
+      "status": "SUCCESS"
+    }
+  ],
+  "phase2_sampleSize": 20,
+  "phase2_successCount": 20,
+  "phase2_failCount": 0,
+  "phase2_successRate": "20/20",
+  "apiLatency": {
+    "mean": 255,
+    "sd": 98,
+    "min": 201,
+    "max": 577,
+    "p95": 577
+  },
+  "triggerInputCompatible": "20/20",
+  "eventPayloadHashFormat": "SHA-256 (32 bytes)",
+  "algorithmInputFields": "E = ⟨eid, type, t_occur, subject_did, target_doi, oracle_sig, payload_hash⟩",
+  "datasetResults": [
+    {
+      "index": 1,
+      "datasetId": "scientific_papers",
+      "status": "SUCCESS",
+      "apiLatencyMs": 416,
+      "downloads": 2419,
+      "likes": 175,
+      "tags": [
+        "task_categories:summarization",
+        "annotations_creators:found",
+        "language_creators:found",
+        "multilinguality:monolingual",
+        "source_datasets:original"
+      ],
+      "lastModified": "2024-01-18T11:15:30.000Z",
+      "eventPayloadHash": "165f963628a8fdeed995411ad97f6a447d0462e5084485f6f0f5a0e45cc67026",
+      "eventPayloadBytes": 350,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:06.827Z"
+    },
+    {
+      "index": 2,
+      "datasetId": "multi_news",
+      "status": "SUCCESS",
+      "apiLatencyMs": 406,
+      "downloads": 2550,
+      "likes": 77,
+      "tags": [
+        "task_categories:summarization",
+        "task_ids:news-articles-summarization",
+        "annotations_creators:expert-generated",
+        "language_creators:expert-generated",
+        "multilinguality:monolingual"
+      ],
+      "lastModified": "2024-01-18T11:09:43.000Z",
+      "eventPayloadHash": "4280f41eb4743b77541c3b9b228177df2828236d930a9451d3e110dc897a080b",
+      "eventPayloadBytes": 347,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:07.645Z"
+    },
+    {
+      "index": 3,
+      "datasetId": "allenai/peS2o",
+      "status": "SUCCESS",
+      "apiLatencyMs": 205,
+      "downloads": 8547,
+      "likes": 196,
+      "tags": [
+        "task_categories:text-generation",
+        "task_categories:fill-mask",
+        "source_datasets:allenai/s2orc",
+        "language:en",
+        "license:odc-by"
+      ],
+      "lastModified": "2024-10-13T02:53:05.000Z",
+      "eventPayloadHash": "4f6b4e609ca0e307ebb385f24817c81506fc3ef873b1e557dfa760cfb36be3a8",
+      "eventPayloadBytes": 339,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:08.265Z"
+    },
+    {
+      "index": 4,
+      "datasetId": "allenai/c4",
+      "status": "SUCCESS",
+      "apiLatencyMs": 577,
+      "downloads": 633054,
+      "likes": 547,
+      "tags": [
+        "task_categories:text-generation",
+        "task_categories:fill-mask",
+        "task_ids:language-modeling",
+        "task_ids:masked-language-modeling",
+        "annotations_creators:no-annotation"
+      ],
+      "lastModified": "2024-01-09T19:14:03.000Z",
+      "eventPayloadHash": "14c58e6529717827c870a64056bb95c41cb20c7d456be170919a98d0908c9b63",
+      "eventPayloadBytes": 336,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:09.256Z"
+    },
+    {
+      "index": 5,
+      "datasetId": "allenai/qasper",
+      "status": "SUCCESS",
+      "apiLatencyMs": 203,
+      "downloads": 6976,
+      "likes": 97,
+      "tags": [
+        "task_categories:question-answering",
+        "task_ids:closed-domain-qa",
+        "annotations_creators:expert-generated",
+        "language_creators:expert-generated",
+        "multilinguality:monolingual"
+      ],
+      "lastModified": "2022-10-07T22:04:11.000Z",
+      "eventPayloadHash": "cb7ebf19a683526226fd165bb9f68a68fa4f03588d34235ab55d582e0e491e97",
+      "eventPayloadBytes": 340,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:09.869Z"
+    },
+    {
+      "index": 6,
+      "datasetId": "allenai/sciq",
+      "status": "SUCCESS",
+      "apiLatencyMs": 209,
+      "downloads": 79655,
+      "likes": 136,
+      "tags": [
+        "task_categories:question-answering",
+        "task_ids:closed-domain-qa",
+        "annotations_creators:no-annotation",
+        "language_creators:crowdsourced",
+        "multilinguality:monolingual"
+      ],
+      "lastModified": "2024-01-04T16:23:51.000Z",
+      "eventPayloadHash": "fe51b5926cc1a6e75bda01969cbe91db27af53529c24e516535429490ae82323",
+      "eventPayloadBytes": 338,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:10.486Z"
+    },
+    {
+      "index": 7,
+      "datasetId": "allenai/ai2_arc",
+      "status": "SUCCESS",
+      "apiLatencyMs": 207,
+      "downloads": 401938,
+      "likes": 325,
+      "tags": [
+        "task_categories:question-answering",
+        "task_ids:open-domain-qa",
+        "task_ids:multiple-choice-qa",
+        "annotations_creators:found",
+        "language_creators:found"
+      ],
+      "lastModified": "2023-12-21T15:09:48.000Z",
+      "eventPayloadHash": "66c6b9fad6b3bf9aa9d029d5839433d379fb9b82a6a2be04d0e27a5377974c41",
+      "eventPayloadBytes": 341,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:11.107Z"
+    },
+    {
+      "index": 8,
+      "datasetId": "ccdv/arxiv-summarization",
+      "status": "SUCCESS",
+      "apiLatencyMs": 203,
+      "downloads": 11864,
+      "likes": 120,
+      "tags": [
+        "task_categories:summarization",
+        "task_categories:text-generation",
+        "multilinguality:monolingual",
+        "language:en",
+        "size_categories:100K<n<1M"
+      ],
+      "lastModified": "2024-08-08T05:49:50.000Z",
+      "eventPayloadHash": "7ed643bce96eb09be867bdee505ae8e24c2d628d3bf3e7b7559698c05d1b25b1",
+      "eventPayloadBytes": 350,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:11.710Z"
+    },
+    {
+      "index": 9,
+      "datasetId": "ccdv/pubmed-summarization",
+      "status": "SUCCESS",
+      "apiLatencyMs": 211,
+      "downloads": 4113,
+      "likes": 90,
+      "tags": [
+        "task_categories:summarization",
+        "task_categories:text-generation",
+        "multilinguality:monolingual",
+        "language:en",
+        "size_categories:100K<n<1M"
+      ],
+      "lastModified": "2024-08-08T05:49:36.000Z",
+      "eventPayloadHash": "98d6ee3e977512e4370c8fe58cb18adbb8b975c3bc6b0eef6c011adb7f38a688",
+      "eventPayloadBytes": 351,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:12.332Z"
+    },
+    {
+      "index": 10,
+      "datasetId": "CShorten/ML-ArXiv-Papers",
+      "status": "SUCCESS",
+      "apiLatencyMs": 201,
+      "downloads": 2105,
+      "likes": 64,
+      "tags": [
+        "license:afl-3.0",
+        "size_categories:100K<n<1M",
+        "format:csv",
+        "modality:tabular",
+        "modality:text"
+      ],
+      "lastModified": "2022-06-27T12:15:11.000Z",
+      "eventPayloadHash": "ea5297c21d5a3cacf023a0ecbcd96cd9938dfafe4b75109fb9175c35e9bf0272",
+      "eventPayloadBytes": 350,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:12.943Z"
+    },
+    {
+      "index": 11,
+      "datasetId": "princeton-nlp/LitSearch",
+      "status": "SUCCESS",
+      "apiLatencyMs": 263,
+      "downloads": 1358,
+      "likes": 20,
+      "tags": [
+        "size_categories:100K<n<1M",
+        "format:parquet",
+        "modality:tabular",
+        "modality:text",
+        "library:datasets"
+      ],
+      "lastModified": "2024-07-09T17:48:50.000Z",
+      "eventPayloadHash": "ae556040ce45fad3fdf96f2cd1b8008b3fa0d340c786b56d9e7f78877d77dced",
+      "eventPayloadBytes": 349,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:13.608Z"
+    },
+    {
+      "index": 12,
+      "datasetId": "yale-nlp/SciDQA",
+      "status": "SUCCESS",
+      "apiLatencyMs": 202,
+      "downloads": 126,
+      "likes": 2,
+      "tags": [
+        "task_categories:question-answering",
+        "language:en",
+        "license:odc-by",
+        "size_categories:1K<n<10K",
+        "format:json"
+      ],
+      "lastModified": "2025-08-03T16:25:05.000Z",
+      "eventPayloadHash": "e7e0223b39795c8b9f3f2608e60d003e9909938f5750479c776e8733bed2f77d",
+      "eventPayloadBytes": 341,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:14.224Z"
+    },
+    {
+      "index": 13,
+      "datasetId": "armanc/scientific_papers",
+      "status": "SUCCESS",
+      "apiLatencyMs": 208,
+      "downloads": 2419,
+      "likes": 175,
+      "tags": [
+        "task_categories:summarization",
+        "annotations_creators:found",
+        "language_creators:found",
+        "multilinguality:monolingual",
+        "source_datasets:original"
+      ],
+      "lastModified": "2024-01-18T11:15:30.000Z",
+      "eventPayloadHash": "9224a2a13a64cf010f8e82138b05fcdeaf55afd25c73adb30492bf3c4327ba19",
+      "eventPayloadBytes": 350,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:14.839Z"
+    },
+    {
+      "index": 14,
+      "datasetId": "ncbi/pubmed",
+      "status": "SUCCESS",
+      "apiLatencyMs": 209,
+      "downloads": 914,
+      "likes": 162,
+      "tags": [
+        "task_categories:text-generation",
+        "task_categories:fill-mask",
+        "task_categories:text-classification",
+        "task_ids:language-modeling",
+        "task_ids:masked-language-modeling"
+      ],
+      "lastModified": "2024-01-26T17:52:23.000Z",
+      "eventPayloadHash": "cbd8444d46fc5efecdb4eb366bb7934cfdc448bc0b25cb5c37c135ff99c6bb60",
+      "eventPayloadBytes": 337,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:15.458Z"
+    },
+    {
+      "index": 15,
+      "datasetId": "jpwahle/dblp-discovery-dataset",
+      "status": "SUCCESS",
+      "apiLatencyMs": 201,
+      "downloads": 92,
+      "likes": 4,
+      "tags": [
+        "task_categories:other",
+        "annotations_creators:found",
+        "language_creators:found",
+        "multilinguality:monolingual",
+        "source_datasets:extended|s2orc"
+      ],
+      "lastModified": "2025-06-15T17:33:29.000Z",
+      "eventPayloadHash": "4905959864b674435f34d956b2cc4f6f43f362352419314018b880886c2b0d8d",
+      "eventPayloadBytes": 356,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:16.068Z"
+    },
+    {
+      "index": 16,
+      "datasetId": "bigbio/pubmed_qa",
+      "status": "SUCCESS",
+      "apiLatencyMs": 205,
+      "downloads": 6063,
+      "likes": 54,
+      "tags": [
+        "multilinguality:monolingual",
+        "language:en",
+        "license:mit",
+        "region:us"
+      ],
+      "lastModified": "2024-03-23T19:06:35.000Z",
+      "eventPayloadHash": "343ca5bbbea332d40bdb095ac3fbad11b046995750e976d54babae045c074934",
+      "eventPayloadBytes": 342,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:16.678Z"
+    },
+    {
+      "index": 17,
+      "datasetId": "allenai/prescience",
+      "status": "SUCCESS",
+      "apiLatencyMs": 207,
+      "downloads": 277,
+      "likes": 21,
+      "tags": [
+        "task_categories:text-generation",
+        "task_categories:question-answering",
+        "language:en",
+        "license:odc-by",
+        "size_categories:100K<n<1M"
+      ],
+      "lastModified": "2026-02-25T02:42:04.000Z",
+      "eventPayloadHash": "f4be146f77178108cd379a2f35b5e3f7c56cf0eabb0907dfd6dd44aaa84f0167",
+      "eventPayloadBytes": 344,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:17.298Z"
+    },
+    {
+      "index": 18,
+      "datasetId": "GAIR/MathPile",
+      "status": "SUCCESS",
+      "apiLatencyMs": 243,
+      "downloads": 306,
+      "likes": 194,
+      "tags": [
+        "language:en",
+        "license:cc-by-nc-sa-4.0",
+        "size_categories:1B<n<10B",
+        "library:mlcroissant",
+        "arxiv:2312.17120"
+      ],
+      "lastModified": "2025-04-03T10:31:50.000Z",
+      "eventPayloadHash": "25e8a6f68c205cd07a1895b01aca0be1878ed054b822563220b416cd72061968",
+      "eventPayloadBytes": 339,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:17.956Z"
+    },
+    {
+      "index": 19,
+      "datasetId": "togethercomputer/RedPajama-Data-1T",
+      "status": "SUCCESS",
+      "apiLatencyMs": 207,
+      "downloads": 2186,
+      "likes": 1147,
+      "tags": [
+        "task_categories:text-generation",
+        "language:en",
+        "size_categories:1M<n<10M",
+        "modality:text",
+        "library:datasets"
+      ],
+      "lastModified": "2024-06-17T11:36:03.000Z",
+      "eventPayloadHash": "b3b2d56afefdf27ab41ceb7cb69a9425346dee153efe172d82b5ec44f251abbd",
+      "eventPayloadBytes": 360,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:18.575Z"
+    },
+    {
+      "index": 20,
+      "datasetId": "HuggingFaceFW/fineweb",
+      "status": "SUCCESS",
+      "apiLatencyMs": 313,
+      "downloads": 628308,
+      "likes": 2749,
+      "tags": [
+        "task_categories:text-generation",
+        "language:en",
+        "license:odc-by",
+        "size_categories:10B<n<100B",
+        "modality:tabular"
+      ],
+      "lastModified": "2025-07-11T20:16:53.000Z",
+      "eventPayloadHash": "29e837db3fb77236f50d64fc21bf299f9b4cc6fa5799064c41a0e7d5eeddfd0e",
+      "eventPayloadBytes": 347,
+      "triggerInputValid": true,
+      "triggerHashFormat": "32B (SHA-256)",
+      "timestamp": "2026-04-16T13:10:19.290Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:xrpl:rMockAuthor02075B5D",
+  "verificationMethod": [
+    {
+      "id": "did:xrpl:rMockAuthor02075B5D#key-1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:xrpl:rMockAuthor02075B5D",
+      "publicKeyHex": "02075B5DA86756E029E71C725C6A90A25ED5F985A51F73F9B41D341F5B5F00C841"
+    }
+  ],
+  "authentication": [
+    "did:xrpl:rMockAuthor02075B5D#key-1"
+  ],
+  "assertionMethod": [
+    "did:xrpl:rMockAuthor02075B5D#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:xrpl:rMockAuthor02075B5D#orcid",
+      "type": "OrcidProfile",
+      "serviceEndpoint": "https://orcid.org/0000-0000-0000-MOCK"
+    }
+  ],
+  "created": "2026-04-13T13:42:05.163Z"
+}

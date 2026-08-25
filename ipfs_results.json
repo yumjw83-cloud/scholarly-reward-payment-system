@@ -1,0 +1,26 @@
+{
+  "experiment": "Step 3 IPFS Pinata 연동",
+  "timestamp": "2026-04-13T13:42:18.837Z",
+  "did_document": {
+    "cid": "bafkreic5lvs22malzpp4heorhzhd4rlp4fe6dooekfgrktny6gacroolny",
+    "cid_bytes": 59,
+    "upload_ms": 2771,
+    "sha256": "5D5D65AD300BCBDFC391D13E4E3E456FE149E1B9C4514D154DB8F18028B9CB6E",
+    "cid_sha256": "D55905380CB2B8CCC1036C17C3281C1D1BDBCB2676F7063C4D3FEB7AD35C0F01",
+    "gateway_url": "https://gateway.pinata.cloud/ipfs/bafkreic5lvs22malzpp4heorhzhd4rlp4fe6dooekfgrktny6gacroolny"
+  },
+  "vc_document": {
+    "cid": "bafkreiflvmprbx5oqh3vpv7i4ggtnjp44jmdtnshah6zinddmlbvi5mj6m",
+    "cid_bytes": 59,
+    "upload_ms": 1206,
+    "sha256": "ABAB1F10DFAE81F757D7E8E18D36A5FCE25839B64701FD94346362C3547589F3",
+    "cid_sha256": "4011069EE9A51C66108B0BFE552001EF86AC6DB125FDB62005460962657E6274",
+    "gateway_url": "https://gateway.pinata.cloud/ipfs/bafkreiflvmprbx5oqh3vpv7i4ggtnjp44jmdtnshah6zinddmlbvi5mj6m"
+  },
+  "verification": {
+    "did_hash_match": true,
+    "vc_hash_match": true,
+    "did_cid_valid": true,
+    "vc_cid_valid": true
+  }
+}

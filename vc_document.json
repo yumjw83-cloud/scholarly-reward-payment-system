@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://schema.org"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "ScholarlyAuthorshipCredential"
+  ],
+  "id": "urn:uuid:edd60e94-2a01-435e-a1d3-5f4120e53cad",
+  "issuer": "did:xrpl:rMockIssuer03F5071D",
+  "issuanceDate": "2026-04-13T13:42:05.185Z",
+  "credentialSubject": {
+    "id": "did:xrpl:rMockAuthor02075B5D",
+    "orcid": "https://orcid.org/0000-0002-MOCK-0001",
+    "doi": "10.1234/mock.dissertation.2026",
+    "role": "Author",
+    "claim": "This subject authored the scholarly work identified by the DOI."
+  },
+  "proof": {
+    "type": "EcdsaSecp256k1Signature2019",
+    "created": "2026-04-13T13:42:05.185Z",
+    "verificationMethod": "did:xrpl:rMockIssuer03F5071D#key-1",
+    "proofPurpose": "assertionMethod",
+    "publicKeyHex": "03F5071D04C322B7A04953E02371FEDF3A2F0D056CBE8D3306A131ACF2B9C95432",
+    "jws": "CB4586476606DF2D736AEE8291F296E68A1782082A43B8B764E714E35475940A3734C08CA4528BD54DA5A82AE8F459C6B292D17C942EFE39994B34993BDACC80"
+  }
+}
