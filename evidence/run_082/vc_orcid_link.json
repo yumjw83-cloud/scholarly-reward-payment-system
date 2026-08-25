@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "OrcidLinkCredential"
+  ],
+  "issuer": "did:key:z6MknKeXymWpvmxaVxK4PhkPxNSf5WRFs4CUyDrn32mMpjKw",
+  "issuanceDate": "2026-04-07T10:22:53.009Z",
+  "credentialSubject": {
+    "id": "did:key:z6MkexpQkJCmqwqm4JRxeeEyZVVvoKReQYsViokEaHma715v",
+    "orcid": "0000-0002-1825-9082",
+    "orcidUri": "https://orcid.org/0000-0002-1825-9082"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:22:53.009Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MknKeXymWpvmxaVxK4PhkPxNSf5WRFs4CUyDrn32mMpjKw#key-1",
+    "jws": "X91tC9JGvRt4L9h4u65n6izQ8Y4GmcIXoI0YgxdOLsPQaoHKoeRN3vdKuNr0u5pOSAPjxOAx3ZsMQwYFjRS0Dw=="
+  }
+}

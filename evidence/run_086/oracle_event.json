@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6Mkqg9V1Tzd7vSWex46w1tnCXvRw1pWyi4wvg9AjiPxpiYe",
+    "researcherDid": "did:key:z6MkjKrnabov748tC6hAnaPZWctGZf2JF4cVfSn5fxo1fL3E",
+    "orcid": "0000-0002-1825-9086",
+    "doi": "10.1145/3442188.3445922",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T10:24:50.350Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "On the Dangers of Stochastic Parrots",
+      "type": "proceedings-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2021-3-3",
+      "publisher": "ACM",
+      "citationCount": 4195
+    },
+    "fulfillmentHash": "312EBDE4B0D4B485BCE17A9E9BD30890A0DBEE79295CF67E0BF033F4840DDE5D",
+    "xrplConditionHash": "312EBDE4B0D4B485BCE17A9E9BD30890A0DBEE79295CF67E0BF033F4840DDE5D"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:24:50.350Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6Mkqg9V1Tzd7vSWex46w1tnCXvRw1pWyi4wvg9AjiPxpiYe#key-1",
+    "jws": "P97afvNC98uYMag4tber0G9BiOYy1nQhC1viIIfXQxNQ+oJBxT8nKWGLjtJslfJqQSFnLI4ZMkF/Nmx4H8TFDw=="
+  }
+}
