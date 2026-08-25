@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6MkqjaFH5BTTHzf9r6KsjKnLR6tiv9FJcyygZPqY7Kr7Bu9",
+    "researcherDid": "did:key:z6MkeX2Tz2WHMnYfCB1ouJZujQ7KG9MiVEhVTg6V5iV8Jdvo",
+    "orcid": "0000-0002-1825-9001",
+    "doi": "10.1038/nature12373",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T09:50:40.195Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "Nanometre-scale thermometry in a living cell",
+      "type": "journal-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2013-8",
+      "publisher": "Springer Science and Business Media LLC",
+      "citationCount": 1749
+    },
+    "fulfillmentHash": "B7E9B51D5AEDF027DC77E14162CEEFEF14B42B024705848EBAD1E94D6FC0A81A",
+    "xrplConditionHash": "B7E9B51D5AEDF027DC77E14162CEEFEF14B42B024705848EBAD1E94D6FC0A81A"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T09:50:40.195Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MkqjaFH5BTTHzf9r6KsjKnLR6tiv9FJcyygZPqY7Kr7Bu9#key-1",
+    "jws": "3yIoCjZ4dJ3pbDMsi5NI5EMwW3EnRnEG4RgznoY761Y0o6I2BR+Z/xQ6GgflwPI0FoBOcH+MxYVoDykr1c2CAw=="
+  }
+}
