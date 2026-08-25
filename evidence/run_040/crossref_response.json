@@ -1,0 +1,20 @@
+{
+  "found": true,
+  "eventDetected": true,
+  "doi": "10.1016/j.elerap.2007.02.001",
+  "title": "Past, present and future of mobile payments research: A literature review",
+  "type": "journal-article",
+  "hasPublishableType": true,
+  "hasPublishedDate": true,
+  "publishedDate": "2008-6",
+  "authors": [
+    "Tomi Dahlberg",
+    "Niina Mallat",
+    "Jan Ondrus",
+    "Agnieszka Zmijewska"
+  ],
+  "publisher": "Elsevier BV",
+  "registeredDate": "2007-2-10",
+  "referenceCount": 95,
+  "isReferencedByCount": 534
+}

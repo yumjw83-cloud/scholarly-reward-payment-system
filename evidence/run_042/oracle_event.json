@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6MkvZn3YFhqTkKaYGnZHCvXkpGf3eSbjXwJArN1jXC6Y672",
+    "researcherDid": "did:key:z6MkpvvwUPxx2BEzyXXJ6DZtezUKCjELbfehCM8bCi2AanYf",
+    "orcid": "0000-0002-1825-9042",
+    "doi": "10.1126/science.1058040",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T10:06:38.468Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "The Sequence of the Human Genome",
+      "type": "journal-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2001-2-16",
+      "publisher": "American Association for the Advancement of Science (AAAS)",
+      "citationCount": 10147
+    },
+    "fulfillmentHash": "6BC55890865369B5F2C25F22957455C89F5F9519E2784007406F3924981F9E8C",
+    "xrplConditionHash": "6BC55890865369B5F2C25F22957455C89F5F9519E2784007406F3924981F9E8C"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:06:38.468Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MkvZn3YFhqTkKaYGnZHCvXkpGf3eSbjXwJArN1jXC6Y672#key-1",
+    "jws": "hQuJGG5iFTeyf0tjpMp91XVhaoE0S9IU6+WdV8O65+KrxXfYMiLP6ETgBAtqTvjBLA2jpHCj7Jl2wLCBSHGxBw=="
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6MkhETLPBy8AbhVXAuSttwe1dSiuHJTY5893QLAiXgtHzZM",
+    "researcherDid": "did:key:z6MkvYxJCxD8BgYoCsR1timUDKm3CMT1kwMHat6A4tTjWFjc",
+    "orcid": "0000-0002-1825-9040",
+    "doi": "10.1016/j.elerap.2007.02.001",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T10:05:51.511Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "Past, present and future of mobile payments research: A literature review",
+      "type": "journal-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2008-6",
+      "publisher": "Elsevier BV",
+      "citationCount": 534
+    },
+    "fulfillmentHash": "2808F147553EA2CD75C1094A7BEDD4C120EB9A12B70BC1C7B2498A80EC9CB079",
+    "xrplConditionHash": "2808F147553EA2CD75C1094A7BEDD4C120EB9A12B70BC1C7B2498A80EC9CB079"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:05:51.511Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MkhETLPBy8AbhVXAuSttwe1dSiuHJTY5893QLAiXgtHzZM#key-1",
+    "jws": "atyoz4mbUaq4ET7P+1TrcJfT5+RTc45PGDKWgaoaxs0X986oy8FeH7eWwUzhgTFqu9J/AV3sdWkSsAA6rRR8CQ=="
+  }
+}

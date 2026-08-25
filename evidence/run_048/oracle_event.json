@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6MkhWoR7aeZVnHA2FsQs254UdikDuDLU2AgifVeC9ghgaZh",
+    "researcherDid": "did:key:z6MkgKPvgGtALKSSPjq82nuv8QVhqVDfZ6qGAoLmHxErS3sP",
+    "orcid": "0000-0002-1825-9048",
+    "doi": "10.1016/j.respol.2009.07.002",
+    "decision": "event_detected",
+    "verifiedAt": "2026-04-07T10:09:02.219Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": {
+      "title": "Dynamics of R&amp;D networked relationships and mergers and acquisitions in the smart card field",
+      "type": "journal-article",
+      "hasPublishableType": true,
+      "hasPublishedDate": true,
+      "publishedDate": "2009-11",
+      "publisher": "Elsevier BV",
+      "citationCount": 14
+    },
+    "fulfillmentHash": "E2452ACD3524E349FA78C0C7D71F02A486BED42E7360257F2FE6B05A5EBDCC00",
+    "xrplConditionHash": "E2452ACD3524E349FA78C0C7D71F02A486BED42E7360257F2FE6B05A5EBDCC00"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:09:02.219Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MkhWoR7aeZVnHA2FsQs254UdikDuDLU2AgifVeC9ghgaZh#key-1",
+    "jws": "mBbVrq1pIeXERmoj4s0oKWWJysgXp7PcRKg52F7tYO33DPSGecI1+cCs5Cj/fUMCxup8U3CXUXXGWfSih6LLAw=="
+  }
+}
