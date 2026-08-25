@@ -1,0 +1,22 @@
+{
+  "payload": {
+    "oracleDid": "did:key:z6MktjrHHLiBkNmFEvTLYK2mF6AKrkAhrfGwcTVnUCzYWUQm",
+    "researcherDid": "did:key:z6MkwNfxitKBxcAUe9aBUvKBDi1hmRfsMbrEcJ3gcqDWcmc1",
+    "orcid": "0000-0002-1825-9099",
+    "doi": "10.1287/isre.13.3.334.78",
+    "decision": "event_not_detected",
+    "verifiedAt": "2026-04-07T10:30:16.751Z",
+    "dataSource": "Crossref API (https://api.crossref.org)",
+    "dataSourceRole": "DOI metadata registry (not a quality verification authority)",
+    "crossref": null,
+    "fulfillmentHash": "8FD7BE67177D89E27795075F79168014D5B76CB58C228C897C7F029BC180241E",
+    "xrplConditionHash": "8FD7BE67177D89E27795075F79168014D5B76CB58C228C897C7F029BC180241E"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-04-07T10:30:16.751Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktjrHHLiBkNmFEvTLYK2mF6AKrkAhrfGwcTVnUCzYWUQm#key-1",
+    "jws": "uUZraKBMbas4l4cVj+8xAqvQ6V7qJUP/LyY+YIFOe5oEtDA1HbgU2O4T5tiOzepBDftn9d+5FiZynaHE50kBBg=="
+  }
+}
