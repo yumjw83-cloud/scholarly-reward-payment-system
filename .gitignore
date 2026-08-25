@@ -1,0 +1,14 @@
+.env
+.env.*
+*.key
+*.pem
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.msix
+*.bak
+*.bak_*
