@@ -8,7 +8,20 @@ authors:
     alias: "YEOM, Jung-Wan"
     affiliation: "숭실대학교 IT정책경영학과"
 license: MIT
+version: 1.0.0
+date-released: 2026-09-03
+doi: "10.5281/zenodo.22271105"
 repository-code: "https://github.com/yumjw83-cloud/scholarly-reward-payment-system"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22271105"
+    description: "Concept DOI — 전체 버전을 대표하며 항상 최신으로 해석된다"
+  - type: doi
+    value: "10.5281/zenodo.22271106"
+    description: "Version DOI (v1.0.0) — 학위논문 제4장이 검증한 스냅샷"
+  - type: swh
+    value: "swh:1:dir:9d455c574618746dcc4847099e5cb5d1d5a898ff"
+    description: "Software Heritage 아카이브"
 abstract: >
   AI 학습데이터로 활용되는 학술저작물의 저자 보상 자동 지급 구조에 대한
   박사학위논문 제4장 실험의 재현성 패키지. XRPL Testnet 기반 조건부 에스크로
@@ -34,7 +47,6 @@ preferred-citation:
   institution:
     name: "숭실대학교"
   year: 2026
-  url: "［기관 리포지토리 URL 기입］"
 
 references:
   - type: article

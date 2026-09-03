@@ -2,8 +2,12 @@
 
 박사학위논문 **「AI 학습데이터로 활용되는 학술저작물의 저자 보상 자동 지급 구조 설계 및 성능 평가」**(염정완, 숭실대학교, 2026) 제4장 실험의 재현성 패키지다.
 
-- 학위논문 DOI / 기관 리포지토리: ［기입］
-- 본 저장소 영구 보존 DOI (Zenodo 등): ［기입］
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22271105.svg)](https://doi.org/10.5281/zenodo.22271105)
+
+- 학위논문 기관 리포지토리: 학위 수여 후 등록 예정
+- 영구 보존 DOI (전체 버전, 항상 최신): **[10.5281/zenodo.22271105](https://doi.org/10.5281/zenodo.22271105)**
+- 영구 보존 DOI (**논문이 검증한 스냅샷** v1.0.0): **[10.5281/zenodo.22271106](https://doi.org/10.5281/zenodo.22271106)** — 논문 부록 A가 인용하는 값
+- Software Heritage 아카이브: `swh:1:dir:9d455c574618746dcc4847099e5cb5d1d5a898ff`
 - 선행 연구: 염정완·전삼현(2025), 『지급결제학회지』 17(2), 419–437
 
 > ⚠️ **측정값은 공용 XRPL Testnet 기준이며 Mainnet·컨소시엄 환경과 다를 수 있다.** 저자 식별자는 검증용 mock이고, ORCID·Hugging Face·CrossRef·IPFS(Pinata)·XRPL 연동은 실제 서비스 호출이다.
@@ -23,9 +27,6 @@ npm install
 
 # Python 추정·시각화·통계
 pip install -r requirements.txt
-
-# did:key E2E 증거 파일 압축 해제 (#13 재실행 시 필요)
-unzip evidence.zip
 ```
 
 **환경변수** — IPFS 업로드를 수행하는 두 스크립트만 필요하다.
@@ -179,10 +180,21 @@ python3 통계검정_재현_pingouin.py   # xrpl_results_{condition,time}.csv �
 
 ## 8. 인용
 
+**학위논문 인용 (권장)**
+
 ```
 염정완. (2026). AI 학습데이터로 활용되는 학술저작물의 저자 보상 자동 지급 구조
-설계 및 성능 평가 [박사학위논문, 숭실대학교]. ［리포지토리 URL］
+설계 및 성능 평가 [박사학위논문, 숭실대학교].
 ```
+
+**본 재현성 패키지 인용**
+
+```
+염정완. (2026). XRPL 기반 학술저작물 저자 보상 자동 지급 시스템 — 재현성 패키지
+(Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22271105
+```
+
+논문 제4장의 수치를 재현하려면 **v1.0.0 스냅샷**(`10.5281/zenodo.22271106`)을 사용할 것.
 
 `CITATION.cff`에 기계 판독 가능한 인용 정보가 있다.
 
